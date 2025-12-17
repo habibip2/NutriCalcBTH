@@ -234,64 +234,107 @@ function exportToPDF() {
 }
 
 
+// ... KODE ANDA SEBELUMNYA (addRow, calculateAndDisplay, dsb.) ...
 
+// KODE YANG HARUS DIGANTI: renderCheckboxes()
 function renderCheckboxes() {
     const settingsForm = document.querySelector('.setting-form');
+    // Kosongkan form sebelum diisi
+    settingsForm.innerHTML = ''; 
 
     for (data of checkboxDatas) {
-        const formGroup = document.createElement('div');
-        formGroup.classList.add('form-group');
+        // Menggunakan <label> sebagai wadah (form-group)
+        const formGroup = document.createElement('label'); 
+        formGroup.classList.add('setting-form-label');
+        
+        // Ciptakan teks (Zat Gizi)
+        const textNode = document.createTextNode(data.zat);
 
-        const inputLabel = document.createElement('label');
-        inputLabel.textContent = data.zat;
-        inputLabel.setAttribute('for', data.zat);
-
+        // Ciptakan input checkbox
         const input = document.createElement('input');
         input.type = 'checkbox';
-        input.id = data.zat;
-        input.setAttribute('style', 'margin-left: 10px;')
-        input.classList.add(data.className)
-        input.classList.add(data.totalId)
-
-        formGroup.appendChild(inputLabel);
-        formGroup.appendChild(input);
+        input.id = `checkbox-${data.className}`;
+        
+        // Simpan data kolom menggunakan data-* attribute (lebih bersih)
+        input.setAttribute('data-column-class', data.className);
+        input.setAttribute('data-total-id', data.totalId);
+        
+        // Tambahkan elemen ke label (Teks di kiri, Checkbox di kanan, karena CSS mobile)
+        formGroup.appendChild(textNode); 
+        formGroup.appendChild(input); 
 
         settingsForm.appendChild(formGroup);
 
-        // add event listener if toggle
+        // Tambahkan event listener saat toggle
         input.addEventListener('change', function () {
-            toggleVisibility(input)
-        })
+            toggleVisibility(this); 
+        });
+        
+        // Penting: Jalankan toggleVisibility di awal untuk memastikan sinkronisasi
+        // Jika Anda ingin semua kolom terlihat secara default, biarkan checkbox tidak dicentang.
+        // Jika Anda ingin kolom tertentu disembunyikan secara default, centang di sini:
+        // input.checked = (data.className === 'CarbonResult'); 
+        
+        // Jalankan toggle saat halaman dimuat (untuk menyembunyikan yang dicentang secara default)
+        // Jika Anda TIDAK menambahkan checked: true di atas, fungsi ini tidak akan menyembunyikan apa pun saat dimuat.
+        // toggleVisibility(input); 
     }
 }
 
-function toggleVisibility(input) {
-    const productColumns = document
-        .querySelectorAll(`td[class=${input.classList[0]}]`)
+// KODE YANG HARUS DIGANTI: toggleVisibility(input)
+function toggleVisibility(checkbox) {
+    const columnClass = checkbox.getAttribute('data-column-class');
+    const totalId = checkbox.getAttribute('data-total-id');
+    const isChecked = checkbox.checked; // true jika dicentang (ingin Sembunyikan)
 
-    const correspondingTh = document
-        .querySelector(`th[class=${input.classList[0]}]`)
+    // Seleksi <td> di tabel produk
+    const productColumns = document.querySelectorAll(`#productTable td.${columnClass}`);
+    
+    // Seleksi <th> di header tabel produk
+    const correspondingTh = document.querySelector(`#productTable th.${columnClass}`);
+    
+    // Seleksi baris total (<tr>) di tabel total
+    const totalElement = document.getElementById(totalId);
+    const totalRow = totalElement ? totalElement.closest('tr') : null;
 
-    const totalReagent = document
-        .querySelector(`p #${input.classList[1]}`)
-
-    for (data of productColumns) {
-        if (input.checked) {
-            data.style.display = 'none'
-            correspondingTh.style.display = 'none'
-            totalReagent.parentElement.style.display = 'none'
-
-            console.log(data)
+    // Aksi:
+    if (isChecked) { // Jika dicentang (ingin Sembunyikan)
+        // Sembunyikan semua kolom data
+        productColumns.forEach(data => {
+            data.style.display = 'none';
+        });
+        // Sembunyikan header
+        if (correspondingTh) {
+            correspondingTh.style.display = 'none';
+        }
+        // Sembunyikan baris total
+        if (totalRow) {
+            totalRow.style.display = 'none';
         }
 
-        else {
-            data.style.display = 'table-cell'
-            correspondingTh.style.display = 'table-cell'
-            totalReagent.parentElement.style.display = 'table-cell'
+    } else { // Jika TIDAK dicentang (ingin Tampilkan)
+        // Tampilkan semua kolom data
+        productColumns.forEach(data => {
+            data.style.display = 'table-cell';
+        });
+        // Tampilkan header
+        if (correspondingTh) {
+            correspondingTh.style.display = 'table-cell';
+        }
+        // Tampilkan baris total
+        if (totalRow) {
+            totalRow.style.display = 'table-row';
         }
     }
-
 }
+
+// ... KODE ANDA YANG LAIN (renderTh, tableToExcel, dll.) ...
+
+// PASTIKAN PANGGILAN INI MASIH ADA DI AKHIR SCRIPT ANDA:
+// renderTh()
+// renderCheckboxes()
+
+
 
 function renderTh() {
     for (data of checkboxDatas) {
@@ -372,3 +415,6 @@ function tableToExcel() {
 renderTh()
 renderCheckboxes()
 
+document.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
+});
