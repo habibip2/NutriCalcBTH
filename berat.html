@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Gizi Berat Bahan | NutriCalc BTH</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-green: #27ae60;
+            --hospital-blue: #2980b9;
+            --dark-slate: #1e293b;
+            --soft-bg: #f8fafc;
+            --white: #ffffff;
+            --accent-gold: #f1c40f;
+            --accent-red: #e74c3c;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0; padding: 0;
+            background-color: var(--soft-bg);
+            color: var(--dark-slate);
+            min-height: 100vh;
+            display: flex; flex-direction: column;
+        }
+
+        /* --- NAVBAR --- */
+        .toolbar {
+            position: fixed;
+            top: 0; width: 100%; height: 70px;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 0 5%; box-sizing: border-box;
+            z-index: 1000; border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .logo-group { display: flex; align-items: center; gap: 12px; }
+        .logo-group img { height: 40px; border-radius: 10px; }
+        .app-name { font-weight: 800; font-size: 1.1rem; }
+
+        .nav-menu a {
+            text-decoration: none; color: var(--dark-slate);
+            font-weight: 600; font-size: 0.9rem; margin-left: 20px;
+            padding: 8px 16px; border-radius: 50px; transition: 0.3s;
+        }
+        .nav-menu a.active { background: var(--hospital-blue); color: white; }
+
+        /* --- CONTENT --- */
+        .container {
+            margin: 110px auto 40px;
+            width: 95%; max-width: 650px;
+        }
+
+        .card {
+            background: var(--white);
+            padding: 35px;
+            border-radius: 25px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+
+        .header-rs {
+            text-align: center;
+            border-bottom: 2px solid #f1f5f9;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+        }
+
+        h2 { margin: 0; font-weight: 800; color: var(--hospital-blue); }
+        .subtitle { font-size: 0.85rem; color: #64748b; }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .form-group { margin-bottom: 18px; }
+        .full-width { grid-column: span 2; }
+        
+        label { display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.85rem; color: #475569; }
+        
+        input, select {
+            width: 100%; padding: 12px;
+            border: 2px solid #f1f5f9; border-radius: 10px;
+            font-size: 0.95rem; box-sizing: border-box; transition: 0.3s;
+        }
+
+        input:focus { border-color: var(--hospital-blue); outline: none; background: #f0f7ff; }
+
+        .bdd-badge {
+            display: inline-block; padding: 5px 12px;
+            background: #e0f2fe; color: #0369a1;
+            border-radius: 8px; font-size: 0.8rem;
+            margin-top: 8px; font-weight: 700;
+        }
+
+        /* --- RESULT SECTION --- */
+        .result-container {
+            margin-top: 25px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .result-box {
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .box-unit { background: #f8fafc; border: 1px solid #e2e8f0; }
+        .box-total { background: #eff6ff; border: 2px solid #dbeafe; }
+
+        .res-label { font-size: 0.75rem; font-weight: 700; color: #64748b; text-transform: uppercase; margin-bottom: 5px; display: block; }
+        .res-val { font-size: 1.4rem; font-weight: 800; color: var(--dark-slate); }
+        .res-total-val { font-size: 1.8rem; font-weight: 800; color: var(--hospital-blue); }
+
+        .footer {
+            background: #1e293b; color: #94a3b8;
+            padding: 30px 0; text-align: center; margin-top: auto;
+        }
+
+        @media (max-width: 600px) {
+            .form-grid, .result-container { grid-template-columns: 1fr; }
+            .full-width { grid-column: span 1; }
+        }
+        /* --- NAVBAR STYLES --- */
+        .toolbar {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 70px;
+            background: white;
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 0 5%; box-sizing: border-box;
+            z-index: 1000; border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .nav-menu { display: flex; align-items: center; }
+        .nav-menu a {
+            text-decoration: none; color: var(--dark-slate);
+            font-weight: 600; font-size: 0.9rem; margin-left: 15px;
+            padding: 8px 16px; border-radius: 50px; transition: 0.3s;
+        }
+        .nav-menu a.active { background: var(--hospital-blue); color: white; }
+
+        /* --- MOBILE TOGGLE (HAMBURGER) --- */
+        .menu-toggle {
+            display: none;
+            cursor: pointer;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 21px;
+        }
+
+        .menu-toggle .bar {
+            height: 3px;
+            width: 100%;
+            background-color: var(--dark-slate);
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* --- RESPONSIVE MOBILE --- */
+        @media (max-width: 768px) {
+            .menu-toggle { display: flex; }
+
+            .nav-menu {
+                display: none; /* Sembunyikan default */
+                flex-direction: column;
+                position: absolute;
+                top: 70px; left: 0; width: 100%;
+                background-color: white;
+                padding: 20px 0;
+                border-bottom: 1px solid #ddd;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+            }
+
+            .nav-menu.active { display: flex; }
+
+            .nav-menu a {
+                margin: 10px 0;
+                width: 80%;
+                text-align: center;
+            }
+
+            /* Animasi X saat Aktif */
+            .menu-toggle.active .bar:nth-child(2) { opacity: 0; }
+            .menu-toggle.active .bar:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+            .menu-toggle.active .bar:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+        }
+        /* --- EFEK POINTER & HOVER UMUM --- */
+
+        /* Pointer untuk Tombol Hamburger */
+        .menu-toggle {
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+
+        .menu-toggle:hover {
+            background-color: rgba(0, 0, 0, 0.05); /* Efek bayangan halus saat di-hover */
+        }
+
+        /* Pointer untuk Tautan Navigasi */
+        .nav-menu a {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        /* Efek Hover untuk Link yang tidak aktif */
+        .nav-menu a:hover:not(.active) {
+            background-color: #f1f5f9;
+            color: var(--hospital-blue);
+            transform: translateY(-2px); /* Sedikit naik saat di-hover */
+        }
+
+        /* Gaya khusus untuk link aktif agar tetap terlihat menonjol */
+        .nav-menu a.active {
+            cursor: default; /* Karena sudah di halaman tersebut */
+        }
+
+        /* Pointer untuk Input & Select */
+        input[type="number"], 
+        input[type="text"], 
+        select {
+            cursor: text; /* Cursor teks untuk input */
+        }
+
+        select,
+        option {
+            cursor: pointer; /* Cursor pointer untuk dropdown */
+        }
+
+        /* Tambahan Efek Hover pada Card (Opsional untuk estetika) */
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.08);
+        }
+
+        /* --- PERBAIKAN RESPONSIF UNTUK MOBILE --- */
+        @media (max-width: 768px) {
+            .nav-menu a {
+                cursor: pointer;
+                width: 100%; /* Memastikan seluruh area baris bisa diklik */
+                display: block;
+            }
+        }
+        .btn-logout {
+            background-color: #e74c3c !important; /* Warna merah */
+            color: white !important;
+        }
+
+        .btn-logout:hover {
+            background-color: #c0392b !important;
+            transform: scale(1.05);
+        }
+        /* Pastikan tabel tetap rapi di mobile */
+        @media (max-width: 600px) {
+            #historyTable {
+                font-size: 0.75rem; /* Perkecil font di HP */
+            }
+            
+            .card-history {
+                padding: 10px 0;
+            }
+        }
+
+        /* Style tambahan untuk baris tabel agar lebih bersih */
+        #historyBody tr:hover {
+            background-color: #fcfcfc;
+        }
+
+        #historyBody td {
+            padding: 12px 10px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="toolbar">
+        <div class="logo-group">
+            <img src="image/Logo.png" alt="Logo">
+            <span class="app-name">NutriCalc BTH</span>
+        </div>
+        
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    
+        <div class="nav-menu" id="nav-list">
+            <a href="dashboard.html">Dashboard</a>
+            <a href="index.html">Kalkulator Gizi</a>
+            <a href="berat.html">Kalkulator Porsi</a>
+            <a href="#" id="logoutBtn" class="btn-logout">Logout</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <div class="header-rs">
+                <h2>Estimasi Kebutuhan Bahan Pangan<span style="color: var(--hospital-blue);">Massal</span></h2>
+                <p class="subtitle">Instalasi Gizi Masyarakat</p>
+            </div>
+            
+            <div class="form-grid">
+                <div class="form-group full-width">
+                    <label>Pilih Jenis Konversi</label>
+                    <select id="calcMode" onchange="calculate()">
+                        <option value="toBruto">Mencari Berat Kotor (Bruto) untuk Masak</option>
+                        <option value="toNetto">Mencari Berat Bersih (Netto) dari Stok</option>
+                    </select>
+                </div>
+
+                <div class="form-group full-width">
+                    <label>Nama Bahan Makanan</label>
+                    <input type="text" id="foodName" list="foodList" placeholder="Cari bahan..." oninput="calculate()">
+                    <datalist id="foodList"></datalist>
+                    <div id="bddInfo" class="bdd-badge" style="display:none">BDD: 0%</div>
+                </div>
+
+                <div class="form-group">
+                    <label id="inputLabel">Berat Bersih / Porsi (g)</label>
+                    <input type="number" id="weightInput" placeholder="Contoh: 50" oninput="calculate()">
+                </div>
+
+                <div class="form-group">
+                    <label>Total Jumlah Porsi</label>
+                    <input type="number" id="portionInput" placeholder="Contoh: 1000" oninput="calculate()">
+                </div>
+                <div class="form-group full-width">
+                    <label>Buffer / Koreksi Tambahan (%)</label>
+                    <input type="number" id="bufferInput" placeholder="Contoh: 5 (untuk tambahan 5%)" value="0" oninput="calculate()">
+                    <small style="color: #64748b; font-size: 0.75rem;">*Menambahkan cadangan untuk penyusutan atau tumpah.</small>
+                </div>
+            </div>
+            <button onclick="triggerSave()" style="width: 100%; margin-top: 10px; padding: 10px; background: var(--hospital-blue); color: white; border: none; border-radius: 10px; font-weight: 600; cursor: pointer;">💾 Simpan Hasil Ini</button>
+            <div class="result-container">
+                <div class="result-box box-unit">
+                    <span id="unitLabel" class="res-label">Per Porsi (Kotor)</span>
+                    <span class="res-val" id="unitResult">0 g</span>
+                </div>
+                <div class="result-box box-total">
+                    <span id="totalLabel" class="res-label">Total Kebutuhan (Kotor)</span>
+                    <span class="res-total-val" id="totalResult">0 kg</span>
+                </div>
+            </div>
+            
+            <div class="card-history" style="margin-top: 30px; border-top: 2px solid #f1f5f9; pt-20">
+                <h3 style="font-size: 1rem; color: var(--dark-slate); margin-bottom: 15px;">Riwayat Perhitungan Terakhir</h3>
+                <div style="overflow-x: auto; background: #fff; border-radius: 12px;">
+                    <table id="historyTable" style="width: 100%; border-collapse: collapse; min-width: 500px;">
+                        <thead>
+                            <tr style="background: #f8fafc; text-align: left; border-bottom: 2px solid #edf2f7;">
+                                <th style="padding: 12px 10px; font-size: 0.75rem; color: #64748b;">WAKTU</th>
+                                <th style="padding: 12px 10px; font-size: 0.75rem; color: #64748b;">BAHAN</th>
+                                <th style="padding: 12px 10px; font-size: 0.75rem; color: #64748b;">PORSI</th>
+                                <th style="padding: 12px 10px; font-size: 0.75rem; color: #64748b;">BUFFER</th>
+                                <th style="padding: 12px 10px; font-size: 0.75rem; color: #64748b;">TOTAL</th>
+                                <th style="padding: 12px 10px; font-size: 0.75rem; color: #64748b;">AKSI</th>
+                            </tr>
+                        </thead>
+                        <tbody id="historyBody">
+                            </tbody>
+                    </table>
+                </div>
+                <div style="text-align: right;">
+                    <button onclick="clearHistory()" style="margin-top: 15px; background: none; border: none; color: #e74c3c; cursor: pointer; font-size: 0.8rem; font-weight: 600; padding: 5px 10px;">
+                        🗑️ Hapus Semua Riwayat
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        Hak Cipta &copy; 2025
+        <span style="font-weight: 800; margin-left: 5px;">
+            <span style="color: var(--primary-green);">Nutri</span><span style="color: var(--accent-gold);">Calc</span> 
+            <span style="color: var(--accent-red);">B</span><span style="color: var(--primary-green);">T</span><span style="color: var(--accent-gold);">H</span>
+        </span> 
+    </footer>
+    <script src="storage-manager.js"></script>
+    <script src="datas/data.js"></script>
+    <script>
+        // Cek status login
+        if (sessionStorage.getItem('isLoggedIn') !== 'true') {
+            alert('Anda harus login terlebih dahulu!');
+            window.location.href = 'login.html';
+        }
+                document.addEventListener('DOMContentLoaded', () => {
+                    const list = document.getElementById('foodList');
+                    if (typeof bddDatas !== 'undefined') {
+                        bddDatas.forEach(item => {
+                            const option = document.createElement('option');
+                            option.value = item.name;
+                            list.appendChild(option);
+                        });
+                    }
+                });
+
+         function calculate() {
+        const mode = document.getElementById('calcMode').value;
+        const foodNameInput = document.getElementById('foodName').value.trim().toLowerCase();
+        const weightPerPortion = parseFloat(document.getElementById('weightInput').value);
+        const totalPortions = parseFloat(document.getElementById('portionInput').value) || 0;
+        const bufferPercent = parseFloat(document.getElementById('bufferInput').value) || 0; // Ambil nilai buffer
+        
+        const unitResult = document.getElementById('unitResult');
+        const totalResult = document.getElementById('totalResult');
+        const bddInfo = document.getElementById('bddInfo');
+        
+        const inputLabel = document.getElementById('inputLabel');
+        const unitLabel = document.getElementById('unitLabel');
+        const totalLabel = document.getElementById('totalLabel');
+
+        if (mode === 'toBruto') {
+            inputLabel.innerText = "Berat Bersih / Porsi (g)";
+            unitLabel.innerText = "Per Porsi (Kotor)";
+            totalLabel.innerText = "Total Kebutuhan + Buffer";
+        } else {
+            inputLabel.innerText = "Berat Kotor / Porsi (g)";
+            unitLabel.innerText = "Per Porsi (Bersih)";
+            totalLabel.innerText = "Total Hasil + Buffer";
+        }
+
+        const product = bddDatas.find(d => d.name.toLowerCase() === foodNameInput);
+
+        if (product && !isNaN(weightPerPortion)) {
+            const bdd = product.nilai;
+            bddInfo.style.display = 'inline-block';
+            bddInfo.innerText = `BDD Bahan: ${bdd}%`;
+
+            let resPerPortion = 0;
+            if (mode === 'toBruto') {
+                resPerPortion = (weightPerPortion * 100) / bdd;
+            } else {
+                resPerPortion = (bdd * weightPerPortion) / 100;
+            }
+
+            // Hitung Total Dasar
+            const baseTotalGram = resPerPortion * totalPortions;
+            
+            // Terapkan Buffer: Total + (Total * Persen/100)
+            const grandTotalGram = baseTotalGram * (1 + (bufferPercent / 100));
+            const grandTotalKg = grandTotalGram / 1000;
+
+            unitResult.innerText = resPerPortion.toFixed(1) + " g";
+            
+            if (grandTotalKg >= 1) {
+                totalResult.innerText = grandTotalKg.toFixed(2) + " kg";
+            } else {
+                totalResult.innerText = grandTotalGram.toFixed(0) + " g";
+            }
+        } else {
+            bddInfo.style.display = 'none';
+            unitResult.innerText = "0 g";
+            totalResult.innerText = "0 g";
+        }
+    }
+        // Script untuk Toggle Navbar Mobile
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.getElementById('nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            navList.classList.toggle('active');
+        });
+
+        // Menutup menu saat link diklik (agar lebih smooth)
+        document.querySelectorAll('.nav-menu a').forEach(n => n.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+            navList.classList.remove('active');
+        }));
+        document.getElementById('logoutBtn').addEventListener('click', () => {
+    sessionStorage.removeItem('isLoggedIn');
+    window.location.href = 'login.html';
+});
+// Fungsi untuk menyimpan ke riwayat
+function saveToHistory(nama, porsi, total) {
+    let history = JSON.parse(localStorage.getItem('calcHistory')) || [];
+    const newEntry = {
+        id: Date.now(),
+        nama: nama,
+        porsi: porsi,
+        total: total,
+        waktu: new Date().toLocaleTimeString()
+    };
+}
+
+// Fungsi untuk menampilkan riwayat di tabel
+function renderHistory() {
+    const historyBody = document.getElementById('historyBody');
+    // Mengambil data dari StorageManager atau localStorage
+    let history = JSON.parse(localStorage.getItem(StorageManager.KEYS.PORSI)) || [];
+    
+    // Urutkan berdasarkan yang terbaru (ID adalah timestamp)
+    history.sort((a, b) => b.id - a.id);
+
+    historyBody.innerHTML = history.map(item => `
+        <tr style="border-bottom: 1px solid #f1f5f9; font-size: 0.8rem;">
+            <td style="padding: 10px; color: #64748b;">${item.waktuLengkap}</td>
+            <td style="padding: 10px; font-weight: 600;">${item.nama}</td>
+            <td style="padding: 10px;">${item.porsi}</td>
+            <td style="padding: 10px;">${item.buffer}%</td>
+            <td style="padding: 10px; font-weight: bold; color: var(--hospital-blue);">${item.total}</td>
+            <td style="padding: 10px;">
+                <button onclick="deleteEntry(${item.id})" style="border:none; background:none; cursor:pointer; filter: grayscale(1);">❌</button>
+            </td>
+        </tr>
+    `).join('');
+}
+
+function deleteEntry(id) {
+    if(confirm('Hapus baris ini?')) {
+        let history = JSON.parse(localStorage.getItem(StorageManager.KEYS.PORSI)) || [];
+        history = history.filter(item => item.id !== id);
+        localStorage.setItem(StorageManager.KEYS.PORSI, JSON.stringify(history));
+        renderHistory();
+    }
+}
+
+function clearHistory() {
+    // Memberikan konfirmasi agar tidak terhapus tidak sengaja
+    if (confirm('Apakah Anda yakin ingin menghapus seluruh riwayat perhitungan porsi?')) {
+        // Menghapus data berdasarkan KEY yang digunakan StorageManager
+        localStorage.removeItem(StorageManager.KEYS.PORSI);
+        
+        // Memperbarui tampilan tabel (menjadi kosong)
+        renderHistory();
+        
+        // Opsional: Memberikan notifikasi singkat
+        alert('Riwayat telah dibersihkan.');
+    }
+}
+
+// Panggil renderHistory saat halaman dimuat
+document.addEventListener('DOMContentLoaded', renderHistory);
+// Mengganti fungsi triggerSave lama
+function triggerSave() {
+    const now = new Date();
+    const tanggal = now.toLocaleDateString('id-ID');
+    const waktu = now.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' });
+
+    const data = {
+        id: Date.now(),
+        waktuLengkap: `${tanggal} ${waktu}`,
+        nama: document.getElementById('foodName').value,
+        porsi: document.getElementById('portionInput').value,
+        buffer: document.getElementById('bufferInput').value || "0",
+        total: document.getElementById('totalResult').innerText
+    };
+    
+    if (data.nama && data.porsi) {
+        // Menggunakan StorageManager sesuai kode awal Anda
+        StorageManager.saveHistory(StorageManager.KEYS.PORSI, data);
+        renderHistory(); 
+    } else {
+        alert("Mohon isi nama bahan dan jumlah porsi terlebih dahulu!");
+    }
+}
+    </script>
+</body>
+</html>

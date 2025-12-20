@@ -418,3 +418,107 @@ renderCheckboxes()
 document.addEventListener('contextmenu', (e) => {
     e.preventDefault();
 });
+
+// --- EKSPOR RIWAYAT KE EXCEL ---
+function exportHistoryToExcel() {
+    let history = JSON.parse(localStorage.getItem('nutritionHistory')) || [];
+    if (history.length === 0) return alert("Riwayat kosong!");
+
+    let tableHTML = `
+    <html><head><meta charset="UTF-8"></head><body>
+    <h2>Laporan Riwayat Perhitungan Gizi - NutriCalc BTH</h2>
+    <table border="1">
+        <tr style="background:#f2f2f2;">
+            <th>Tanggal</th>
+            <th>Nama Menu</th>
+            <th>Bahan-Bahan</th>
+            <th>Energi (kkal)</th>
+            <th>Protein (g)</th>
+            <th>Lemak (g)</th>
+            <th>Karbohidrat (g)</th>
+        </tr>`;
+
+    history.forEach(item => {
+        // Gabungkan daftar bahan menjadi satu string teks
+        const ingredientsText = item.ingredients.map(ing => `${ing.name} (${ing.weight}g)`).join(', ');
+        
+        tableHTML += `
+        <tr>
+            <td>${item.tanggal}</td>
+            <td>${item.label}</td>
+            <td>${ingredientsText}</td>
+            <td>${item.energi}</td>
+            <td>${item.protein}</td>
+            <td>${item.lemak}</td>
+            <td>${item.karbo}</td>
+        </tr>`;
+    });
+
+    tableHTML += "</table></body></html>";
+
+    const blob = new Blob([tableHTML], { type: 'application/vnd.ms-excel' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `Laporan_Gizi_Bulanan_${new Date().getMonth() + 1}.xls`;
+    a.click();
+}
+
+// --- EKSPOR RIWAYAT KE PDF ---
+function exportHistoryToPDF() {
+    let history = JSON.parse(localStorage.getItem('nutritionHistory')) || [];
+    if (history.length === 0) return alert("Riwayat kosong!");
+
+    // Membuat elemen sementara untuk menampung tampilan laporan PDF
+    const reportElem = document.createElement('div');
+    reportElem.style.padding = '20px';
+    reportElem.innerHTML = `
+        <h2 style="text-align:center;">LAPORAN RIWAYAT ASUHAN GIZI</h2>
+        <p style="text-align:center;">NutriCalc BTH - Rekapitulasi Perhitungan Menu</p>
+        <hr>
+        <table style="width:100%; border-collapse:collapse; margin-top:20px;" border="1">
+            <thead>
+                <tr style="background:#eee;">
+                    <th style="padding:8px;">Tanggal</th>
+                    <th style="padding:8px;">Menu</th>
+                    <th style="padding:8px;">Energi</th>
+                    <th style="padding:8px;">Protein</th>
+                    <th style="padding:8px;">Lemak</th>
+                    <th style="padding:8px;">Karbo</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${history.map(item => `
+                    <tr>
+                        <td style="padding:8px; text-align:center;">${item.tanggal}</td>
+                        <td style="padding:8px;">${item.label}</td>
+                        <td style="padding:8px; text-align:center;">${item.energi}</td>
+                        <td style="padding:8px; text-align:center;">${item.protein}</td>
+                        <td style="padding:8px; text-align:center;">${item.lemak}</td>
+                        <td style="padding:8px; text-align:center;">${item.karbo}</td>
+                    </tr>
+                `).join('')}
+            </tbody>
+        </table>
+        <p style="margin-top:30px; font-size:0.8rem;">Dicetak pada: ${new Date().toLocaleString('id-ID')}</p>
+    `;
+
+    const opt = {
+        margin: 10,
+        filename: 'Laporan-Riwayat-Gizi.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'landscape' }
+    };
+
+    html2pdf().set(opt).from(reportElem).save();
+}
+function getHistory(key) {
+    try {
+        const data = localStorage.getItem(key);
+        return data ? JSON.parse(data) : [];
+    } catch (e) {
+        console.error("Data tersimpan rusak, mereset riwayat.");
+        return [];
+    }
+}

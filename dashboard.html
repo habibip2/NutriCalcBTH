@@ -13,6 +13,7 @@
             --dark-slate: #1e293b;
             --soft-bg: #f8fafc;
             --hero-height: 400px;
+            --hospital-blue: #2980b9;
         }
 
         body {
@@ -28,25 +29,20 @@
 
         /* --- NAVIGATION PREMIUM --- */
         .toolbar {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            height: 70px;
-            background: rgba(255, 255, 255, 0.85);
-            backdrop-filter: blur(12px); /* Efek kaca Apple */
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 5%;
-            box-sizing: border-box;
-            z-index: 1000;
-            border-bottom: 1px solid rgba(0,0,0,0.05);
-        }
+        position: fixed;
+        top: 0; left: 0; width: 100%; height: 70px;
+        background: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(12px);
+        display: flex; align-items: center; justify-content: space-between;
+        padding: 0 5%; box-sizing: border-box;
+        z-index: 1000; border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
 
         .logo-group { display: flex; align-items: center; gap: 12px; }
         .logo-group img { height: 42px; width: 42px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
         .app-name { font-weight: 800; font-size: 1.1rem; letter-spacing: -0.5px; color: var(--dark-slate); }
 
+        .nav-menu { display: flex; align-items: center; }
         .nav-menu a {
             text-decoration: none;
             color: var(--dark-slate);
@@ -56,9 +52,17 @@
             padding: 8px 16px;
             border-radius: 50px;
             transition: 0.3s;
+            cursor: pointer;
         }
-        .nav-menu a:last-child { background: var(--dark-slate); color: white; }
-        .nav-menu a:last-child:hover { background: var(--primary-green); }
+        .nav-menu a:hover:not(.active):not(.btn-logout) {
+        background-color: #f1f5f9;
+        transform: translateY(-2px);
+    }
+
+    .nav-menu a.active { background: var(--hospital-blue); color: white; cursor: default; }
+
+    .btn-logout { background-color: #e74c3c !important; color: white !important; }
+    .btn-logout:hover { background-color: #c0392b !important; transform: scale(1.05); }
 
         /* --- HERO SECTION --- */
         .hero-bg {
@@ -179,6 +183,36 @@
             margin-top: auto;
         }
 
+        /* --- HAMBURGER MENU --- */
+    .menu-toggle {
+        display: none; cursor: pointer;
+        flex-direction: column; justify-content: space-between;
+        width: 30px; height: 21px; z-index: 1001;
+    }
+
+    .menu-toggle .bar {
+        height: 3px; width: 100%; background-color: var(--dark-slate);
+        border-radius: 10px; transition: 0.3s;
+    }
+
+    /* --- RESPONSIVE MOBILE --- */
+    @media (max-width: 768px) {
+        .menu-toggle { display: flex; }
+        .nav-menu {
+            display: none; flex-direction: column;
+            position: absolute; top: 70px; left: 0; width: 100%;
+            background-color: white; padding: 20px 0;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        }
+        .nav-menu.active { display: flex; }
+        .nav-menu a { margin: 10px 0; width: 80%; text-align: center; }
+        .user-profile { margin: 10px auto; width: 80%; justify-content: center; }
+
+        /* Animasi X */
+        .menu-toggle.active .bar:nth-child(2) { opacity: 0; }
+        .menu-toggle.active .bar:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+        .menu-toggle.active .bar:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+    }
         /* Responsive Mobile */
         @media (max-width: 600px) {
             .toolbar { padding: 0 15px; }
@@ -187,6 +221,69 @@
             .main-content-area { padding: 40px 20px; border-radius: 20px; }
             .grid-info { grid-template-columns: 1fr; }
             .app-name { font-size: 0.85rem; }
+        }
+        .btn-logout {
+            background-color: #e74c3c !important; /* Warna merah */
+            color: white !important;
+        }
+
+        .btn-logout:hover {
+            background-color: #c0392b !important;
+            transform: scale(1.05);
+        }
+        /* --- NAVBAR UNIFORM STYLE --- */
+        .toolbar {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 70px;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 0 5%; box-sizing: border-box;
+            z-index: 1000; border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .logo-group { display: flex; align-items: center; gap: 12px; }
+        .logo-group img { height: 40px; border-radius: 10px; }
+        .app-name { font-weight: 800; font-size: 1.1rem; color: #1e293b; }
+
+        .nav-menu { display: flex; align-items: center;}
+        .nav-menu a {
+            text-decoration: none; color: #1e293b;
+            font-weight: 600; font-size: 0.9rem; margin-left: 15px;
+            padding: 8px 16px; border-radius: 50px; transition: 0.3s;
+            cursor: pointer; background-color: #2fd4c9;
+        }
+
+        .nav-menu a:hover:not(.active):not(.btn-logout) {
+            background-color: #f1f5f9;
+            color: #2980b9;
+        }
+
+        .nav-menu a.active { background: #2980b9; color: white; cursor: default; }
+
+        .btn-logout { background-color: #e74c3c !important; color: white !important;}
+
+        /* --- MOBILE TOGGLE --- */
+        .menu-toggle {
+            display: none; cursor: pointer;
+            flex-direction: column; justify-content: space-between;
+            width: 30px; height: 21px;
+        }
+        .menu-toggle .bar { height: 3px; width: 100%; background-color: #1e293b; border-radius: 10px; transition: 0.3s; }
+
+        @media (max-width: 768px) {
+            .menu-toggle { display: flex; }
+            .nav-menu {
+                display: none; flex-direction: column;
+                position: absolute; top: 70px; left: 0; width: 100%;
+                background-color: white; padding: 20px 0;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+            }
+            .nav-menu.active { display: flex; }
+            .nav-menu a { margin: 10px 0; width: 80%; text-align: center; margin-left: auto; margin-right: auto; }
+            .menu-toggle.active .bar:nth-child(2) { opacity: 0; }
+            .menu-toggle.active .bar:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+            .menu-toggle.active .bar:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
         }
     </style>
 </head>
@@ -199,9 +296,18 @@
             <img src="image/Logo.png" alt="Logo">
             <span class="app-name">NutriCalc BTH</span>
         </div>
-        <div class="nav-menu">
-            <a href="#" class="hide-on-mobile">Dashboard</a> 
-            <a href="index.html">Kalkulator</a>
+        
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    
+        <div class="nav-menu" id="nav-list">
+            <a href="dashboard.html" id="nav-dashboard">Dashboard</a>
+            <a href="index.html" id="nav-gizi">Kalkulator Gizi</a>
+            <a href="berat.html" id="nav-porsi">Kalkulator Porsi</a>
+            <a href="#" id="logoutBtn" class="btn-logout">Logout</a>
         </div>
     </nav>
     
@@ -257,6 +363,49 @@
             <span style="color: var(--accent-red);">B</span><span style="color: var(--primary-green);">T</span><span style="color: var(--accent-gold);">H</span>
         </span> 
     </footer>
+    <script>// Cek status login
+        if (sessionStorage.getItem('isLoggedIn') !== 'true') {
+            alert('Anda harus login terlebih dahulu!');
+            window.location.href = 'login.html';
+        }
+        document.getElementById('logoutBtn').addEventListener('click', () => {
+    sessionStorage.removeItem('isLoggedIn');
+    window.location.href = 'login.html';
+});
+    // 1. Proteksi Halaman & Nama User
+    document.addEventListener('DOMContentLoaded', () => {
+        // Cek Login
+        if (sessionStorage.getItem('isLoggedIn') !== 'true') {
+            window.location.href = 'login.html';
+            return;
+        }
+
+        // Tampilkan Nama User
+        const activeUser = sessionStorage.getItem('activeUser');
+        const displayElement = document.getElementById('userNameDisplay');
+        if (activeUser && displayElement) {
+            displayElement.innerText = activeUser.charAt(0).toUpperCase() + activeUser.slice(1);
+        }
+    });
+
+    // 2. Toggle Navbar Mobile
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navList = document.getElementById('nav-list');
+
+    mobileMenu.addEventListener('click', () => {
+        mobileMenu.classList.toggle('active');
+        navList.classList.toggle('active');
+    });
+
+    // 3. Fungsi Logout
+    document.getElementById('logoutBtn').addEventListener('click', (e) => {
+        e.preventDefault();
+        sessionStorage.removeItem('isLoggedIn');
+        sessionStorage.removeItem('activeUser');
+        window.location.href = 'login.html';
+    });
+</script>
+<script src="storage-manager.js"></script>
 
 </body>
 </html>

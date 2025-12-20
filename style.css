@@ -333,3 +333,59 @@ body {
       min-width: 20px;
   }
 }
+/* --- CSS UNTUK MENU TOGGLE (DESKTOP HIDDEN) --- */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: var(--dark-slate);
+  transition: 0.3s;
+}
+
+/* --- RESPONSIVE MOBILE (MAX 600PX) --- */
+@media (max-width: 600px) {
+  .menu-toggle {
+      display: flex; /* Tampilkan hamburger di HP */
+  }
+
+  .nav-menu {
+      position: fixed;
+      top: 70px;
+      right: -100%; /* Sembunyikan di luar layar kanan */
+      width: 70%;
+      height: calc(100vh - 70px);
+      background: white;
+      flex-direction: column;
+      align-items: flex-start !important;
+      padding: 20px;
+      box-shadow: -5px 5px 15px rgba(0,0,0,0.05);
+      transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  /* Class saat menu aktif */
+  .nav-menu.active {
+      right: 0;
+  }
+
+  .nav-menu a {
+      margin: 10px 0 !important;
+      width: 100%;
+      padding: 12px 20px !important;
+      box-sizing: border-box;
+  }
+
+  /* Animasi Hamburger jadi X saat Aktif */
+  .menu-toggle.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+  .menu-toggle.active span:nth-child(2) { opacity: 0; }
+  .menu-toggle.active span:nth-child(3) { transform: rotate(-45deg) translate(6px, -7px); }
+}

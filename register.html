@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar | NutriCalc BTH</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary-green: #27ae60; --dark-slate: #1e293b; --soft-bg: #f8fafc; }
+        body { font-family: 'Inter', sans-serif; background: var(--soft-bg); display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .auth-card { background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); width: 100%; max-width: 400px; }
+        h2 { text-align: center; color: var(--dark-slate); margin-bottom: 25px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-size: 0.9rem; font-weight: 600; }
+        input { width: 100%; padding: 12px; border: 2px solid #f1f5f9; border-radius: 10px; box-sizing: border-box; }
+        .btn-auth { width: 100%; padding: 14px; background: var(--primary-green); color: white; border: none; border-radius: 10px; font-weight: 700; cursor: pointer; margin-top: 10px; transition: 0.3s; }
+        .btn-auth:hover { opacity: 0.9; transform: translateY(-2px); }
+        .switch-text { text-align: center; margin-top: 15px; font-size: 0.85rem; }
+        .switch-text a { color: var(--primary-green); text-decoration: none; font-weight: 600; }
+    </style>
+</head>
+<body>
+    <div class="auth-card">
+        <h2>Daftar Akun</h2>
+        <form id="registerForm">
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" id="regUsername" required placeholder="Buat username...">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="regPassword" required placeholder="Buat password...">
+            </div>
+            <button type="submit" class="btn-auth">Daftar Sekarang</button>
+        </form>
+        <p class="switch-text">Sudah punya akun? <a href="login.html">Login di sini</a></p>
+    </div>
+
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const user = document.getElementById('regUsername').value;
+            const pass = document.getElementById('regPassword').value;
+
+            // Simpan ke localStorage
+            localStorage.setItem(user, pass);
+            alert('Pendaftaran berhasil! Silakan login.');
+            window.location.href = 'login.html';
+        });
+        // Mengubah cara simpan dari teks biasa ke Objek JSON
+        const userData = {
+            username: user,
+            password: pass,
+            registeredAt: new Date().toISOString()
+        };
+        localStorage.setItem(`user_${user}`, JSON.stringify(userData));
+    </script>
+</body>
+</html>
