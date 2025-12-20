@@ -39,19 +39,31 @@
 
     <script>
         document.getElementById('loginForm').addEventListener('submit', (e) => {
-            e.preventDefault();
-            const user = document.getElementById('loginUsername').value;
-            const pass = document.getElementById('loginPassword').value;
+    e.preventDefault();
+    const user = document.getElementById('loginUsername').value;
+    const pass = document.getElementById('loginPassword').value;
 
-            const storedPass = localStorage.getItem(user);
+    // Ambil data dari localStorage
+    const storedPass = localStorage.getItem(user);
 
-            // Di dalam event listener submit loginForm
-        if (storedPass && storedPass === pass) {
-            sessionStorage.setItem('isLoggedIn', 'true');
-            sessionStorage.setItem('activeUser', user); // Simpan nama user yang login
-            window.location.href = 'dashboard.html';
-        }
-        });
+    // 1. Cek apakah username ada di database (localStorage)
+    if (!storedPass) {
+        alert('Username tidak terdaftar!');
+        return;
+    }
+
+    // 2. Cek apakah password cocok
+    if (storedPass === pass) {
+        sessionStorage.setItem('isLoggedIn', 'true');
+        sessionStorage.setItem('activeUser', user);
+        
+        alert('Login Berhasil!');
+        window.location.href = 'dashboard.html';
+    } else {
+        // 3. Jika password salah
+        alert('Username atau password salah!');
+    }
+});
     </script>
 </body>
 </html>
