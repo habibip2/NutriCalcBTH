@@ -83,7 +83,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Beras giling var pelita',
+	name: 'Beras Giling var Pelita',
 	nilai: 100,
 	air: 11.4,
 	energi: 369,
@@ -110,7 +110,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Beras giling var rojolele',
+	name: 'Beras Giling var Rojolele',
 	nilai: 100,
 	air: 12,
 	energi: 357,
@@ -164,7 +164,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Beras jagung kuning kering',
+	name: 'Beras Jagung Kuning Kering',
 	nilai: 100,
 	air: 10.8,
 	energi: 358,
@@ -730,7 +730,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Jagung pipil var harapan',
+	name: 'Jagung Pipil var Harapan',
 	nilai: 100,
 	air: 11.3,
 	energi: 367,
@@ -757,7 +757,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Jagung pipil var metro',
+	name: 'Jagung Pipil var Metro',
 	nilai: 100,
 	air: 10.6,
 	energi: 368,
@@ -1853,7 +1853,7 @@ const bddDatas = [
 
 
 {
-	name: 'Ote-ote',
+	name: 'Ote-Ote',
 	nilai: 100,
 	air: 40.5,
 	energi: 280,
@@ -4738,7 +4738,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Ubi rumput',
+	name: 'Ubi Rumput',
 	nilai: 85,
 	air: 55.3 ,
 	energi: 181 ,
@@ -4765,7 +4765,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Sagu aren kering',
+	name: 'Sagu Aren Kering',
 	nilai: 100,
 	air: 11.9 ,
 	energi: 355 ,
@@ -4792,7 +4792,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Sagu aren',
+	name: 'Sagu Aren',
 	nilai: 100,
 	air: 42.5 ,
 	energi: 231 ,
@@ -4819,7 +4819,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Sagu kasbi',
+	name: 'Sagu Kasbi',
 	nilai: 100,
 	air: 42.5 ,
 	energi: 230 ,
@@ -4846,7 +4846,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Sagu lempeng',
+	name: 'Sagu Lempeng',
 	nilai: 100,
 	air: 13.5 ,
 	energi: 347 ,
@@ -4873,7 +4873,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Sagu singkong',
+	name: 'Sagu Singkong',
 	nilai: 100,
 	air: 12 ,
 	energi: 362 ,
@@ -4954,7 +4954,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Talas bogor',
+	name: 'Talas Bogor',
 	nilai: 85 ,
 	air: 72.4 ,
 	energi: 108 ,
@@ -4981,7 +4981,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Talas pontianak',
+	name: 'Talas Pontianak',
 	nilai: 83 ,
 	air: 60 ,
 	energi: 163 ,
@@ -5008,7 +5008,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Talas viqueque',
+	name: 'Talas Viqueque',
 	nilai: 85 ,
 	air: 70.6 ,
 	energi: 115 ,
@@ -5035,7 +5035,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Ubi jalar kuning',
+	name: 'Ubi Jalar Kuning',
 	nilai: 85 ,
 	air: 72.6 ,
 	energi: 119 ,
@@ -5062,7 +5062,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Ubi jalar manis',
+	name: 'Ubi Jalar Manis',
 	nilai: 85 ,
 	air: 78.4 ,
 	energi: 83 ,
@@ -5089,7 +5089,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Ubi jalar merah',
+	name: 'Ubi Jalar Merah',
 	nilai: 86 ,
 	air: 61.9 ,
 	energi: 151 ,
@@ -5116,7 +5116,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Ubi jalar putih',
+	name: 'Ubi Jalar Putih',
 	nilai: 86 ,
 	air: 77.8 ,
 	energi: 88 ,
@@ -5143,7 +5143,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Ubi jalar tinta',
+	name: 'Ubi Jalar Tinta',
 	nilai: 85 ,
 	air: 72.5 ,
 	energi: 108 ,
@@ -5170,7 +5170,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Ubi jalar kemayung',
+	name: 'Ubi Jalar Kemayung',
 	nilai: 85 ,
 	air: 72.5 ,
 	energi: 108 ,
@@ -5197,7 +5197,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Umbi uwi',
+	name: 'Umbi Uwi',
 	nilai: 86 ,
 	air: 69.7 ,
 	energi: 120 ,
@@ -5224,7 +5224,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Batatas kelapa bakar',
+	name: 'Batatas Kelapa Bakar',
 	nilai: 85 ,
 	air: 73.2 ,
 	energi: 110 ,
@@ -5251,7 +5251,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Batatas kelapa kukus',
+	name: 'Batatas Kelapa Kukus',
 	nilai: 100 ,
 	air: 75.7 ,
 	energi: 92 ,
@@ -5278,7 +5278,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Batatas tali rebus',
+	name: 'Batatas Tali Rebus',
 	nilai: 100 ,
 	air: 53.2 ,
 	energi: 182 ,
@@ -5305,7 +5305,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Belitung kukus',
+	name: 'Belitung Kukus',
 	nilai: 100 ,
 	air: 63.1,
 	energi: 145 ,
@@ -5332,7 +5332,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Talas kukus',
+	name: 'Talas Kukus',
 	nilai: 100 ,
 	air: 63.1,
 	energi: 145 ,
@@ -5359,7 +5359,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Gadung kukus',
+	name: 'Gadung Kukus',
 	nilai: 100 ,
 	air: 77.4 ,
 	energi: 88 ,
@@ -5386,7 +5386,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Ganyong rebus',
+	name: 'Ganyong Rebus',
 	nilai: 100 ,
 	air: 74.1,
 	energi: 100 ,
@@ -5413,7 +5413,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Ketela pohon kukus',
+	name: 'Ketela Pohon Kukus',
 	nilai: 100 ,
 	air: 61.5,
 	energi: 153 ,
@@ -5440,7 +5440,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Singkong kukus',
+	name: 'Singkong Kukus',
 	nilai: 100 ,
 	air: 61.5,
 	energi: 153 ,
@@ -5467,7 +5467,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Suweg kukus',
+	name: 'Suweg Kukus',
 	nilai: 100 ,
 	air: 75.5,
 	energi: 93 ,
@@ -5494,7 +5494,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Talas bogor kukus',
+	name: 'Talas Bogor Kukus',
 	nilai: 100 ,
 	air: 69.2 ,
 	energi: 120 ,
@@ -5521,7 +5521,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Ubi jalar kuning kukus',
+	name: 'Ubi Jalar Kuning Kukus',
 	nilai: 100 ,
 	air: 74.2,
 	energi: 100 ,
@@ -5548,7 +5548,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Ubi jalar tinta kukus',
+	name: 'Ubi Jalar Tinta Kukus',
 	nilai: 100 ,
 	air: 58.5,
 	energi: 165 ,
@@ -5575,7 +5575,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Ubi jalar kemayung kukus',
+	name: 'Ubi Jalar Kemayung Kukus',
 	nilai: 100 ,
 	air: 58.5,
 	energi: 165 ,
@@ -5602,7 +5602,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Bagea kelapa asin',
+	name: 'Bagea Kelapa Asin',
 	nilai: 100 ,
 	air: 3.5 ,
 	energi: 450 ,
@@ -5629,7 +5629,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Bagea kelapa manis',
+	name: 'Bagea Kelapa Manis',
 	nilai: 100 ,
 	air: 3 ,
 	energi: 452 ,
@@ -5656,7 +5656,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Bagea kenari asin',
+	name: 'Bagea Kenari Asin',
 	nilai: 100 ,
 	air: 2.8 ,
 	energi: 529 ,
@@ -5683,7 +5683,7 @@ const bddDatas = [
 },
 
 {
-	name: 'Bagea kenari manis',
+	name: 'Bagea Kenari Manis',
 	nilai: 100 ,
 	air: 3.1 ,
 	energi: 523 ,
@@ -5710,7 +5710,7 @@ const bddDatas = [
 },
 
 {
-	name: 'bagea kw 1',
+	name: 'Bagea KW 1',
 	nilai: 100 ,
 	air: 7.2 ,
 	energi: 416 ,
@@ -5737,7 +5737,7 @@ const bddDatas = [
 },
 
 {
-	name: 'bagea kw 2',
+	name: 'Bagea KW 2',
 	nilai: 100 ,
 	air: 7.9 ,
 	energi: 382 ,
@@ -5764,7 +5764,7 @@ const bddDatas = [
 },
 
 {
-	name: 'beras cerdas',
+	name: 'Beras Cerdas',
 	nilai: 100 ,
 	air: 11.3 ,
 	energi: 350 ,
@@ -5791,7 +5791,7 @@ const bddDatas = [
 },
 
 {
-	name: 'beras ganyong',
+	name: 'Beras Ganyong',
 	nilai: 100 ,
 	air: 9.3 ,
 	energi: 364 ,
@@ -5818,7 +5818,7 @@ const bddDatas = [
 },
 
 {
-	name: 'beras siger',
+	name: 'Beras Siger',
 	nilai: 100 ,
 	air: 13.5 ,
 	energi: 344 ,
@@ -5845,7 +5845,7 @@ const bddDatas = [
 },
 
 {
-	name: 'biji nangka',
+	name: 'Biji Nangka',
 	nilai: 100 ,
 	air: 40.5 ,
 	energi: 262 ,
@@ -5872,7 +5872,7 @@ const bddDatas = [
 },
 
 {
-	name: 'biji salak',
+	name: 'Biji Salak',
 	air: 40.5 ,
 	energi: 262 ,
 	protein: 2.3 ,
@@ -5898,7 +5898,7 @@ const bddDatas = [
 },
 
 {
-	name: 'bubur sagu',
+	name: 'Bubur Sagu',
 	nilai: 100 ,
 	air: 62.5 ,
 	energi: 167 ,
@@ -5925,7 +5925,7 @@ const bddDatas = [
 },
 
 {
-	name: 'cassavastick',
+	name: 'Cassava Stick',
 	nilai: 100 ,
 	air: 5.6 ,
 	energi: 460 ,
@@ -5952,7 +5952,7 @@ const bddDatas = [
 },
 
 {
-	name: 'cassava stick',
+	name: 'Stik Singkong',
 	nilai: 100 ,
 	air: 5.6 ,
 	energi: 460 ,
@@ -5979,7 +5979,7 @@ const bddDatas = [
 },
 
 {
-	name: 'stik singkong',
+	name: 'Stik Kaspe',
 	nilai: 100 ,
 	air: 5.6 ,
 	energi: 460 ,
@@ -6006,34 +6006,7 @@ const bddDatas = [
 },
 
 {
-	name: 'stik kaspe',
-	nilai: 100 ,
-	air: 5.6 ,
-	energi: 460 ,
-	protein: 0.8 ,
-	lemak: 18.7 ,
-	kh: 71.8 ,
-	serat: 1.6 ,
-	abu: 2.7 ,
-	kalsium: 144 ,
-	fosfor: 58 ,
-	besi:  7.5 ,
-	natrium: '0' ,
-	kalium: '0' ,
-	tembaga: '0' ,
-	seng: '0' ,
-	retinol: 0 ,
-	betakaroten: '0' ,
-	kartotal: 107 ,
-	thamin: 0.19 ,
-	riboflavin: 0.07 ,
-	niasin: 0.1 ,
-	vitaminc: 0 ,
-	kode: 'BP024 '
-},
-
-{
-	name: 'ceriping getuk singkong',
+	name: 'ceriping Getuk Singkong',
 	nilai: 100 ,
 	air: 7.2 ,
 	energi: 462 ,
@@ -6060,7 +6033,7 @@ const bddDatas = [
 },
 
 {
-	name: 'gatot',
+	name: 'Gatot',
 	nilai: 100 ,
 	air: 12.8 ,
 	energi: 347 ,
@@ -6087,7 +6060,7 @@ const bddDatas = [
 },
 
 {
-	name: 'geblek',
+	name: 'Geblek',
 	nilai: 100 ,
 	air: 52.1 ,
 	energi: 195 ,
@@ -6114,7 +6087,7 @@ const bddDatas = [
 },
 
 {
-	name: 'getuk - goreng',
+	name: 'Getuk Goreng',
 	nilai: 100 ,
 	air: 16.5 ,
 	energi: 360 ,
@@ -6141,7 +6114,7 @@ const bddDatas = [
 },
 
 {
-	name: 'getuk singkong',
+	name: 'Getuk Singkong',
 	nilai: 100 ,
 	air: 49.8 ,
 	energi: 204 ,
@@ -6168,7 +6141,7 @@ const bddDatas = [
 },
 
 {
-	name: 'gurandil',
+	name: 'Gurandil',
 	nilai: 100 ,
 	air: 47.5 ,
 	energi: 218 ,
@@ -6195,7 +6168,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kabuto',
+	name: 'Kabuto',
 	nilai: 100 ,
 	air: 58.9 ,
 	energi: 250 ,
@@ -6222,7 +6195,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kapurung',
+	name: 'Kapurung',
 	nilai: 100 ,
 	air: 79.6 ,
 	energi: 41 ,
@@ -6249,7 +6222,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kecimpring singkong - goreng',
+	name: 'Kecimpring Singkong Goreng',
 	nilai: 100 ,
 	air: 3.7 ,
 	energi: 464 ,
@@ -6276,7 +6249,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kecimpring - goreng',
+	name: 'Kecimpring',
 	nilai: 100 ,
 	air: 3.7 ,
 	energi: 464 ,
@@ -6303,34 +6276,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kecimpring',
-	nilai: 100 ,
-	air: 3.7 ,
-	energi: 464 ,
-	protein: 1.2 ,
-	lemak: 18.6 ,
-	kh: 73 ,
-	serat: 1.3 ,
-	abu: 3.5 ,
-	kalsium: 82 ,
-	fosfor: 52 ,
-	besi:  3.4 ,
-	natrium: '0' ,
-	kalium: '0' ,
-	tembaga: '0' ,
-	seng: '0' ,
-	retinol: '0' ,
-	betakaroten: '0' ,
-	kartotal: 3320 ,
-	thamin: 0.34 ,
-	riboflavin: '0' ,
-	niasin: '0' ,
-	vitaminc: 0 ,
-	kode: 'BP033 '
-},
-
-{
-	name: 'keremes',
+	name: 'Keremes',
 	nilai: 100 ,
 	air: 6.7 ,
 	energi: 475 ,
@@ -6357,7 +6303,7 @@ const bddDatas = [
 },
 
 {
-	name: 'keripik gadung',
+	name: 'Keripik Gadung',
 	nilai: 100 ,
 	air: 4 ,
 	energi: 446 ,
@@ -6384,7 +6330,7 @@ const bddDatas = [
 },
 
 {
-	name: 'keripik kentang',
+	name: 'Keripik Kentang',
 	nilai: 100 ,
 	air: 7.8 ,
 	energi: 448 ,
@@ -6411,7 +6357,7 @@ const bddDatas = [
 },
 
 {
-	name: 'keripik singkong',
+	name: 'Keripik Singkong',
 	nilai: 100 ,
 	air: 4.2 ,
 	energi: 478 ,
@@ -6438,7 +6384,7 @@ const bddDatas = [
 },
 
 {
-	name: 'keripik singkong berbumbu',
+	name: 'Keripik Singkong Berbumbu',
 	nilai: 100 ,
 	air: 2.2 ,
 	energi: 481 ,
@@ -6465,7 +6411,7 @@ const bddDatas = [
 },
 
 {
-	name: 'keripik ubi',
+	name: 'Keripik Ubi',
 	nilai: 100 ,
 	air: 6 ,
 	energi: 486 ,
@@ -6492,7 +6438,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kerupuk cumi - goreng',
+	name: 'Kerupuk Cumi Goreng',
 	nilai: 100 ,
 	air: 3.4 ,
 	energi: 444 ,
@@ -6519,7 +6465,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kerupuk kemplang',
+	name: 'Kerupuk Kemplang',
 	nilai: 100 ,
 	air: 14.2 ,
 	energi: 325 ,
@@ -6546,7 +6492,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kerupuk ikan',
+	name: 'Kerupuk Ikan',
 	nilai: 100 ,
 	air: 14.2 ,
 	energi: 325 ,
@@ -6573,7 +6519,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kerupuk kemplang - goreng',
+	name: 'Kerupuk Kemplang Goreng',
 	nilai: 100 ,
 	air: 5.8 ,
 	energi: 504 ,
@@ -6600,7 +6546,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kerupuk ikan - goreng',
+	name: 'Kerupuk Ikan Goreng',
 	nilai: 100 ,
 	air: 5.8 ,
 	energi: 504 ,
@@ -6627,7 +6573,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kerupuk kemplang - panggang',
+	name: 'Kerupuk Kemplang Panggang',
 	nilai: 100 ,
 	air: 9.4 ,
 	energi: 356 ,
@@ -6654,7 +6600,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kerupuk ikan - panggang',
+	name: 'Kerupuk Ikan Panggang',
 	nilai: 100 ,
 	air: 9.4 ,
 	energi: 356 ,
@@ -6681,7 +6627,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kerupuk mie kuning - goreng',
+	name: 'Kerupuk Mie Kuning Goreng',
 	nilai: 100 ,
 	air: 7.2 ,
 	energi: 476 ,
@@ -6708,7 +6654,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kerupuk mie - goreng',
+	name: 'Kerupuk Mie Goreng',
 	nilai: 100 ,
 	air: 7.2 ,
 	energi: 476 ,
@@ -6735,7 +6681,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kerupuk udang - goreng',
+	name: 'Kerupuk Udang Goreng',
 	nilai: 100 ,
 	air: 4.4 ,
 	energi: 477 ,
@@ -6762,7 +6708,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kue bangket',
+	name: 'Kue Bangket',
 	nilai: 100 ,
 	air: 16.1 ,
 	energi: 338 ,
@@ -6789,7 +6735,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kue putu singkong',
+	name: 'Kue Putu Singkong',
 	nilai: 100 ,
 	air: 44.2 ,
 	energi: 217 ,
@@ -6816,7 +6762,7 @@ const bddDatas = [
 },
 
 {
-	name: 'putu singkong',
+	name: 'Putu Singkong',
 	nilai: 100 ,
 	air: 44.2 ,
 	energi: 217 ,
@@ -6843,7 +6789,7 @@ const bddDatas = [
 },
 
 {
-	name: 'lanting getuk',
+	name: 'Lanting Getuk',
 	nilai: 100 ,
 	air: 4.2 ,
 	energi: 422 ,
@@ -6870,7 +6816,7 @@ const bddDatas = [
 },
 
 {
-	name: 'lanting',
+	name: 'Lanting',
 	nilai: 100 ,
 	air: 4.2 ,
 	energi: 422 ,
@@ -6897,7 +6843,7 @@ const bddDatas = [
 },
 
 {
-	name: 'mi golosor',
+	name: 'Mie Golosor',
 	nilai: 100 ,
 	air: 82.9 ,
 	energi: 71 ,
@@ -6924,34 +6870,7 @@ const bddDatas = [
 },
 
 {
-	name: 'mie golosor',
-	nilai: 100 ,
-	air: 82.9 ,
-	energi: 71 ,
-	protein: 0.2 ,
-	lemak: 0.8 ,
-	kh: 15.9 ,
-	serat: 0.1 ,
-	abu: 0.2 ,
-	kalsium: 117 ,
-	fosfor: 5 ,
-	besi:  0.2 ,
-	natrium: '0' ,
-	kalium: '0' ,
-	tembaga: '0' ,
-	seng: '0' ,
-	retinol: 0 ,
-	betakaroten: '0' ,
-	kartotal: 112 ,
-	thamin: 0.05 ,
-	riboflavin: 0.02 ,
-	niasin: 0 ,
-	vitaminc: 0 ,
-	kode: 'BP049 '
-},
-
-{
-	name: 'mi bendo',
+	name: 'Mie Bendo',
 	nilai: 100 ,
 	air: 11.5 ,
 	energi: 353 ,
@@ -6978,34 +6897,7 @@ const bddDatas = [
 },
 
 {
-	name: 'mie bendo',
-	nilai: 100 ,
-	air: 11.5 ,
-	energi: 353 ,
-	protein: 0.3 ,
-	lemak: 0 ,
-	kh: 88 ,
-	serat: 2.4 ,
-	abu: 0.2 ,
-	kalsium: 28 ,
-	fosfor: 14 ,
-	besi:  2.8 ,
-	natrium: 9 ,
-	kalium: 49.2 ,
-	tembaga: 0.5 ,
-	seng: 0.1 ,
-	retinol: '0' ,
-	betakaroten: 2 ,
-	kartotal: 0 ,
-	thamin: 0.02 ,
-	riboflavin: 0 ,
-	niasin: 0.1 ,
-	vitaminc: 0.2 ,
-	kode: 'BP050 '
-},
-
-{
-	name: 'mi sagu',
+	name: 'Mie Sagu',
 	nilai: 100 ,
 	air: 52.8 ,
 	energi: 190 ,
@@ -7032,34 +6924,7 @@ const bddDatas = [
 },
 
 {
-	name: 'mie sagu',
-	nilai: 100 ,
-	air: 52.8 ,
-	energi: 190 ,
-	protein: 0.2 ,
-	lemak: 0.4 ,
-	kh: 46.5 ,
-	serat: 1.4 ,
-	abu: 0.1 ,
-	kalsium: 8 ,
-	fosfor: 7 ,
-	besi:  0.3 ,
-	natrium: 10 ,
-	kalium: 2.6 ,
-	tembaga: 0.1 ,
-	seng: 0 ,
-	retinol: '0' ,
-	betakaroten: 2 ,
-	kartotal: 0 ,
-	thamin: 0 ,
-	riboflavin: 0.4 ,
-	niasin: 0 ,
-	vitaminc: 0.2 ,
-	kode: 'BP051 '
-},
-
-{
-	name: 'ongol-ongol sagu',
+	name: 'Ongol-Ongol Sagu',
 	nilai: 100 ,
 	air: 75.3 ,
 	energi: 111 ,
@@ -7086,7 +6951,7 @@ const bddDatas = [
 },
 
 {
-	name: 'ongol-ongol',
+	name: 'Ongol-Ongol',
 	nilai: 100 ,
 	air: 75.3 ,
 	energi: 111 ,
@@ -7113,7 +6978,7 @@ const bddDatas = [
 },
 
 {
-	name: 'oyek',
+	name: 'Oyek',
 	nilai: 100 ,
 	air: 12.6 ,
 	energi: 351 ,
@@ -7140,7 +7005,7 @@ const bddDatas = [
 },
 
 {
-	name: 'papeda',
+	name: 'Papeda',
 	nilai: 100 ,
 	air: 84.8 ,
 	energi: 61 ,
@@ -7167,7 +7032,7 @@ const bddDatas = [
 },
 
 {
-	name: 'rasbi',
+	name: 'Rasbi',
 	nilai: 100 ,
 	air: 11.1 ,
 	energi: 394 ,
@@ -7194,7 +7059,7 @@ const bddDatas = [
 },
 
 {
-	name: 'beras ubi',
+	name: 'Beras Ubi',
 	nilai: 100 ,
 	air: 11.1 ,
 	energi: 394 ,
@@ -7221,7 +7086,7 @@ const bddDatas = [
 },
 
 {
-	name: 'rasi',
+	name: 'Rasi',
 	nilai: 100 ,
 	air: 12.6 ,
 	energi: 350 ,
@@ -7248,7 +7113,7 @@ const bddDatas = [
 },
 
 {
-	name: 'beras singkong',
+	name: 'Beras Singkong',
 	nilai: 100 ,
 	air: 12.6 ,
 	energi: 350 ,
@@ -7275,7 +7140,7 @@ const bddDatas = [
 },
 
 {
-	name: 'sagu fomo',
+	name: 'Sagu Fomo',
 	nilai: 100 ,
 	air: 31.5 ,
 	energi: 291 ,
@@ -7302,7 +7167,7 @@ const bddDatas = [
 },
 
 {
-	name: 'sagu lemak',
+	name: 'Sagu Lemak',
 	nilai: 100 ,
 	air: 4.3 ,
 	energi: 452 ,
@@ -7329,7 +7194,7 @@ const bddDatas = [
 },
 
 {
-	name: 'kue sagon',
+	name: 'Kue Sagon',
 	nilai: 100 ,
 	air: 4.3 ,
 	energi: 452 ,
@@ -7356,7 +7221,7 @@ const bddDatas = [
 },
 
 {
-	name: 'sagon',
+	name: 'Sagon',
 	nilai: 100 ,
 	air: 4.3 ,
 	energi: 452 ,
@@ -7383,7 +7248,7 @@ const bddDatas = [
 },
 
 {
-	name: 'sagu manis',
+	name: 'Sagu Manis',
 	nilai: 100 ,
 	air: 32.6 ,
 	energi: 287 ,
@@ -7410,7 +7275,7 @@ const bddDatas = [
 },
 
 {
-	name: 'sagu rendang',
+	name: 'Sagu Rendang',
 	nilai: 100 ,
 	air: 8.2 ,
 	energi: 364 ,
@@ -7437,7 +7302,7 @@ const bddDatas = [
 },
 
 {
-	name: 'sagu sinole',
+	name: 'Sagu Sinole',
 	nilai: 100 ,
 	air: 22 ,
 	energi: 354 ,
@@ -7464,7 +7329,7 @@ const bddDatas = [
 },
 
 {
-	name: 'serimping talas kebumen',
+	name: 'Serimping Talas Kebumen',
 	nilai: 100 ,
 	air: 4.8 ,
 	energi: 478 ,
@@ -7491,7 +7356,7 @@ const bddDatas = [
 },
 
 {
-	name: 'serimping talas',
+	name: 'Serimping Talas',
 	nilai: 100 ,
 	air: 4.8 ,
 	energi: 478 ,
@@ -7515,91 +7380,10 @@ const bddDatas = [
 	niasin: '0' ,
 	vitaminc: 0 ,
 	kode: 'BP062 '
-},
-
-{
-	name: 'tapai singkong',
-	nilai: 100 ,
-	air: 57.4 ,
-	energi: 169 ,
-	protein: 1.4 ,
-	lemak: 0.3 ,
-	kh: 40.2 ,
-	serat: 2 ,
-	abu: 0.7 ,
-	kalsium: 21 ,
-	fosfor: 34 ,
-	besi:  0.8 ,
-	natrium: '0' ,
-	kalium: '0' ,
-	tembaga: '0' ,
-	seng: '0' ,
-	retinol: 0 ,
-	betakaroten: 0 ,
-	kartotal: 0 ,
-	thamin: 0 ,
-	riboflavin: '0' ,
-	niasin: '0' ,
-	vitaminc: 9 ,
-	kode: 'BP063 '
-},
-
-{
-	name: 'Tapai singkong',
-	nilai: 100 ,
-	air: 57.4 ,
-	energi: 169 ,
-	protein: 1.4 ,
-	lemak: 0.3 ,
-	kh: 40.2 ,
-	serat: 2 ,
-	abu: 0.7 ,
-	kalsium: 21 ,
-	fosfor: 34 ,
-	besi:  0.8 ,
-	natrium: '0' ,
-	kalium: '0' ,
-	tembaga: '0' ,
-	seng: '0' ,
-	retinol: 0 ,
-	betakaroten: 0 ,
-	kartotal: 0 ,
-	thamin: 0 ,
-	riboflavin: '0' ,
-	niasin: '0' ,
-	vitaminc: 9 ,
-	kode: 'BP063 '
 },
 
 {
 	name: 'Tapai Singkong',
-	nilai: 100 ,
-	air: 57.4 ,
-	energi: 169 ,
-	protein: 1.4 ,
-	lemak: 0.3 ,
-	kh: 40.2 ,
-	serat: 2 ,
-	abu: 0.7 ,
-	kalsium: 21 ,
-	fosfor: 34 ,
-	besi:  0.8 ,
-	natrium: '0' ,
-	kalium: '0' ,
-	tembaga: '0' ,
-	seng: '0' ,
-	retinol: 0 ,
-	betakaroten: 0 ,
-	kartotal: 0 ,
-	thamin: 0 ,
-	riboflavin: '0' ,
-	niasin: '0' ,
-	vitaminc: 9 ,
-	kode: 'BP063 '
-},
-
-{
-	name: 'Tape Singkong',
 	nilai: 100 ,
 	air: 57.4 ,
 	energi: 169 ,
@@ -8869,7 +8653,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kacang uci',
+	name       : 'Kacang Uci',
 	nilai      : 100 ,
 	air        : 9.9 ,
 	energi     : 358 ,
@@ -9328,7 +9112,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Biji lamtoro var. lokal dengan kulit',
+	name       : 'Biji Lamtoro var. Lokal dengan Kulit',
 	nilai      : 100 ,
 	air        : 13.5 ,
 	energi     :  336,
@@ -10139,7 +9923,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Enting-enting Gepuk Kacang Tanah',
+	name       : 'Enting-Enting Gepuk Kacang Tanah',
 	nilai      : 100 ,
 	air        : 4.2 ,
 	energi     :  524,
@@ -10166,7 +9950,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Enting-enting Wijen',
+	name       : 'Enting-Enting Wijen',
 	nilai      : 100 ,
 	air        :  3.7,
 	energi     :  565,
@@ -10548,7 +10332,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'keripik tempe abadi besar',
+	name       : 'Keripik Tempe Abadi Besar',
 	nilai      : 100 ,
 	air        : 4.5 ,
 	energi     :  556,
@@ -10575,7 +10359,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'keripik tempe abadi murni',
+	name       : 'Keripik Tempe Abadi Murni',
 	nilai      : 100 ,
 	air        : 3.2 ,
 	energi     : 542 ,
@@ -10602,7 +10386,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'keripik tempe abadi sedang',
+	name       : 'Keripik Tempe Abadi Sedang',
 	nilai      : 100 ,
 	air        : 4.4 ,
 	energi     :  510,
@@ -10629,7 +10413,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'keripik tempe abadi telur',
+	name       : 'Keripik Tempe Abadi Telur',
 	nilai      : 100 ,
 	air        : 4.5 ,
 	energi     :  529,
@@ -10656,7 +10440,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'keripik tempe abadi prima',
+	name       : 'Keripik Tempe Abadi Prima',
 	nilai      : 100 ,
 	air        :  4.8,
 	energi     :  540,
@@ -10710,7 +10494,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'melinjo emping tebal manis goreng',
+	name       : 'Melinjo Emping Tebal Manis Goreng',
 	nilai      : 100 ,
 	air        :  5.6,
 	energi     :  439,
@@ -10737,7 +10521,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'melinjo emping tebal asin goreng',
+	name       : 'Melinjo Emping Tebal Asin Goreng',
 	nilai      : 100 ,
 	air        :  8,
 	energi     :  431,
@@ -10764,7 +10548,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'melinjo emping tipis goreng',
+	name       : 'Melinjo Emping Tipis Goreng',
 	nilai      : 100 ,
 	air        : 3.3 ,
 	energi     :  485,
@@ -10845,7 +10629,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'oncom ampas kacang hijau',
+	name       : 'Oncom Ampas Kacang Hijau',
 	nilai      : 100 ,
 	air        :  13.4,
 	energi     :  376,
@@ -10872,7 +10656,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'oncom kacang hijau + singkong',
+	name       : 'Oncom Kacang Hijau + Singkong',
 	nilai      : 100 ,
 	air        :  16.5,
 	energi     :  351,
@@ -10899,7 +10683,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'oncom kacang tanah pepes',
+	name       : 'Oncom Kacang Tanah Pepes',
 	nilai      : 100 ,
 	air        : 65 ,
 	energi     :  132,
@@ -10926,7 +10710,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'rempeyek kacang tanah',
+	name       : 'Rempeyek Kacang Tanah',
 	nilai      : 100 ,
 	air        :  3.9,
 	energi     :  513,
@@ -10953,7 +10737,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'rempeyek kacang tolo',
+	name       : 'Rempeyek Kacang Tolo',
 	nilai      : 100 ,
 	air        : 6.1 ,
 	energi     :  451,
@@ -10980,7 +10764,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'rempeyek kacang uci',
+	name       : 'Rempeyek Kacang Uci',
 	nilai      : 100 ,
 	air        : 4 ,
 	energi     :  497,
@@ -11007,7 +10791,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sayur lebui',
+	name       : 'Sayur Lebui',
 	nilai      : 100 ,
 	air        :  83.9,
 	energi     :  64,
@@ -11034,7 +10818,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'bubuk saridele',
+	name       : 'Bubuk Saridele',
 	nilai      : 100 ,
 	air        : 3 ,
 	energi     : 344 ,
@@ -11250,7 +11034,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'tauco cap beruang',
+	name       : 'Tauco Cap Beruang',
 	nilai      : 100 ,
 	air        : 11.4 ,
 	energi     :  347,
@@ -11277,7 +11061,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'tauco cap DAS',
+	name       : 'Tauco Cap DAS',
 	nilai      : 100 ,
 	air        : 10.2 ,
 	energi     :  358,
@@ -11304,7 +11088,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'tauco cap meong',
+	name       : 'Tauco Cap Meong',
 	nilai      : 100 ,
 	air        : 59.7 ,
 	energi     :  159,
@@ -11331,7 +11115,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'tauco cap singa',
+	name       : 'Tauco Cap Singa',
 	nilai      : 100 ,
 	air        : 30.4 ,
 	energi     :  277,
@@ -11385,7 +11169,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'tempe gembus P3G',
+	name       : 'Tempe Gembus P3G',
 	nilai      : 100 ,
 	air        : 81.9 ,
 	energi     :  73,
@@ -11412,7 +11196,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'tempe gembus yogya',
+	name       : 'Tempe Gembus Yogya',
 	nilai      : 100 ,
 	air        :  80.7,
 	energi     :  76,
@@ -11629,7 +11413,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'tempe lamtoro var. gung dengan kulit',
+	name       : 'Tempe Lamtoro var. Gung dengan Kulit',
 	nilai      : 100 ,
 	air        : 65.1 ,
 	energi     :  146,
@@ -11656,7 +11440,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'tempe lamtoro var. gung tanpa kulit',
+	name       : 'Tempe Lamtoro var. Gung Tanpa Kulit',
 	nilai      : 100 ,
 	air        : 67.1 ,
 	energi     :  131,
@@ -11710,7 +11494,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'tempe pasar goreng',
+	name       : 'Tempe Pasar Goreng',
 	nilai      : 100 ,
 	air        : 42.9 ,
 	energi     :  336,
@@ -12360,7 +12144,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daun bangun-bangun',
+	name       : 'Daun Bangun-Bangun',
 	nilai      : 66 ,
 	air        :  92.5,
 	energi     :  27,
@@ -12576,7 +12360,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daun gedi besar',
+	name       : 'Daun Gedi Besar',
 	nilai      : 65 ,
 	air        :  84,
 	energi     :  58,
@@ -12603,7 +12387,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daun gedi kecil',
+	name       : 'Daun Gedi Kecil',
 	nilai      : 65 ,
 	air        :  83.7,
 	energi     :  61,
@@ -12657,7 +12441,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daun gunda bali',
+	name       : 'Daun Gunda Bali',
 	nilai      : 49 ,
 	air        :  86.4,
 	energi     :  50,
@@ -12684,7 +12468,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daun gunda serang',
+	name       : 'Daun Gunda Serang',
 	nilai      : 47 ,
 	air        :  84.6,
 	energi     :  62,
@@ -12711,7 +12495,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daun jambu mete muda',
+	name       : 'Daun Jambu Mete Muda',
 	nilai      : 65 ,
 	air        : 78 ,
 	energi     :  78,
@@ -12765,7 +12549,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daun jawaw seluang',
+	name       : 'Daun Jawaw Seluang',
 	nilai      : 100 ,
 	air        :  77.2,
 	energi     :  93,
@@ -12792,7 +12576,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daun jonghe',
+	name       : 'Daun Jonghe',
 	nilai      : 45 ,
 	air        :  91.4,
 	energi     :  27,
@@ -12819,7 +12603,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daun kacang ma',
+	name       : 'Daun Kacang Ma',
 	nilai      : 33 ,
 	air        :  89.1,
 	energi     :  36,
@@ -13770,7 +13554,7 @@ const bddDatas = [
 
 
 {
-	name       : 'Daun Pakis wambateu',
+	name       : 'Daun Pakis Wambateu',
 	nilai      : 70 ,
 	air        :  86.9,
 	energi     :  53,
@@ -13933,7 +13717,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun selasih',
+	name       : 'Daun Selasih',
 	nilai      : 53 ,
 	air        :  83.1,
 	energi     :  62,
@@ -13960,7 +13744,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun semanggi',
+	name       : 'Daun Semanggi',
 	nilai      : 90 ,
 	air        :  84.7,
 	energi     :  45,
@@ -13986,7 +13770,7 @@ const bddDatas = [
 	kode       : 'DR068 '
 },
 {
-	name       : 'Daun simpur',
+	name       : 'Daun Simpur',
 	nilai      : 100 ,
 	air        :  86.2,
 	energi     :  53,
@@ -14013,7 +13797,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun singkil',
+	name       : 'Daun Singkil',
 	nilai      : 70 ,
 	air        : 80.9 ,
 	energi     :  68,
@@ -14040,7 +13824,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun singkong',
+	name       : 'Daun Singkong',
 	nilai      : 87 ,
 	air        : 84. ,
 	energi     :  50,
@@ -14067,7 +13851,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun singkong ambon',
+	name       : 'Daun Singkong Ambon',
 	nilai      : 87 ,
 	air        :  58,
 	energi     :  144,
@@ -14094,7 +13878,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun singkong ampenan',
+	name       : 'Daun Singkong Ampenan',
 	nilai      : 87 ,
 	air        :  84.4,
 	energi     :  50,
@@ -14121,7 +13905,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun singkong kopang',
+	name       : 'Daun Singkong Kopang',
 	nilai      : 87 ,
 	air        :  81.1,
 	energi     :  74,
@@ -14148,7 +13932,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun sintrong',
+	name       : 'Daun Sintrong',
 	nilai      : 94 ,
 	air        :  88.5,
 	energi     :  36,
@@ -14175,7 +13959,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun talas',
+	name       : 'Daun Talas',
 	nilai      : 80 ,
 	air        : 81.1 ,
 	energi     :  59,
@@ -14202,7 +13986,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun tespong',
+	name       : 'Daun Tespong',
 	nilai      : 60 ,
 	air        :  81,
 	energi     :  70,
@@ -14229,7 +14013,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun ubi jalar kuning',
+	name       : 'Daun Ubi Jalar Kuning',
 	nilai      : 75 ,
 	air        : 83.5 ,
 	energi     :  62,
@@ -14256,7 +14040,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun ubi jalar merah',
+	name       : 'Daun Ubi Jalar Merah',
 	nilai      : 75 ,
 	air        :  84.4,
 	energi     :  48,
@@ -14283,7 +14067,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun ubi jalar putih',
+	name       : 'Daun Ubi Jalar Putih',
 	nilai      : 75 ,
 	air        :  87.5,
 	energi     :  46,
@@ -14310,7 +14094,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun tela putih',
+	name       : 'Daun Tela Putih',
 	nilai      : 75 ,
 	air        :  87.5,
 	energi     :  46,
@@ -14337,7 +14121,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun ubi jalar tinta',
+	name       : 'Daun Ubi Jalar Tinta',
 	nilai      : 75 ,
 	air        :  85.1,
 	energi     :  55,
@@ -14364,7 +14148,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun ubi kemayung',
+	name       : 'Daun Ubi Kemayung',
 	nilai      : 75 ,
 	air        :  85.1,
 	energi     :  55,
@@ -14499,7 +14283,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jagung muda',
+	name       : 'Jagung Muda',
 	nilai      : 100 ,
 	air        :  89.5,
 	energi     :  35,
@@ -14526,7 +14310,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jagung semi',
+	name       : 'Jagung Semi',
 	nilai      : 100 ,
 	air        :  89.5,
 	energi     :  35,
@@ -14553,7 +14337,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jamur encik',
+	name       : 'Jamur Encik',
 	nilai      : 95 ,
 	air        :  24.8,
 	energi     :  296,
@@ -14580,7 +14364,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jamur kuping kering',
+	name       : 'Jamur Kuping Kering',
 	nilai      : 100 ,
 	air        :  14.9,
 	energi     :  294,
@@ -14607,7 +14391,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jamur kuping',
+	name       : 'Jamur Kuping',
 	nilai      : 100 ,
 	air        : 93.7 ,
 	energi     :  21,
@@ -14634,7 +14418,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jamur merang',
+	name       : 'Jamur Merang',
 	nilai      : 100 ,
 	air        :  91.5,
 	energi     :  30,
@@ -14661,7 +14445,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jamur tiram',
+	name       : 'Jamur Tiram',
 	nilai      : 100 ,
 	air        : 92.5 ,
 	energi     :  30,
@@ -14688,7 +14472,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jamur sagu',
+	name       : 'Jamur Sagu',
 	nilai      : 95 ,
 	air        :  91.3,
 	energi     :  48,
@@ -14715,7 +14499,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jantung pisang',
+	name       : 'Jantung Pisang',
 	nilai      : 25 ,
 	air        :  90.2,
 	energi     :  32,
@@ -14823,7 +14607,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kacang mekah',
+	name       : 'Kacang Mekah',
 	nilai      : 91 ,
 	air        :  93.6,
 	energi     :  22,
@@ -14850,7 +14634,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kacang panjang',
+	name       : 'Kacang Panjang',
 	nilai      : 92 ,
 	air        :  91.8,
 	energi     :  31,
@@ -14877,7 +14661,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kacang ranti polong',
+	name       : 'Kacang Ranti Polong',
 	nilai      : 83 ,
 	air        :  88.5,
 	energi     :  37,
@@ -14958,7 +14742,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kangkung tondano',
+	name       : 'Kangkung Tondano',
 	nilai      : 60 ,
 	air        :  88.5,
 	energi     :  43,
@@ -14985,7 +14769,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kapri muda',
+	name       : 'Kapri Muda',
 	nilai      : 80 ,
 	air        :  86.8,
 	energi     :  45,
@@ -15039,7 +14823,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kecipir muda',
+	name       : 'Kecipir Muda',
 	nilai      : 96 ,
 	air        :  90.4,
 	energi     :  32,
@@ -15147,7 +14931,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kembang turi',
+	name       : 'Kembang Turi',
 	nilai      : 83 ,
 	air        :  87.4,
 	energi     :  51,
@@ -15228,7 +15012,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Ketimun krai',
+	name       : 'Ketimun Krai',
 	nilai      : 82 ,
 	air        :  96.8,
 	energi     :  10,
@@ -15255,7 +15039,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Ketimun madura',
+	name       : 'Ketimun Madura',
 	nilai      : 89 ,
 	air        :  97.1,
 	energi     :  9,
@@ -15308,7 +15092,7 @@ const bddDatas = [
 	kode       : 'DR112 '
 },
 {
-	name       : 'Kembang kol',
+	name       : 'Kembang Kol',
 	nilai      : 57 ,
 	air        :  91.7,
 	energi     :  25,
@@ -15335,7 +15119,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kol merah',
+	name       : 'Kol Merah',
 	nilai      : 75 ,
 	air        :  92.4,
 	energi     :  29,
@@ -15362,7 +15146,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kol putih',
+	name       : 'Kol Putih',
 	nilai      : 75 ,
 	air        :  92.4,
 	energi     :  29,
@@ -15389,7 +15173,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Koro kerupuk',
+	name       : 'Koro Kerupuk',
 	nilai      : 68 ,
 	air        :  67.2,
 	energi     :  128,
@@ -15416,7 +15200,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Koro wedus',
+	name       : 'Koro Wedus',
 	nilai      : 70 ,
 	air        :  88,
 	energi     :  46,
@@ -15470,7 +15254,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kucai muda',
+	name       : 'Kucai Muda',
 	nilai      : 100 ,
 	air        :  86,
 	energi     : 42 ,
@@ -15497,7 +15281,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kulit melinjo',
+	name       : 'Kulit Melinjo',
 	nilai      : 100 ,
 	air        :  71.9,
 	energi     :  111,
@@ -15551,7 +15335,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Labu air',
+	name       : 'Labu Air',
 	nilai      : 80 ,
 	air        :  95,
 	energi     :  19,
@@ -15578,7 +15362,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Labu kuning',
+	name       : 'Labu Kuning',
 	nilai      : 74 ,
 	air        :  86.6,
 	energi     :  51,
@@ -15605,7 +15389,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Labu siam',
+	name       : 'Labu Siam',
 	nilai      : 83 ,
 	air        :  92.3,
 	energi     :  30,
@@ -15632,7 +15416,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Labu waluh',
+	name       : 'Labu Waluh',
 	nilai      : 77 ,
 	air        :  91.2,
 	energi     :  32,
@@ -15794,7 +15578,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Mostarda metan sawi',
+	name       : 'Mostarda Metan Sawi',
 	nilai      : 85 ,
 	air        :  91.4,
 	energi     :  33,
@@ -15821,7 +15605,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Nangka muda',
+	name       : 'Nangka Muda',
 	nilai      : 80 ,
 	air        :  85.4,
 	energi     :  57,
@@ -15848,7 +15632,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Paria putih',
+	name       : 'Paria Putih',
 	nilai      : 80 ,
 	air        :  94.4,
 	energi     :  19,
@@ -15875,7 +15659,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Pepare ular',
+	name       : 'Pepare Ular',
 	nilai      : 97 ,
 	air        :  95.1,
 	energi     :  19,
@@ -15902,7 +15686,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Pepaya muda',
+	name       : 'Pepaya Muda',
 	nilai      : 65 ,
 	air        :  92.3,
 	energi     :  29,
@@ -15983,7 +15767,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Pucuk lumai',
+	name       : 'Pucuk Lumai',
 	nilai      : 70 ,
 	air        :  91,
 	energi     :  33,
@@ -16010,7 +15794,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun leunca',
+	name       : 'Daun Leunca',
 	nilai      : 70 ,
 	air        :  91,
 	energi     :  33,
@@ -16037,7 +15821,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Putri malu',
+	name       : 'Putri Malu',
 	nilai      : 100 ,
 	air        :  80.2,
 	energi     :  76,
@@ -16118,7 +15902,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Rumput laut',
+	name       : 'Rumput Laut',
 	nilai      : 100 ,
 	air        : 87 ,
 	energi     :  41,
@@ -16172,7 +15956,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Sawi putih',
+	name       : 'Sawi Putih',
 	nilai      : 79 ,
 	air        :  96.6,
 	energi     :  9,
@@ -16226,7 +16010,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Sawi taiwan',
+	name       : 'Sawi Taiwan',
 	nilai      : 85 ,
 	air        :  91.8,
 	energi     :  30,
@@ -16253,7 +16037,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Sawi tanah',
+	name       : 'Sawi Tanah',
 	nilai      : 85 ,
 	air        :  94.9,
 	energi     :  19,
@@ -16308,7 +16092,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Selada air',
+	name       : 'Selada Air',
 	nilai      : 70 ,
 	air        :  93.3,
 	energi     :  17,
@@ -16389,7 +16173,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Taoge kacang kedelai',
+	name       : 'Taoge Kacang Kedelai',
 	nilai      : 100 ,
 	air        :  81,
 	energi     :  76,
@@ -16416,7 +16200,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Taoge kacang tunggak',
+	name       : 'Taoge Kacang Tunggak',
 	nilai      : 90 ,
 	air        : 88 ,
 	energi     :  40,
@@ -16443,7 +16227,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Tebu terubuk',
+	name       : 'Tebu Terubuk',
 	nilai      : 20 ,
 	air        :  91,
 	energi     :  30,
@@ -16467,33 +16251,6 @@ const bddDatas = [
 	niasin     :  1.2,
 	vitaminc   :  50,
 	kode       : 'DR151 '
-},
-
-{
-	name       : 'Tekokak',
-	nilai      : 95 ,
-	air        :  89,
-	energi     :  34,
-	protein    :  2,
-	lemak      :  0.1,
-	kh         :  7.9,
-	serat      :  4.9,
-	abu        :  1,
-	kalsium    :  50,
-	fosfor     :  30,
-	besi       :  2,
-	natrium    :  2.9,
-	kalium     :  333.3,
-	tembaga    :  0.12,
-	seng       :  0.2,
-	retinol    : '0' ,
-	betakaroten: 23 ,
-	kartotal   :  750,
-	thamin     :  0.08,
-	riboflavin :  0.05,
-	niasin     :  0.9,
-	vitaminc   :  8,
-	kode       : 'DR152 '
 },
 
 {
@@ -16524,35 +16281,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Tekokak kering',
-	nilai      : 100 ,
-	air        :  12.3,
-	energi     :  302,
-	protein    :  8.3,
-	lemak      :  1.7,
-	kh         :  72.6,
-	serat      :  21.2,
-	abu        :  8.1,
-	kalsium    :  370,
-	fosfor     :  180,
-	besi       :  22.2,
-	natrium    :  8.5,
-	kalium     :  0,
-	tembaga    :  1044.2,
-	seng       :  1,
-	retinol    : '0' ,
-	betakaroten: 187 ,
-	kartotal   : 750 ,
-	thamin     : 0.4 ,
-	riboflavin :  0.17,
-	niasin     :  5.1,
-	vitaminc   : 0 ,
-	kode       : 'DR153 '
-},
-
-
-{
-	name       : 'Takokak kering',
+	name       : 'Takokak Kering',
 	nilai      : 100 ,
 	air        :  12.3,
 	energi     :  302,
@@ -16606,7 +16335,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Terong asam',
+	name       : 'Terong Asam',
 	nilai      : 100 ,
 	air        :  9.5,
 	energi     :  37,
@@ -16633,7 +16362,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Terung belanda',
+	name       : 'Terung Belanda',
 	nilai      : 100 ,
 	air        :  87.3,
 	energi     :  52,
@@ -16660,7 +16389,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Terung bengkulu',
+	name       : 'Terung Bengkulu',
 	nilai      : 100 ,
 	air        :  86.6,
 	energi     :  52,
@@ -16687,7 +16416,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Terong hintalo',
+	name       : 'Terong Hintalo',
 	nilai      : 100 ,
 	air        :  89.2,
 	energi     :  45,
@@ -16714,7 +16443,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Terung panjang',
+	name       : 'Terung Panjang',
 	nilai      : 100 ,
 	air        :  91.8,
 	energi     :  25,
@@ -16741,7 +16470,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Sari tomat',
+	name       : 'Sari Tomat',
 	nilai      : 100 ,
 	air        :  94,
 	energi     :  20,
@@ -16768,7 +16497,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Tomat merah',
+	name       : 'Tomat Merah',
 	nilai      : 100 ,
 	air        :  92.9,
 	energi     :  24,
@@ -16795,7 +16524,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Tomat muda',
+	name       : 'Tomat Muda',
 	nilai      : 95 ,
 	air        :  93,
 	energi     :  24,
@@ -16849,7 +16578,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Bunga melinjo',
+	name       : 'Bunga Melinjo',
 	nilai      : 89 ,
 	air        :  79.5,
 	energi     :  82,
@@ -16876,7 +16605,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Umbut kelapa',
+	name       : 'Umbut Kelapa',
 	nilai      : 100 ,
 	air        :  89.3,
 	energi     :  39,
@@ -16903,7 +16632,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Umbut rotan',
+	name       : 'Umbut Rotan',
 	nilai      : 100 ,
 	air        :  90.5,
 	energi     :  34,
@@ -16957,7 +16686,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Bayam kukus',
+	name       : 'Bayam Kukus',
 	nilai      : 100 ,
 	air        : 90.7 ,
 	energi     :  30,
@@ -16984,7 +16713,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Bayam rebus',
+	name       : 'Bayam Rebus',
 	nilai      : 100 ,
 	air        :  93.5,
 	energi     :  23,
@@ -17011,7 +16740,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Buncis rebus',
+	name       : 'Buncis Rebus',
 	nilai      : 100 ,
 	air        :  90.6,
 	energi     :  30,
@@ -17038,7 +16767,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun kacang panjang kukus',
+	name       : 'Daun Kacang Panjang Kukus',
 	nilai      : 100 ,
 	air        :  87.2,
 	energi     :  40,
@@ -17065,7 +16794,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun katuk rebus',
+	name       : 'Daun Katuk Rebus',
 	nilai      : 100 ,
 	air        : 83.3 ,
 	energi     :  53,
@@ -17092,7 +16821,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun kelor rebus',
+	name       : 'Daun Kelor Rebus',
 	nilai      : 100 ,
 	air        :  80.3,
 	energi     :  61,
@@ -17119,7 +16848,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun mengkudu kukus',
+	name       : 'Daun Mengkudu Kukus',
 	nilai      : 100 ,
 	air        :  81.6,
 	energi     :  63,
@@ -17146,7 +16875,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun singkong rebus',
+	name       : 'Daun Singkong Rebus',
 	nilai      : 100 ,
 	air        :  90.5,
 	energi     :  31,
@@ -17173,7 +16902,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun talas rebus',
+	name       : 'Daun Talas Rebus',
 	nilai      : 100 ,
 	air        :  91.6,
 	energi     :  27,
@@ -17200,7 +16929,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Daun ubi jalar merah kukus',
+	name       : 'Daun Ubi Jalar Merah Kukus',
 	nilai      : 100 ,
 	air        :  82.5,
 	energi     :  56,
@@ -17227,7 +16956,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kacang panjang kukus',
+	name       : 'Kacang Panjang Kukus',
 	nilai      : 100 ,
 	air        :  88.2,
 	energi     :  39,
@@ -17254,7 +16983,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kacang panjang rebus',
+	name       : 'Kacang Panjang Rebus',
 	nilai      : 100 ,
 	air        :  90.9,
 	energi     :  30,
@@ -17281,7 +17010,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kangkung kukus',
+	name       : 'Kangkung Kukus',
 	nilai      : 100 ,
 	air        :  90.4,
 	energi     :  30,
@@ -17308,7 +17037,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kangkung rebus',
+	name       : 'Kangkung Rebus',
 	nilai      : 100 ,
 	air        :  93,
 	energi     :  22,
@@ -17335,7 +17064,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Paria putih kukus',
+	name       : 'Paria Putih Kukus',
 	nilai      : 100 ,
 	air        :  95,
 	energi     :  16,
@@ -17362,7 +17091,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Selada rebus',
+	name       : 'Selada Rebus',
 	nilai      : 100 ,
 	air        :  93.5,
 	energi     :  19,
@@ -17389,7 +17118,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Taoge goreng',
+	name       : 'Taoge Goreng',
 	nilai      : 100 ,
 	air        :  79.2,
 	energi     :  88,
@@ -17416,7 +17145,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Toge goreng',
+	name       : 'Toge Goreng',
 	nilai      : 100 ,
 	air        :  79.2,
 	energi     :  88,
@@ -17443,7 +17172,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Taoge seduh',
+	name       : 'Taoge Seduh',
 	nilai      : 87 ,
 	air        :  91.9,
 	energi     :  28,
@@ -17470,7 +17199,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Toge seduh',
+	name       : 'Toge Seduh',
 	nilai      : 87 ,
 	air        :  91.9,
 	energi     :  28,
@@ -17497,7 +17226,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Terung panjang kukus',
+	name       : 'Terung Panjang Kukus',
 	nilai      : 100 ,
 	air        :  92.7,
 	energi     :  23,
@@ -17524,7 +17253,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Terong kukus',
+	name       : 'Terong Kukus',
 	nilai      : 100 ,
 	air        :  92.7,
 	energi     :  23,
@@ -17551,7 +17280,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Wortel rebus',
+	name       : 'Wortel Rebus',
 	nilai      : 100 ,
 	air        :  92.1,
 	energi     :  28,
@@ -17578,7 +17307,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Wortel kukus',
+	name       : 'Wortel Kukus',
 	nilai      : 100 ,
 	air        : 89.5 ,
 	energi     :  37,
@@ -17605,7 +17334,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Asinan bogor',
+	name       : 'Asinan Bogor',
 	nilai      : 100 ,
 	air        :  78,
 	energi     :  98,
@@ -17686,7 +17415,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Arwan sirsir',
+	name       : 'Arwan Sirsir',
 	nilai      : 100 ,
 	air        : 59 ,
 	energi     :  277,
@@ -17740,7 +17469,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Botok lamtoro',
+	name       : 'Botok Lamtoro',
 	nilai      : 100 ,
 	air        :  63.9,
 	energi     :  186,
@@ -17767,7 +17496,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Buntil daun talas',
+	name       : 'Buntil Daun Talas',
 	nilai      : 100 ,
 	air        : 74.5 ,
 	energi     :  141,
@@ -17821,7 +17550,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Cap cai sayur',
+	name       : 'Cap Cai Sayur',
 	nilai      : 100 ,
 	air        :  82.7,
 	energi     :  97,
@@ -17848,7 +17577,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Gado-gado',
+	name       : 'Gado-Gado',
 	nilai      : 100 ,
 	air        : 68.5 ,
 	energi     :  137,
@@ -17875,7 +17604,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Gudeg sayur',
+	name       : 'Gudeg Sayur',
 	nilai      : 100 ,
 	air        :  69.2,
 	energi     :  160,
@@ -17902,7 +17631,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Gulai pakis',
+	name       : 'Gulai Pakis',
 	nilai      : 100 ,
 	air        :  76.1,
 	energi     :  143,
@@ -17929,7 +17658,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Gulai pliek',
+	name       : 'Gulai Pliek',
 	nilai      : 100 ,
 	air        :  71.9,
 	energi     :  176,
@@ -17956,7 +17685,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kadada katembe',
+	name       : 'Kadada Katembe',
 	nilai      : 100 ,
 	air        :  80,
 	energi     :  110,
@@ -17983,7 +17712,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kaparende sayur',
+	name       : 'Kaparende Sayur',
 	nilai      : 100 ,
 	air        :  91.7,
 	energi     :  38,
@@ -18010,7 +17739,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Karedok sayur',
+	name       : 'Karedok Sayur',
 	nilai      : 100 ,
 	air        :  79,
 	energi     :  92,
@@ -18037,7 +17766,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Keripik bayam',
+	name       : 'Keripik Bayam',
 	nilai      : 100 ,
 	air        :  2.3,
 	energi     :  586,
@@ -18064,7 +17793,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Kotiu hinela tawang nggole',
+	name       : 'Kotiu Hinela Tawang Nggole',
 	nilai      : 100 ,
 	air        :  88.4,
 	energi     :  46,
@@ -18118,7 +17847,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Rebung asam',
+	name       : 'Rebung Asam',
 	nilai      : 100 ,
 	air        : 96.3 ,
 	energi     :  15,
@@ -18145,7 +17874,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Lilin bungkus gedi',
+	name       : 'Lilin Bungkus Gedi',
 	nilai      : 100 ,
 	air        :  84.8,
 	energi     :  79,
@@ -18172,7 +17901,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Olah-olah-olah',
+	name       : 'Olah-Olah-Olah',
 	nilai      : 100 ,
 	air        :  83.9,
 	energi     :  9,
@@ -18199,7 +17928,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Paku hinela wulelenggapaya',
+	name       : 'Paku Hinela Wulelenggapaya',
 	nilai      : 100 ,
 	air        :  83.4,
 	energi     :  77,
@@ -18226,7 +17955,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Plecing kangkung',
+	name       : 'Plecing Kangkung',
 	nilai      : 100 ,
 	air        :  83.8,
 	energi     :  75,
@@ -18280,7 +18009,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Rujak cingur',
+	name       : 'Rujak Cingur',
 	nilai      : 100 ,
 	air        :  70.1,
 	energi     :  153,
@@ -18307,7 +18036,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Sayur asem',
+	name       : 'Sayur Asem',
 	nilai      : 100 ,
 	air        :  93.2,
 	energi     :  29,
@@ -18334,7 +18063,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Sayur bunga pepaya',
+	name       : 'Sayur Bunga Pepaya',
 	nilai      : 100 ,
 	air        :  83.4,
 	energi     :  49,
@@ -18361,7 +18090,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Sayur garu',
+	name       : 'Sayur Garu',
 	nilai      : 100 ,
 	air        :  70.8,
 	energi     :  178,
@@ -18388,7 +18117,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Sayur kohu-kohu',
+	name       : 'Sayur Kohu-Kohu',
 	nilai      : 100 ,
 	air        :  72.8,
 	energi     :  133,
@@ -18415,7 +18144,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Sayur lilin-terubuk',
+	name       : 'Sayur Lilin-Terubuk',
 	nilai      : 100 ,
 	air        :  90.4,
 	energi     :  36,
@@ -18442,7 +18171,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Sayur ndusuk',
+	name       : 'Sayur Ndusuk',
 	nilai      : 100 ,
 	air        :  87.5,
 	energi     :  49,
@@ -18469,7 +18198,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Sayur sop',
+	name       : 'Sayur Sop',
 	nilai      : 100 ,
 	air        :  92.7,
 	energi     :  27,
@@ -18496,7 +18225,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Sayur umbut kelapa',
+	name       : 'Sayur Umbut Kelapa',
 	nilai      : 100 ,
 	air        :  85.5,
 	energi     :  67,
@@ -18523,7 +18252,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Sayur umbut rotan',
+	name       : 'Sayur Umbut Rotan',
 	nilai      : 100 ,
 	air        :  87.6,
 	energi     :  57,
@@ -18550,7 +18279,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Shabu-shabu',
+	name       : 'Shabu-Shabu',
 	nilai      : 100 ,
 	air        :  87.1,
 	energi     :  88,
@@ -18577,7 +18306,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Semur jengkol',
+	name       : 'Semur Jengkol',
 	nilai      : 100 ,
 	air        :  52.7,
 	energi     :  212,
@@ -18604,7 +18333,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Tinira ninahu nggaluku',
+	name       : 'Tinira Ninahu Nggaluku',
 	nilai      : 100 ,
 	air        :  91.8,
 	energi     :  33,
@@ -18631,7 +18360,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Tumis bayam bersantan',
+	name       : 'Tumis Bayam Bersantan',
 	nilai      : 100 ,
 	air        :  91.2,
 	energi     :  48,
@@ -18658,7 +18387,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Waluh balamak',
+	name       : 'Waluh Balamak',
 	nilai      : 100 ,
 	air        :  89.4,
 	energi     :  45,
@@ -18685,7 +18414,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Woku ubi',
+	name       : 'Woku Ubi',
 	nilai      : 100 ,
 	air        :  73,
 	energi     :  143,
@@ -18741,7 +18470,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Anggur hutan',
+	name       : 'Anggur Hutan',
 	nilai      : 100 ,
 	air        :  92,
 	energi     :  30,
@@ -18768,7 +18497,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Apel malang',
+	name       : 'Apel Malang',
 	nilai      : 88 ,
 	air        :  86,
 	energi     :  57,
@@ -18903,7 +18632,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Buah atung',
+	name       : 'Buah Atung',
 	nilai      : 80 ,
 	air        :  92,
 	energi     :  23,
@@ -18930,7 +18659,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Buah kelenting',
+	name       : 'Buah Kelenting',
 	nilai      : 77 ,
 	air        :  74,
 	energi     :  110,
@@ -18984,7 +18713,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Buah kom',
+	name       : 'Buah Kom',
 	nilai      : 100 ,
 	air        :  34,
 	energi     :  264,
@@ -19011,7 +18740,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Buah mentega',
+	name       : 'Buah Mentega',
 	nilai      : 50 ,
 	air        :  89,
 	energi     :  39,
@@ -19038,7 +18767,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Buah naga merah',
+	name       : 'Buah Naga Merah',
 	nilai      : 66.5 ,
 	air        :  86,
 	energi     :  71,
@@ -19065,7 +18794,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Buah naga putih',
+	name       : 'Buah Naga Putih',
 	nilai      : 73.6 ,
 	air        :  87,
 	energi     :  56,
@@ -19092,7 +18821,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Buah negri',
+	name       : 'Buah Negri',
 	nilai      : 48 ,
 	air        :  86,
 	energi     :  55,
@@ -19119,7 +18848,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Buah nona',
+	name       : 'Buah Nona',
 	nilai      : 58 ,
 	air        :  72,
 	energi     :  101,
@@ -19146,7 +18875,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Buah rotan',
+	name       : 'Buah Rotan',
 	nilai      : 100 ,
 	air        :  79,
 	energi     :  78,
@@ -19173,7 +18902,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Buah rukam',
+	name       : 'Buah Rukam',
 	nilai      : 100 ,
 	air        :  71,
 	energi     :  113,
@@ -19200,7 +18929,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Buah ruruhi',
+	name       : 'Buah Ruruhi',
 	nilai      : 82 ,
 	air        :  93,
 	energi     :  29,
@@ -19227,7 +18956,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Buah tuppa',
+	name       : 'Buah Tuppa',
 	nilai      : 100 ,
 	air        :  83,
 	energi     :  67,
@@ -19254,7 +18983,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Carica papaya',
+	name       : 'Carica Papaya',
 	nilai      : 60 ,
 	air        :  93,
 	energi     :  24,
@@ -19470,7 +19199,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Encung asam',
+	name       : 'Encung Asam',
 	nilai      : 98 ,
 	air        :  73,
 	energi     :  122,
@@ -19524,7 +19253,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Gandaria masak',
+	name       : 'Gandaria Masak',
 	nilai      : 70 ,
 	air        :  81,
 	energi     :  68,
@@ -19578,7 +19307,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jambu air',
+	name       : 'Jambu Air',
 	nilai      : 90 ,
 	air        :  87,
 	energi     :  46,
@@ -19605,7 +19334,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jambu biji',
+	name       : 'Jambu Biji',
 	nilai      : 82 ,
 	air        :  86,
 	energi     :  64,
@@ -19632,7 +19361,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jambu biji putih tidak berbiji',
+	name       : 'Jambu Biji Putih Tidak Berbiji',
 	nilai      : 82 ,
 	air        :  83,
 	energi     :  61,
@@ -19659,7 +19388,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jambu kristal',
+	name       : 'Jambu Kristal',
 	nilai      : 82 ,
 	air        :  83,
 	energi     :  61,
@@ -19686,7 +19415,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jambu bol',
+	name       : 'Jambu Bol',
 	nilai      : 67 ,
 	air        :  87,
 	energi     :  49,
@@ -19713,7 +19442,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jambu monyet',
+	name       : 'Jambu Monyet',
 	nilai      : 90 ,
 	air        :  83,
 	energi     :  49,
@@ -19740,7 +19469,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jeruk bali',
+	name       : 'Jeruk Bali',
 	nilai      : 62 ,
 	air        :  86,
 	energi     :  48,
@@ -19767,7 +19496,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jeruk banjar',
+	name       : 'Jeruk Banjar',
 	nilai      : 72 ,
 	air        :  85,
 	energi     :  61,
@@ -19794,7 +19523,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jeruk garut',
+	name       : 'Jeruk Garut',
 	nilai      : 71 ,
 	air        :  87,
 	energi     :  44,
@@ -19821,7 +19550,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'Jeruk keprok',
+	name       : 'Jeruk Keprok',
 	nilai      : 71 ,
 	air        :  87,
 	energi     :  44,
@@ -19848,7 +19577,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'jeruk kalamansi',
+	name       : 'Jeruk Kalamansi',
 	nilai      : 100 ,
 	air        :  90,
 	energi     :  39,
@@ -19875,7 +19604,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'jeruk manis',
+	name       : 'Jeruk Manis',
 	nilai      : 72 ,
 	air        :  87,
 	energi     :  45,
@@ -19902,7 +19631,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'jeruk',
+	name       : 'Jeruk',
 	nilai      : 72 ,
 	air        :  87,
 	energi     :  45,
@@ -19929,7 +19658,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'jeruk nipis',
+	name       : 'Jeruk Nipis',
 	nilai      : 76 ,
 	air        :  89,
 	energi     :  44,
@@ -19956,7 +19685,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'jeruk ragi',
+	name       : 'Jeruk Ragi',
 	nilai      : 59 ,
 	air        :  88,
 	energi     :  49,
@@ -19983,7 +19712,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kawista',
+	name       : 'Kawista',
 	nilai      : 72 ,
 	air        :  72,
 	energi     :  120,
@@ -20010,7 +19739,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kedondong masak',
+	name       : 'Kedondong Masak',
 	nilai      : 58 ,
 	air        :  88,
 	energi     :  46,
@@ -20037,7 +19766,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kedondong',
+	name       : 'Kedondong',
 	nilai      : 58 ,
 	air        :  88,
 	energi     :  47,
@@ -20064,7 +19793,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kelapa hutan',
+	name       : 'Kelapa Hutan',
 	nilai      : 100 ,
 	air        :  6,
 	energi     :  623,
@@ -20091,7 +19820,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kelapa muda',
+	name       : 'Kelapa Muda',
 	nilai      : 53 ,
 	air        :  83,
 	energi     :  68,
@@ -20118,7 +19847,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'degan',
+	name       : 'Degan',
 	nilai      : 53 ,
 	air        :  83,
 	energi     :  68,
@@ -20145,7 +19874,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kemang',
+	name       : 'Kemang',
 	nilai      : 65 ,
 	air        :  87,
 	energi     :  48,
@@ -20172,7 +19901,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kesemek',
+	name       : 'Kesemek',
 	nilai      : 97 ,
 	air        :  78,
 	energi     :  78,
@@ -20199,7 +19928,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kokosan',
+	name       : 'Kokosan',
 	nilai      : 64 ,
 	air        :  85,
 	energi     :  86,
@@ -20226,7 +19955,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kranji',
+	name       : 'Kranji',
 	nilai      : 31 ,
 	air        :  20,
 	energi     :  315,
@@ -20253,7 +19982,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'langsat',
+	name       : 'Langsat',
 	nilai      : 64 ,
 	air        :  84,
 	energi     :  56,
@@ -20280,7 +20009,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'lemon',
+	name       : 'Lemon',
 	nilai      : 100 ,
 	air        :  92,
 	energi     :  34,
@@ -20307,7 +20036,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'jeruk lemon',
+	name       : 'Jeruk Lemon',
 	nilai      : 100 ,
 	air        :  92,
 	energi     :  34,
@@ -20334,7 +20063,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'lontar',
+	name       : 'Lontar',
 	nilai      : 79 ,
 	air        :  93,
 	energi     :  27,
@@ -20361,7 +20090,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mangga',
+	name       : 'Mangga',
 	nilai      : 65 ,
 	air        : 87 ,
 	energi     :  52,
@@ -20388,7 +20117,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mangga benggala',
+	name       : 'Mangga Benggala',
 	nilai      : 65 ,
 	air        :  84,
 	energi     :  63,
@@ -20415,7 +20144,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mangga gedung',
+	name       : 'Mangga Gedung',
 	nilai      : 65 ,
 	air        :  87,
 	energi     :  44,
@@ -20442,7 +20171,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mangga gedong',
+	name       : 'Mangga Gedong',
 	nilai      : 65 ,
 	air        :  87,
 	energi     :  44,
@@ -20469,7 +20198,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mangga gedong gincu',
+	name       : 'Mangga Gedong Gincu',
 	nilai      : 65 ,
 	air        :  87,
 	energi     :  44,
@@ -20496,7 +20225,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mangga golek',
+	name       : 'Mangga Golek',
 	nilai      : 65 ,
 	air        :  82,
 	energi     :  63,
@@ -20523,7 +20252,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mangga harumanis',
+	name       : 'Mangga Harumanis',
 	nilai      : 65 ,
 	air        :  87,
 	energi     :  46,
@@ -20550,7 +20279,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mangga arumanis',
+	name       : 'Mangga Arumanis',
 	nilai      : 65 ,
 	air        :  87,
 	energi     :  46,
@@ -20577,7 +20306,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mangga indramayu',
+	name       : 'Mangga Indramayu',
 	nilai      : 65 ,
 	air        :  80,
 	energi     :  72,
@@ -20604,7 +20333,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mangga gadung',
+	name       : 'Mangga Gadung',
 	nilai      : 65 ,
 	air        :  80,
 	energi     :  72,
@@ -20631,7 +20360,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mangga kopek',
+	name       : 'Mangga Kopek',
 	nilai      : 65 ,
 	air        :  85,
 	energi     :  56,
@@ -20658,7 +20387,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mangga kwini',
+	name       : 'Mangga Kwini',
 	nilai      : 65 ,
 	air        :  79,
 	energi     :  86,
@@ -20685,7 +20414,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mangga manalagi',
+	name       : 'Mangga Manalagi',
 	nilai      : 65 ,
 	air        :  67,
 	energi     :  133,
@@ -20712,7 +20441,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mangga muda',
+	name       : 'Mangga Muda',
 	nilai      : 73 ,
 	air        :  84,
 	energi     :  59,
@@ -20739,7 +20468,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pelem',
+	name       : 'Pelem',
 	nilai      : 73 ,
 	air        :  84,
 	energi     :  59,
@@ -20766,7 +20495,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'manggis',
+	name       : 'Manggis',
 	nilai      : 29 ,
 	air        :  83,
 	energi     :  63,
@@ -20793,7 +20522,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'markisa',
+	name       : 'Markisa',
 	nilai      : 48 ,
 	air        :  65,
 	energi     :  144,
@@ -20820,7 +20549,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'matoa',
+	name       : 'Matoa',
 	nilai      : 40 ,
 	air        :  77,
 	energi     :  90,
@@ -20847,7 +20576,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'melon',
+	name       : 'Melon',
 	nilai      : 58.1 ,
 	air        :  91,
 	energi     :  37,
@@ -20874,7 +20603,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'menteng',
+	name       : 'Menteng',
 	nilai      : 64 ,
 	air        :  79,
 	energi     :  65,
@@ -20901,7 +20630,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'nanas palembang',
+	name       : 'Nanas Palembang',
 	nilai      : 53 ,
 	air        :  86,
 	energi     :  58,
@@ -20928,7 +20657,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'nanas',
+	name       : 'Nanas',
 	nilai      : 53 ,
 	air        :  89,
 	energi     :  40,
@@ -20955,7 +20684,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'nangka masak',
+	name       : 'Nangka Masak',
 	nilai      : 28 ,
 	air        :  70,
 	energi     :  106,
@@ -20982,7 +20711,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'nangka',
+	name       : 'Nangka',
 	nilai      : 28 ,
 	air        :  70,
 	energi     :  106,
@@ -21009,7 +20738,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'buah pala',
+	name       : 'Buah Pala',
 	nilai      : 30 ,
 	air        :  88,
 	energi     :  42,
@@ -21036,7 +20765,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pepaya',
+	name       : 'Pepaya',
 	nilai      : 75 ,
 	air        :  87,
 	energi     :  46,
@@ -21063,7 +20792,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang ambon',
+	name       : 'Pisang Ambon',
 	nilai      : 75 ,
 	air        :  73,
 	energi     :  108,
@@ -21090,7 +20819,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang angleng',
+	name       : 'Pisang Angleng',
 	nilai      : 75 ,
 	air        :  80,
 	energi     :  68,
@@ -21117,7 +20846,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang ampyang',
+	name       : 'Pisang Ampyang',
 	nilai      : 75 ,
 	air        :  80,
 	energi     :  68,
@@ -21144,7 +20873,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang ayam',
+	name       : 'Pisang Ayam',
 	nilai      : 75 ,
 	air        :  71,
 	energi     :  120,
@@ -21171,7 +20900,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang gapi',
+	name       : 'Pisang Gapi',
 	nilai      : 75 ,
 	air        :  66,
 	energi     :  131,
@@ -21198,7 +20927,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang goroho',
+	name       : 'Pisang Goroho',
 	nilai      : 75 ,
 	air        :  69,
 	energi     :  119,
@@ -21225,7 +20954,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang hijau',
+	name       : 'Pisang Hijau',
 	nilai      : 72 ,
 	air        : 69 ,
 	energi     :  121,
@@ -21252,7 +20981,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang kayu',
+	name       : 'Pisang Kayu',
 	nilai      : 75 ,
 	air        :  74,
 	energi     :  100,
@@ -21279,7 +21008,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang kepok',
+	name       : 'Pisang Kepok',
 	nilai      : 75 ,
 	air        :  72,
 	energi     :  109,
@@ -21306,7 +21035,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang ketip',
+	name       : 'Pisang Ketip',
 	nilai      : 75 ,
 	air        :  63,
 	energi     :  145,
@@ -21333,7 +21062,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang kidang',
+	name       : 'Pisang Kidang',
 	nilai      : 70 ,
 	air        :  75,
 	energi     :  96,
@@ -21360,7 +21089,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang lampung',
+	name       : 'Pisang Lampung',
 	nilai      : 75 ,
 	air        :  72,
 	energi     :  99,
@@ -21387,7 +21116,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang mas bali ampenan',
+	name       : 'Pisang Mas Bali Ampenan',
 	nilai      : 75 ,
 	air        :  77,
 	energi     :  92,
@@ -21414,7 +21143,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang mas bali kopang',
+	name       : 'Pisang Mas Bali Kopang',
 	nilai      : 75 ,
 	air        :  64,
 	energi     :  127,
@@ -21441,7 +21170,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang mas',
+	name       : 'Pisang Mas',
 	nilai      : 85 ,
 	air        :  64,
 	energi     :  127,
@@ -21468,7 +21197,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'terong raja sereh',
+	name       : 'Terong Raja Sereh',
 	nilai      : 86 ,
 	air        : 69 ,
 	energi     :  108,
@@ -21495,7 +21224,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang raja',
+	name       : 'Pisang Raja',
 	nilai      : 70 ,
 	air        :  66,
 	energi     :  120,
@@ -21522,7 +21251,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang rotan',
+	name       : 'Pisang Rotan',
 	nilai      : 56 ,
 	air        :  76,
 	energi     :  98,
@@ -21549,7 +21278,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang talas',
+	name       : 'Pisang Talas',
 	nilai      : 75 ,
 	air        :  71,
 	energi     :  113,
@@ -21576,7 +21305,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang tujuh bulan',
+	name       : 'Pisang Tujuh Bulan',
 	nilai      : 75 ,
 	air        :  76,
 	energi     :  94,
@@ -21603,7 +21332,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang ua',
+	name       : 'Pisang Ua',
 	nilai      : 75 ,
 	air        :  68,
 	energi     :  128,
@@ -21630,7 +21359,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'pisang uli',
+	name       : 'Pisang Uli',
 	nilai      : 77 ,
 	air        :  62,
 	energi     :  134,
@@ -21657,7 +21386,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'purut',
+	name       : 'Purut',
 	nilai      : 34 ,
 	air        :  81,
 	energi     :  76,
@@ -21684,7 +21413,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'jeruk purut',
+	name       : 'Jeruk Purut',
 	nilai      : 34 ,
 	air        :  81,
 	energi     :  76,
@@ -21711,7 +21440,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'rambutan binjai',
+	name       : 'Rambutan Binjai',
 	nilai      : 40 ,
 	air        :  81,
 	energi     :  76,
@@ -21738,7 +21467,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'rambutan',
+	name       : 'Rambutan',
 	nilai      : 40 ,
 	air        :  81,
 	energi     :  69,
@@ -21765,7 +21494,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'salak bali',
+	name       : 'Salak Bali',
 	nilai      : 93 ,
 	air        :  85,
 	energi     :  57,
@@ -21793,7 +21522,7 @@ const bddDatas = [
 
 
 {
-	name       : 'salak medan',
+	name       : 'Salak Medan',
 	nilai      : 93,
 	air        :  78,
 	energi     :  55,
@@ -21820,7 +21549,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'salak pondoh',
+	name       : 'Salak Pondoh',
 	nilai      : 59 ,
 	air        : 78 ,
 	energi     : 87 ,
@@ -21847,7 +21576,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'salak pondo',
+	name       : 'Salak Pondo',
 	nilai      : 59 ,
 	air        : 78 ,
 	energi     : 87 ,
@@ -21874,7 +21603,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'salak pondok',
+	name       : 'Salak Pondok',
 	nilai      : 59 ,
 	air        : 78 ,
 	energi     : 87 ,
@@ -21901,7 +21630,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'salak',
+	name       : 'Salak',
 	nilai      : 93 ,
 	air        :  78,
 	energi     :  77,
@@ -21928,7 +21657,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sawo duren',
+	name       : 'Sawo Duren',
 	nilai      : 64 ,
 	air        :  87,
 	energi     :  64,
@@ -21955,7 +21684,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sawo kecik',
+	name       : 'Sawo Kecik',
 	nilai      : 83 ,
 	air        :  74,
 	energi     :  111,
@@ -21982,7 +21711,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sawo manila',
+	name       : 'Sawo Manila',
 	nilai      : 79 ,
 	air        :  76,
 	energi     :  92,
@@ -22009,7 +21738,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'semangka',
+	name       : 'Semangka',
 	nilai      : 46 ,
 	air        :  92,
 	energi     :  28,
@@ -22036,7 +21765,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sirsak',
+	name       : 'Sirsak',
 	nilai      : 68 ,
 	air        : 82 ,
 	energi     :  65,
@@ -22063,7 +21792,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sowa',
+	name       : 'Sowa',
 	nilai      : 100 ,
 	air        :  88,
 	energi     :  48,
@@ -22090,7 +21819,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'srikaya',
+	name       : 'Srikaya',
 	nilai      : 48 ,
 	air        :  83,
 	energi     :  63,
@@ -22117,7 +21846,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sukun muda',
+	name       : 'Sukun Muda',
 	nilai      : 84 ,
 	air        :  69,
 	energi     :  119,
@@ -22144,7 +21873,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sukun tua',
+	name       : 'Sukun Tua',
 	nilai      : 88 ,
 	air        :  68,
 	energi     :  126,
@@ -22171,7 +21900,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sukun',
+	name       : 'Sukun',
 	nilai      : 88 ,
 	air        :  68,
 	energi     :  126,
@@ -22198,7 +21927,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'vigus',
+	name       : 'Vigus',
 	nilai      : 100 ,
 	air        : 88 ,
 	energi     :  44,
@@ -22225,7 +21954,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'wani',
+	name       : 'Wani',
 	nilai      : 77 ,
 	air        :  81,
 	energi     :  74,
@@ -22252,7 +21981,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'barongko',
+	name       : 'Barongko',
 	nilai      : 100 ,
 	air        :  67,
 	energi     :  159,
@@ -22279,7 +22008,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'dodol nanas',
+	name       : 'Dodol Nanas',
 	nilai      : 100 ,
 	air        :  16,
 	energi     :  338,
@@ -22306,7 +22035,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'getuk pisang',
+	name       : 'Getuk Pisang',
 	nilai      : 100 ,
 	air        : 64 ,
 	energi     :  144,
@@ -22332,7 +22061,7 @@ const bddDatas = [
 	kode       : 'EP003 '
 },
 {
-	name       : 'keripik lampung',
+	name       : 'Keripik Lampung',
 	nilai      : 100 ,
 	air        :  5,
 	energi     :  485,
@@ -22358,7 +22087,7 @@ const bddDatas = [
 	kode       : 'EP004 '
 },
 {
-	name       : 'ledre pisang',
+	name       : 'Ledre Pisang',
 	nilai      : 100 ,
 	air        :  4,
 	energi     :  405,
@@ -22384,7 +22113,7 @@ const bddDatas = [
 	kode       : 'EP005 '
 },
 {
-	name       : 'lempog durian',
+	name       : 'Lempog Durian',
 	nilai      : 100 ,
 	air        :  25,
 	energi     :  320,
@@ -22410,7 +22139,7 @@ const bddDatas = [
 	kode       : 'EP006 '
 },
 {
-	name       : 'loka anjoro',
+	name       : 'Loka Anjoro',
 	nilai      : 100 ,
 	air        :  63,
 	energi     :  163,
@@ -22436,7 +22165,7 @@ const bddDatas = [
 	kode       : 'EP007 '
 },
 {
-	name       : 'rica-rica taipa',
+	name       : 'Rica-Rica Taipa',
 	nilai      : 100 ,
 	air        :  87,
 	energi     :  49,
@@ -22462,7 +22191,7 @@ const bddDatas = [
 	kode       : 'EP008 '
 },
 {
-	name       : 'rujak aceh',
+	name       : 'Rujak Aceh',
 	nilai      : 100 ,
 	air        :  79,
 	energi     :  82,
@@ -22488,7 +22217,7 @@ const bddDatas = [
 	kode       : 'EP009 '
 },
 {
-	name       : 'sale kesemek',
+	name       : 'Sale Kesemek',
 	nilai      : 100 ,
 	air        :  25,
 	energi     :  296,
@@ -22514,7 +22243,7 @@ const bddDatas = [
 	kode       : 'EP010 '
 },
 {
-	name       : 'sale pisang siam',
+	name       : 'Sale Pisang Siam',
 	nilai      : 100 ,
 	air        :  29,
 	energi     :  281,
@@ -22540,7 +22269,7 @@ const bddDatas = [
 	kode       : 'EP011 '
 },
 {
-	name       : 'sale pisang cilacap',
+	name       : 'Sale Pisang Cilacap',
 	nilai      : 100 ,
 	air        :  27,
 	energi     :  295,
@@ -22566,7 +22295,7 @@ const bddDatas = [
 	kode       : 'EP012 '
 },
 {
-	name       : 'sanggara belanda',
+	name       : 'Sanggara Belanda',
 	nilai      : 100 ,
 	air        :  47,
 	energi     :  242,
@@ -22592,7 +22321,7 @@ const bddDatas = [
 	kode       : 'EP013 '
 },
 {
-	name       : 'tepung pisang',
+	name       : 'Tepung Pisang',
 	nilai      : 100 ,
 	air        :  14,
 	energi     :  338,
@@ -22618,7 +22347,7 @@ const bddDatas = [
 	kode       : 'EP014 '
 },
 {
-	name       : 'tepung sukun',
+	name       : 'Tepung Sukun',
 	nilai      : 100 ,
 	air        :  10,
 	energi     :  353,
@@ -22646,7 +22375,7 @@ const bddDatas = [
 
 // daging, unggas dan hasil olahannya
 {
-	name       : 'daging anak sapi gemuk',
+	name       : 'Daging Anak Sapi Gemuk',
 	nilai      : 100 ,
 	air        : 62 ,
 	energi     :  184,
@@ -22672,7 +22401,7 @@ const bddDatas = [
 	kode       : 'FR001 '
 },
 {
-	name       : 'daging anak sapi',
+	name       : 'Daging Anak Sapi',
 	nilai      : 100 ,
 	air        : 62 ,
 	energi     :  184,
@@ -22698,7 +22427,7 @@ const bddDatas = [
 	kode       : 'FR001 '
 },
 {
-	name       : 'anak sapi',
+	name       : 'Anak Sapi',
 	nilai      : 100 ,
 	air        : 62 ,
 	energi     :  184,
@@ -22724,7 +22453,7 @@ const bddDatas = [
 	kode       : 'FR001 '
 },
 {
-	name       : 'daging anak sapi kurus',
+	name       : 'Daging Anak Sapi Kurus',
 	nilai      : 100 ,
 	air        :  69,
 	energi     :  174,
@@ -22750,7 +22479,7 @@ const bddDatas = [
 	kode       : 'FR002 '
 },
 {
-	name       : 'daging anak sapi sedang',
+	name       : 'Daging Anak Sapi Sedang',
 	nilai      : 100 ,
 	air        :  68,
 	energi     :  190,
@@ -22777,7 +22506,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging angsa',
+	name       : 'Daging Angsa',
 	nilai      : 60 ,
 	air        : 51.1 ,
 	energi     :  349,
@@ -22804,7 +22533,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging ayam',
+	name       : 'Daging Ayam',
 	nilai      : 58 ,
 	air        :  55.9,
 	energi     :  298,
@@ -22831,7 +22560,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ayam',
+	name       : 'Ayam',
 	nilai      : 58 ,
 	air        :  55.9,
 	energi     :  298,
@@ -22858,7 +22587,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'darah ayam',
+	name       : 'Darah Ayam',
 	nilai      : 100 ,
 	air        :  82,
 	energi     :  75,
@@ -22885,7 +22614,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'dideh',
+	name       : 'Dideh',
 	nilai      : 100 ,
 	air        :  82,
 	energi     :  75,
@@ -22912,7 +22641,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'hati ayam',
+	name       : 'Hati Ayam',
 	nilai      : 100 ,
 	air        :  53.4,
 	energi     :  261,
@@ -22939,7 +22668,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging babi gemuk',
+	name       : 'Daging Babi Gemuk',
 	nilai      : 100 ,
 	air        : 42 ,
 	energi     :  453,
@@ -22966,7 +22695,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging babi',
+	name       : 'Daging Babi',
 	nilai      : 100 ,
 	air        : 42 ,
 	energi     :  453,
@@ -22993,7 +22722,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'babi',
+	name       : 'Babi',
 	nilai      : 100 ,
 	air        : 42 ,
 	energi     :  453,
@@ -23020,7 +22749,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging babi kurus',
+	name       : 'Daging Babi Kurus',
 	nilai      : 100 ,
 	air        :  50,
 	energi     :  371,
@@ -23047,7 +22776,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ginjal babi',
+	name       : 'Ginjal Babi',
 	nilai      : 100 ,
 	air        :  77.1,
 	energi     :  110,
@@ -23074,7 +22803,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'hati babi',
+	name       : 'Hati Babi',
 	nilai      : 100 ,
 	air        :  72.3,
 	energi     :  129,
@@ -23101,7 +22830,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging bebek',
+	name       : 'Daging Bebek',
 	nilai      : 60 ,
 	air        :  54.3,
 	energi     :  321,
@@ -23128,7 +22857,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging itik',
+	name       : 'Daging Itik',
 	nilai      : 60 ,
 	air        :  54.3,
 	energi     :  321,
@@ -23155,7 +22884,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'bebek',
+	name       : 'Bebek',
 	nilai      : 60 ,
 	air        :  54.3,
 	energi     :  321,
@@ -23182,7 +22911,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'itik',
+	name       : 'Itik',
 	nilai      : 60 ,
 	air        :  54.3,
 	energi     :  321,
@@ -23209,7 +22938,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging bebek alabio',
+	name       : 'Daging Bebek Alabio',
 	nilai      : 100 ,
 	air        : 57 ,
 	energi     :  303,
@@ -23236,7 +22965,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging belibis',
+	name       : 'Daging Belibis',
 	nilai      : 100 ,
 	air        : 71.3 ,
 	energi     :  131,
@@ -23263,7 +22992,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging burung',
+	name       : 'Daging Burung',
 	nilai      : 100 ,
 	air        : 24.8 ,
 	energi     :  281,
@@ -23290,7 +23019,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'burung',
+	name       : 'Burung',
 	nilai      : 100 ,
 	air        : 24.8 ,
 	energi     :  281,
@@ -23317,7 +23046,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging domba gemuk',
+	name       : 'Daging Domba Gemuk',
 	nilai      : 100 ,
 	air        :  55.8,
 	energi     :  317,
@@ -23344,7 +23073,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging domba',
+	name       : 'Daging Domba',
 	nilai      : 100 ,
 	air        :  55.8,
 	energi     :  317,
@@ -23371,7 +23100,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging domba kurus',
+	name       : 'Daging Domba Kurus',
 	nilai      : 100 ,
 	air        :  66.3,
 	energi     :  202,
@@ -23398,7 +23127,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ginjal domba',
+	name       : 'Ginjal Domba',
 	nilai      : 100 ,
 	air        :  77.8,
 	energi     :  100,
@@ -23425,7 +23154,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging kambing',
+	name       : 'Daging Kambing',
 	nilai      : 100 ,
 	air        :  70.3,
 	energi     :  149,
@@ -23452,7 +23181,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging kelinci',
+	name       : 'Daging Kelinci',
 	nilai      : 100 ,
 	air        :  74.3,
 	energi     :  142,
@@ -23479,7 +23208,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging kerbau',
+	name       : 'Daging Kerbau',
 	nilai      : 100 ,
 	air        :  80,
 	energi     :  79,
@@ -23506,7 +23235,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging kuda',
+	name       : 'Daging Kuda',
 	nilai      : 100 ,
 	air        :  76,
 	energi     :  113,
@@ -23533,7 +23262,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'babat sapi',
+	name       : 'Babat Sapi',
 	nilai      : 100 ,
 	air        : 76.7 ,
 	energi     :  108,
@@ -23560,7 +23289,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging sapi gemuk',
+	name       : 'Daging Sapi Gemuk',
 	nilai      : 100 ,
 	air        :  60,
 	energi     :  273,
@@ -23587,7 +23316,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging sapi',
+	name       : 'Daging Sapi',
 	nilai      : 100 ,
 	air        :  60,
 	energi     :  273,
@@ -23614,7 +23343,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging sapi kurus',
+	name       : 'Daging Sapi Kurus',
 	nilai      : 100 ,
 	air        :  69,
 	energi     :  174,
@@ -23641,7 +23370,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'daging sapi lemak sedang',
+	name       : 'Daging Sapi Lemak Sedang',
 	nilai      : 100 ,
 	air        :  66,
 	energi     :  201,
@@ -23668,7 +23397,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'jeroan sapi',
+	name       : 'Jeroan Sapi',
 	nilai      : 100 ,
 	air        :  70.1,
 	energi     :  183,
@@ -23695,7 +23424,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sapi jeroan',
+	name       : 'Sapi Jeroan',
 	nilai      : 100 ,
 	air        :  70.1,
 	energi     :  183,
@@ -23722,7 +23451,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sapi daleman',
+	name       : 'Sapi Daleman',
 	nilai      : 100 ,
 	air        :  70.1,
 	energi     :  183,
@@ -23749,7 +23478,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'darah sapi',
+	name       : 'Darah Sapi',
 	nilai      : 100 ,
 	air        : 75.6 ,
 	energi     :  98,
@@ -23776,7 +23505,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ginjal sapi',
+	name       : 'Ginjal Sapi',
 	nilai      : 100 ,
 	air        :  74.9,
 	energi     :  137,
@@ -23803,7 +23532,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'keleponan sapi',
+	name       : 'Keleponan Sapi',
 	nilai      : 100 ,
 	air        :  83.8,
 	energi     :  84,
@@ -23830,7 +23559,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'liver sapi',
+	name       : 'Liver Sapi',
 	nilai      : 100 ,
 	air        :  69.7,
 	energi     :  132,
@@ -23857,7 +23586,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sapi liver',
+	name       : 'Sapi Liver',
 	nilai      : 100 ,
 	air        :  69.7,
 	energi     :  132,
@@ -23884,7 +23613,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'hati sapi',
+	name       : 'Hati Sapi',
 	nilai      : 100 ,
 	air        :  69.7,
 	energi     :  132,
@@ -23911,7 +23640,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'otak sapi',
+	name       : 'Otak Sapi',
 	nilai      : 100 ,
 	air        :  78.9,
 	energi     :  123,
@@ -23938,7 +23667,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sapi otak',
+	name       : 'Sapi Otak',
 	nilai      : 100 ,
 	air        :  78.9,
 	energi     :  123,
@@ -23965,7 +23694,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'usus sapi',
+	name       : 'Usus Sapi',
 	nilai      : 100 ,
 	air        :  76.7,
 	energi     :  126,
@@ -23992,7 +23721,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ulat sagu',
+	name       : 'Ulat Sagu',
 	nilai      : 100 ,
 	air        :  65.9,
 	energi     :  241,
@@ -24022,7 +23751,7 @@ const bddDatas = [
 // ikan, kerang, udang dan hasil olahannya
 
 {
-	name       : 'belut',
+	name       : 'Belut',
 	nilai      : 100 ,
 	air        :  81.5,
 	energi     :  70,
@@ -24049,7 +23778,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'belut laut',
+	name       : 'Belut Laut',
 	nilai      : 100 ,
 	air        : 79.5 ,
 	energi     :  93,
@@ -24076,7 +23805,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'cumi-cumi',
+	name       : 'Cumi-Cumi',
 	nilai      : 100 ,
 	air        : 82.2 ,
 	energi     :  75,
@@ -24103,7 +23832,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan bader',
+	name       : 'Ikan Bader',
 	nilai      : 100 ,
 	air        :  66,
 	energi     :  193,
@@ -24130,7 +23859,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan balong',
+	name       : 'Ikan Balong',
 	nilai      : 100 ,
 	air        :  76.5,
 	energi     :  107,
@@ -24157,7 +23886,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan bambangan',
+	name       : 'Ikan Bambangan',
 	nilai      : 100 ,
 	air        : 73.7 ,
 	energi     :  112,
@@ -24184,7 +23913,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan bandeng',
+	name       : 'Ikan Bandeng',
 	nilai      : 100 ,
 	air        :  74,
 	energi     :  123,
@@ -24211,7 +23940,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'bandeng',
+	name       : 'Bandeng',
 	nilai      : 100 ,
 	air        :  74,
 	energi     :  123,
@@ -24238,7 +23967,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan banjar',
+	name       : 'Ikan Banjar',
 	nilai      : 100 ,
 	air        :  73.5,
 	energi     :  111,
@@ -24265,7 +23994,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan baronang',
+	name       : 'Ikan Baronang',
 	nilai      : 100 ,
 	air        :  80,
 	energi     :  78,
@@ -24292,7 +24021,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan batung',
+	name       : 'Ikan Batung',
 	nilai      : 100 ,
 	air        :  75.7,
 	energi     :  115,
@@ -24319,7 +24048,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan baung',
+	name       : 'Ikan Baung',
 	nilai      : 100 ,
 	air        :  74.9,
 	energi     :  123,
@@ -24346,7 +24075,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan bawal',
+	name       : 'Ikan Bawal',
 	nilai      : 100 ,
 	air        :  78,
 	energi     :  91,
@@ -24373,7 +24102,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan belida',
+	name       : 'Ikan Belida',
 	nilai      : 100 ,
 	air        :  79.2,
 	energi     :  80,
@@ -24400,7 +24129,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan beunteur',
+	name       : 'Ikan Beunteur',
 	nilai      : 100 ,
 	air        :  70,
 	energi     :  109,
@@ -24427,7 +24156,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan biawan',
+	name       : 'Ikan Biawan',
 	nilai      : 100 ,
 	air        :  79.1,
 	energi     :  90,
@@ -24454,7 +24183,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan bili',
+	name       : 'Ikan Bili',
 	nilai      : 100 ,
 	air        :  68.3,
 	energi     :  88,
@@ -24481,7 +24210,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan bubara',
+	name       : 'Ikan Bubara',
 	nilai      : 100 ,
 	air        :  75.5,
 	energi     :  100,
@@ -24508,7 +24237,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan bulan-bulan',
+	name       : 'Ikan Bulan-Bulan',
 	nilai      : 100 ,
 	air        :  66.7,
 	energi     :  134,
@@ -24535,7 +24264,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan cakalang',
+	name       : 'Ikan Cakalang',
 	nilai      : 100 ,
 	air        :  73,
 	energi     :  107,
@@ -24562,7 +24291,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'hati ikan cakalang',
+	name       : 'Hati Ikan Cakalang',
 	nilai      : 100 ,
 	air        :  73.4,
 	energi     :  120,
@@ -24589,7 +24318,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'jantung ikan cakalang',
+	name       : 'Jantung Ikan Cakalang',
 	nilai      : 100 ,
 	air        : 76.3 ,
 	energi     :  116,
@@ -24616,7 +24345,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'perut ikan cakalang',
+	name       : 'Perut Ikan Cakalang',
 	nilai      : 100 ,
 	air        :  79.1,
 	energi     :  86,
@@ -24643,7 +24372,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan daun',
+	name       : 'Ikan Daun',
 	nilai      : 100 ,
 	air        :  78.6,
 	energi     :  101,
@@ -24670,7 +24399,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan ekor kuning',
+	name       : 'Ikan Ekor Kuning',
 	nilai      : 100 ,
 	air        :  74.1,
 	energi     :  108,
@@ -24697,7 +24426,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan gabus',
+	name       : 'Ikan Gabus',
 	nilai      : 100 ,
 	air        :  79.6,
 	energi     :  80,
@@ -24724,7 +24453,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan heu',
+	name       : 'Ikan Heu',
 	nilai      : 100 ,
 	air        : 75.6 ,
 	energi     :  81,
@@ -24751,7 +24480,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan hitam',
+	name       : 'Ikan Hitam',
 	nilai      : 100 ,
 	air        :  78.2,
 	energi     :  101,
@@ -24778,7 +24507,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan hiu',
+	name       : 'Ikan Hiu',
 	nilai      : 100 ,
 	air        :  85.7,
 	energi     :  57,
@@ -24805,7 +24534,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan kacangan',
+	name       : 'Ikan Kacangan',
 	nilai      : 100 ,
 	air        :  80.7,
 	energi     :  77,
@@ -24832,7 +24561,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan kakap',
+	name       : 'Ikan Kakap',
 	nilai      : 100 ,
 	air        :  77,
 	energi     :  92,
@@ -24859,7 +24588,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan kakatua',
+	name       : 'Ikan Kakatua',
 	nilai      : 100 ,
 	air        :  79.7,
 	energi     :  82,
@@ -24886,7 +24615,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan kalaban',
+	name       : 'Ikan Kalaban',
 	nilai      : 100 ,
 	air        :  80.7,
 	energi     :  77,
@@ -24913,7 +24642,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan kamera',
+	name       : 'Ikan Kamera',
 	nilai      : 100 ,
 	air        :  78.5,
 	energi     :  86,
@@ -24940,7 +24669,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan kakap merah',
+	name       : 'Ikan Kakap Merah',
 	nilai      : 100 ,
 	air        :  78.5,
 	energi     :  86,
@@ -24967,7 +24696,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan kapar',
+	name       : 'Ikan Kapar',
 	nilai      : 100 ,
 	air        :  74.2,
 	energi     :  132,
@@ -24994,7 +24723,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan kawalinya',
+	name       : 'Ikan Kawalinya',
 	nilai      : 100 ,
 	air        :  76.1,
 	energi     :  110,
@@ -25021,7 +24750,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan keru-keru',
+	name       : 'Ikan Keru-Keru',
 	nilai      : 55 ,
 	air        :  77.2,
 	energi     :  93,
@@ -25048,7 +24777,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan kima',
+	name       : 'Ikan Kima',
 	nilai      : 100 ,
 	air        :  82.1,
 	energi     :  70,
@@ -25075,7 +24804,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan lais',
+	name       : 'Ikan Lais',
 	nilai      : 62 ,
 	air        :  65,
 	energi     :  161,
@@ -25102,7 +24831,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan layang',
+	name       : 'Ikan Layang',
 	nilai      : 80 ,
 	air        : 74 ,
 	energi     :  109,
@@ -25129,7 +24858,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan layur',
+	name       : 'Ikan Layur',
 	nilai      : 49 ,
 	air        :  80.1,
 	energi     :  82,
@@ -25156,7 +24885,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan lehoma',
+	name       : 'Ikan Lehoma',
 	nilai      : 100 ,
 	air        :  77.6,
 	energi     :  90,
@@ -25183,7 +24912,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan lemuru',
+	name       : 'Ikan Lemuru',
 	nilai      : 80 ,
 	air        : 76 ,
 	energi     :  112,
@@ -25210,7 +24939,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan lidah',
+	name       : 'Ikan Lidah',
 	nilai      : 100 ,
 	air        :  78.3,
 	energi     :  104,
@@ -25237,7 +24966,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan malalugis',
+	name       : 'Ikan Malalugis',
 	nilai      : 100 ,
 	air        : 75.6 ,
 	energi     :  99,
@@ -25264,7 +24993,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan mamar merah',
+	name       : 'Ikan Mamar Merah',
 	nilai      : 100 ,
 	air        :  75,
 	energi     :  115,
@@ -25291,7 +25020,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan mas',
+	name       : 'Ikan Mas',
 	nilai      : 80 ,
 	air        : 80 ,
 	energi     :  86,
@@ -25318,7 +25047,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan mayong',
+	name       : 'Ikan Mayong',
 	nilai      : 89 ,
 	air        :  78.2,
 	energi     :  97,
@@ -25345,7 +25074,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan mujahir',
+	name       : 'Ikan Mujahir',
 	nilai      : 80 ,
 	air        : 79.7 ,
 	energi     :  89,
@@ -25372,7 +25101,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan mujair',
+	name       : 'Ikan Mujair',
 	nilai      : 80 ,
 	air        : 79.7 ,
 	energi     :  89,
@@ -25399,7 +25128,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan mujaer',
+	name       : 'Ikan Mujaer',
 	nilai      : 80 ,
 	air        : 79.7 ,
 	energi     :  89,
@@ -25426,7 +25155,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan nasu metti',
+	name       : 'Ikan Nasu Metti',
 	nilai      : 100 ,
 	air        :  65.3,
 	energi     :  154,
@@ -25453,7 +25182,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan oci',
+	name       : 'Ikan Oci',
 	nilai      : 80 ,
 	air        : 71.4 ,
 	energi     :  125,
@@ -25480,7 +25209,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan kembung',
+	name       : 'Ikan Kembung',
 	nilai      : 80 ,
 	air        : 71.4 ,
 	energi     :  125,
@@ -25507,7 +25236,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan paling',
+	name       : 'Ikan Paling',
 	nilai      : 100 ,
 	air        : 58 ,
 	energi     :  303,
@@ -25534,7 +25263,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan papuyu',
+	name       : 'Ikan Papuyu',
 	nilai      : 80 ,
 	air        : 75 ,
 	energi     :  120,
@@ -25561,7 +25290,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan betok',
+	name       : 'Ikan Betok',
 	nilai      : 80 ,
 	air        : 75 ,
 	energi     :  120,
@@ -25588,7 +25317,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan betik',
+	name       : 'Ikan Betik',
 	nilai      : 80 ,
 	air        : 75 ,
 	energi     :  120,
@@ -25615,7 +25344,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan patin',
+	name       : 'Ikan Patin',
 	nilai      : 100 ,
 	air        :  74.4,
 	energi     :  132,
@@ -25642,7 +25371,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan pomo',
+	name       : 'Ikan Pomo',
 	nilai      : 100 ,
 	air        :  68.3,
 	energi     :  147,
@@ -25669,7 +25398,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan puntin',
+	name       : 'Ikan Puntin',
 	nilai      : 100 ,
 	air        :  81.1,
 	energi     :  76,
@@ -25696,7 +25425,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan saluang',
+	name       : 'Ikan Saluang',
 	nilai      : 89 ,
 	air        :  74.8,
 	energi     :  113,
@@ -25723,7 +25452,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan sarden',
+	name       : 'Ikan Sarden',
 	nilai      : 100 ,
 	air        :  72.7,
 	energi     :  109,
@@ -25750,7 +25479,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan sepat',
+	name       : 'Ikan Sepat',
 	nilai      : 75 ,
 	air        :  78.8,
 	energi     :  84,
@@ -25777,7 +25506,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan sidat',
+	name       : 'Ikan Sidat',
 	nilai      : 100 ,
 	air        :  71.3,
 	energi     :  81,
@@ -25804,34 +25533,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sidat',
-	nilai      : 100 ,
-	air        :  71.3,
-	energi     :  81,
-	protein    :  11.4,
-	lemak      :  1.9,
-	kh         :  3.8,
-	serat      :  0,
-	abu        :  11.6,
-	kalsium    :  118,
-	fosfor     :  174,
-	besi       :  3,
-	natrium    :  46,
-	kalium     :  245.9,
-	tembaga    :  0,
-	seng       :  1.5,
-	retinol    :  15,
-	betakaroten:  0,
-	kartotal   :  0,
-	thamin     :  0,
-	riboflavin :  0.4,
-	niasin     :  3.2,
-	vitaminc   :  0,
-	kode       : 'GR060 '
-},
-
-{
-	name       : 'ikan sunu',
+	name       : 'Ikan Sunu',
 	nilai      : 70 ,
 	air        : 75.5 ,
 	energi     :  111,
@@ -25858,7 +25560,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan tahuman',
+	name       : 'Ikan Tahuman',
 	nilai      : 100 ,
 	air        :  77.4,
 	energi     :  88,
@@ -25885,7 +25587,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan tarmon',
+	name       : 'Ikan Tarmon',
 	nilai      : 100 ,
 	air        :  76.7,
 	energi     :  96,
@@ -25912,7 +25614,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan telan',
+	name       : 'Ikan Telan',
 	nilai      : 100 ,
 	air        :  75.3,
 	energi     :  95,
@@ -25939,7 +25641,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan tembang',
+	name       : 'Ikan Tembang',
 	nilai      : 80 ,
 	air        : 65 ,
 	energi     :  204,
@@ -25966,7 +25668,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan tempahas',
+	name       : 'Ikan Tempahas',
 	nilai      : 100 ,
 	air        :  78.9,
 	energi     :  101,
@@ -25993,7 +25695,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan terbang',
+	name       : 'Ikan Terbang',
 	nilai      : 100 ,
 	air        :  76.1,
 	energi     :  98,
@@ -26020,7 +25722,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan teri',
+	name       : 'Ikan Teri',
 	nilai      : 100 ,
 	air        :  80,
 	energi     :  74,
@@ -26047,7 +25749,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan titang',
+	name       : 'Ikan Titang',
 	nilai      : 100 ,
 	air        :  78.8,
 	energi     :  82,
@@ -26074,7 +25776,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan tongkol',
+	name       : 'Ikan Tongkol',
 	nilai      : 100 ,
 	air        :  74.7,
 	energi     :  100,
@@ -26101,7 +25803,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ikan turi',
+	name       : 'Ikan Turi',
 	nilai      : 100 ,
 	air        : 76.9 ,
 	energi     :  96,
@@ -26128,7 +25830,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'keong',
+	name       : 'Keong',
 	nilai      : 46 ,
 	air        :  81,
 	energi     :  64,
@@ -26155,7 +25857,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kepiting',
+	name       : 'Kepiting',
 	nilai      : 45 ,
 	air        :  68.1,
 	energi     :  151,
@@ -26182,7 +25884,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kerang',
+	name       : 'Kerang',
 	nilai      : 100 ,
 	air        : 78.2 ,
 	energi     :  101,
@@ -26209,7 +25911,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kodok',
+	name       : 'Kodok',
 	nilai      : 65 ,
 	air        :  81.9,
 	energi     :  73,
@@ -26236,7 +25938,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kura-kura',
+	name       : 'Kura-Kura',
 	nilai      : 70 ,
 	air        :  80,
 	energi     :  83,
@@ -26263,7 +25965,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kuro',
+	name       : 'Kuro',
 	nilai      : 52 ,
 	air        :  79.9,
 	energi     :  87,
@@ -26290,7 +25992,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'lokan',
+	name       : 'Lokan',
 	nilai      : 100 ,
 	air        :  80.9,
 	energi     :  217,
@@ -26317,7 +26019,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'rajungan',
+	name       : 'Rajungan',
 	nilai      : 100 ,
 	air        :  80.2,
 	energi     :  76,
@@ -26344,7 +26046,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'udang rebon',
+	name       : 'Udang Rebon',
 	nilai      : 100 ,
 	air        : 79 ,
 	energi     :  81,
@@ -26371,7 +26073,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'udang kecil',
+	name       : 'Udang Kecil',
 	nilai      : 100 ,
 	air        : 79 ,
 	energi     :  81,
@@ -26398,7 +26100,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'udang galah',
+	name       : 'Udang Galah',
 	nilai      : 68 ,
 	air        :  79,
 	energi     :  81,
@@ -26425,7 +26127,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'udang besar',
+	name       : 'Udang Besar',
 	nilai      : 68 ,
 	air        : 85.5 ,
 	energi     :  56,
@@ -26452,7 +26154,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'udang',
+	name       : 'Udang',
 	nilai      : 68 ,
 	air        :  75,
 	energi     :  91,
@@ -26481,7 +26183,7 @@ const bddDatas = [
 // telur dan hasil olahannya
 
 {
-	name       : 'telur ayam kampung',
+	name       : 'Telur Ayam Kampung',
 	nilai      : 87 ,
 	air        :  73.1,
 	energi     :  174,
@@ -26508,7 +26210,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur ayam ras',
+	name       : 'Telur Ayam Ras',
 	nilai      : 89 ,
 	air        :  74.3,
 	energi     :  154,
@@ -26535,7 +26237,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur ayam',
+	name       : 'Telur Ayam',
 	nilai      : 89 ,
 	air        :  74.3,
 	energi     :  154,
@@ -26562,7 +26264,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kuning telur',
+	name       : 'Kuning Telur',
 	nilai      : 100 ,
 	air        :  49.4,
 	energi     :  355,
@@ -26589,7 +26291,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kuning telur ayam',
+	name       : 'Kuning Telur Ayam',
 	nilai      : 100 ,
 	air        :  49.4,
 	energi     :  355,
@@ -26616,7 +26318,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'putih telur',
+	name       : 'Putih Telur',
 	nilai      : 100 ,
 	air        :  87.8,
 	energi     :  50,
@@ -26643,7 +26345,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'putih telur ayam',
+	name       : 'Putih Telur Ayam',
 	nilai      : 100 ,
 	air        :  87.8,
 	energi     :  50,
@@ -26670,7 +26372,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur bebek alabio',
+	name       : 'Telur Bebek Alabio',
 	nilai      : 90 ,
 	air        :  70,
 	energi     :  187,
@@ -26697,7 +26399,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kuning telur bebek',
+	name       : 'Kuning Telur Bebek',
 	nilai      : 100 ,
 	air        :  47,
 	energi     :  386,
@@ -26724,7 +26426,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'putih telur bebek',
+	name       : 'Putih Telur Bebek',
 	nilai      : 100 ,
 	air        :  88,
 	energi     :  54,
@@ -26751,7 +26453,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur bebek tambak',
+	name       : 'Telur Bebek Tambak',
 	nilai      : 90 ,
 	air        : 67.7 ,
 	energi     :  187,
@@ -26778,7 +26480,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur bebek',
+	name       : 'Telur Bebek',
 	nilai      : 90 ,
 	air        : 67.7 ,
 	energi     :  187,
@@ -26805,7 +26507,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur burung maleo',
+	name       : 'Telur Burung Maleo',
 	nilai      : 100 ,
 	air        : 36 ,
 	energi     :  436,
@@ -26832,7 +26534,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur penyu',
+	name       : 'Telur Penyu',
 	nilai      : 90 ,
 	air        : 77.4 ,
 	energi     :  136,
@@ -26859,7 +26561,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur burung puyuh',
+	name       : 'Telur Burung Puyuh',
 	nilai      : 100 ,
 	air        : 79.8 ,
 	energi     :  116,
@@ -26886,7 +26588,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur puyuh',
+	name       : 'Telur Puyuh',
 	nilai      : 100 ,
 	air        : 79.8 ,
 	energi     :  116,
@@ -26913,7 +26615,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur ayam dadar',
+	name       : 'Telur Ayam Dadar',
 	nilai      : 100 ,
 	air        :  61.9,
 	energi     :  251,
@@ -26940,7 +26642,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur dadar',
+	name       : 'Telur Dadar',
 	nilai      : 100 ,
 	air        :  61.9,
 	energi     :  251,
@@ -26967,7 +26669,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur bebek asin',
+	name       : 'Telur Bebek Asin',
 	nilai      : 83 ,
 	air        :  66.5,
 	energi     :  179,
@@ -26994,7 +26696,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur asin',
+	name       : 'Telur Asin',
 	nilai      : 83 ,
 	air        :  66.5,
 	energi     :  179,
@@ -27021,7 +26723,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur bebek dadar',
+	name       : 'Telur Bebek Dadar',
 	nilai      : 100 ,
 	air        :  55.1,
 	energi     :  301,
@@ -27048,7 +26750,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'telur ikan - asin',
+	name       : 'Telur Ikan Asin',
 	nilai      : 100 ,
 	air        :  37.8,
 	energi     :  358,
@@ -27075,7 +26777,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'bayau mi balu',
+	name       : 'Bayau Mi Balu',
 	nilai      : 100 ,
 	air        :  36.1,
 	energi     :  313,
@@ -27102,7 +26804,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'cucuru bayau',
+	name       : 'Cucuru Bayau',
 	nilai      : 100 ,
 	air        :  35,
 	energi     :  349,
@@ -27129,7 +26831,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kalio telur',
+	name       : 'Kalio Telur',
 	nilai      : 100 ,
 	air        :  65.9,
 	energi     :  193,
@@ -27159,7 +26861,7 @@ const bddDatas = [
 // susu dan hasil olahannya
 
 {
-	name       : 'krim',
+	name       : 'Krim',
 	nilai      : 100 ,
 	air        :  72.5,
 	energi     :  204,
@@ -27186,7 +26888,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kepala susu',
+	name       : 'Kepala Susu',
 	nilai      : 100 ,
 	air        :  72.5,
 	energi     :  204,
@@ -27213,7 +26915,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'cream',
+	name       : 'Cream',
 	nilai      : 100 ,
 	air        :  72.5,
 	energi     :  204,
@@ -27240,7 +26942,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'krim susu',
+	name       : 'Krim Susu',
 	nilai      : 100 ,
 	air        :  72.5,
 	energi     :  204,
@@ -27267,7 +26969,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'susu ibu',
+	name       : 'Susu Ibu',
 	nilai      : 100 ,
 	air        :  88.1,
 	energi     :  62,
@@ -27294,7 +26996,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'asi',
+	name       : 'Asi',
 	nilai      : 100 ,
 	air        :  88.1,
 	energi     :  62,
@@ -27321,7 +27023,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'susu kambing',
+	name       : 'Susu Kambing',
 	nilai      : 100 ,
 	air        :  85.9,
 	energi     :  64,
@@ -27348,7 +27050,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'susu kerbau',
+	name       : 'Susu Kerbau',
 	nilai      : 100 ,
 	air        :  73.8,
 	energi     :  160,
@@ -27375,7 +27077,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'susu kuda',
+	name       : 'Susu Kuda',
 	nilai      : 100 ,
 	air        :  91,
 	energi     :  40,
@@ -27402,7 +27104,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'susu sapi',
+	name       : 'Susu Sapi',
 	nilai      : 100 ,
 	air        :  88.3,
 	energi     :  61,
@@ -27429,7 +27131,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'susu segar',
+	name       : 'Susu Segar',
 	nilai      : 100 ,
 	air        :  88.3,
 	energi     :  61,
@@ -27456,7 +27158,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'susu murni',
+	name       : 'Susu Murni',
 	nilai      : 100 ,
 	air        :  88.3,
 	energi     :  61,
@@ -27483,7 +27185,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'es krim',
+	name       : 'Es Krim',
 	nilai      : 100 ,
 	air        :  62.1,
 	energi     :  210,
@@ -27510,7 +27212,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'hangop',
+	name       : 'Hangop',
 	nilai      : 100 ,
 	air        :  84,
 	energi     :  65,
@@ -27537,7 +27239,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'keju',
+	name       : 'Keju',
 	nilai      : 100 ,
 	air        :  38.5,
 	energi     :  326,
@@ -27564,7 +27266,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kwark',
+	name       : 'Kwark',
 	nilai      : 100 ,
 	air        :  59,
 	energi     :  242,
@@ -27591,7 +27293,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'quark',
+	name       : 'Quark',
 	nilai      : 100 ,
 	air        :  59,
 	energi     :  242,
@@ -27618,7 +27320,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'bubuk susu asam untuk bayi',
+	name       : 'Bubuk Susu Asam untuk Bayi',
 	nilai      : 100 ,
 	air        : 2.5 ,
 	energi     :  418,
@@ -27645,7 +27347,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'susu bubuk',
+	name       : 'Susu Bubuk',
 	nilai      : 100 ,
 	air        :  3.5,
 	energi     :  513,
@@ -27672,7 +27374,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'susu kental manis',
+	name       : 'Susu Kental Manis',
 	nilai      : 100 ,
 	air        :  25,
 	energi     :  343,
@@ -27699,34 +27401,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'skm',
-	nilai      : 100 ,
-	air        :  25,
-	energi     :  343,
-	protein    :  8.2,
-	lemak      :  10,
-	kh         :  55,
-	serat      :  0,
-	abu        :  1.8,
-	kalsium    :  275,
-	fosfor     :  209,
-	besi       :  0.2,
-	natrium    :  150,
-	kalium     :  320,
-	tembaga    :  0.02,
-	seng       :  1,
-	retinol    :  155,
-	betakaroten:  46,
-	kartotal   : '0' ,
-	thamin     :  0.05,
-	riboflavin :  0.43,
-	niasin     :  0.4,
-	vitaminc   :  1,
-	kode       : 'JP007 '
-},
-
-{
-	name       : 'susu skim bubuk',
+	name       : 'Susu Skim Bubuk',
 	nilai      : 100 ,
 	air        :  3.5,
 	energi     :  359,
@@ -27753,34 +27428,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'bubuk susu skim',
-	nilai      : 100 ,
-	air        :  3.5,
-	energi     :  359,
-	protein    :  35.8,
-	lemak      :  1,
-	kh         :  52,
-	serat      :  0,
-	abu        :  7.9,
-	kalsium    :  1300,
-	fosfor     :  1030,
-	besi       :  0.6,
-	natrium    :  470,
-	kalium     :  1745,
-	tembaga    :  0.04,
-	seng       :  4.1,
-	retinol    : '0' ,
-	betakaroten:  10,
-	kartotal   : '0' ,
-	thamin     :  0.35,
-	riboflavin :  1.05,
-	niasin     :  1.2,
-	vitaminc   :  7,
-	kode       : 'JP009 '
-},
-
-{
-	name       : 'susu skim',
+	name       : 'Susu Skim',
 	nilai      : 100 ,
 	air        : 90.5 ,
 	energi     :  36,
@@ -27807,7 +27455,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'yoghurt',
+	name       : 'Yoghurt',
 	nilai      : 100 ,
 	air        :  88,
 	energi     :  52,
@@ -27836,7 +27484,7 @@ const bddDatas = [
 // lemak dan minyak
 
 {
-	name       : 'kelapa setengah tua',
+	name       : 'Kelapa Setengah Tua',
 	nilai      : 53 ,
 	air        : 70 ,
 	energi     :  180,
@@ -27863,7 +27511,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kelapa tua',
+	name       : 'Kelapa Tua',
 	nilai      : 53 ,
 	air        :  46.9,
 	energi     :  359,
@@ -27890,7 +27538,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'lemak babi',
+	name       : 'Lemak Babi',
 	nilai      : 100 ,
 	air        :  0,
 	energi     :  902,
@@ -27917,7 +27565,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'lard',
+	name       : 'Lard',
 	nilai      : 100 ,
 	air        :  0,
 	energi     :  902,
@@ -27944,7 +27592,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'bacon',
+	name       : 'Bacon',
 	nilai      : 100 ,
 	air        :  20,
 	energi     :  626,
@@ -27970,7 +27618,7 @@ const bddDatas = [
 	kode       : 'KR004 '
 },
 {
-	name       : 'lemak ikan',
+	name       : 'Lemak Ikan',
 	nilai      : 100 ,
 	air        :  43.3,
 	energi     :  372,
@@ -27996,7 +27644,7 @@ const bddDatas = [
 	kode       : 'KR005 '
 },
 {
-	name       : 'lemak kerbau',
+	name       : 'Lemak Kerbau',
 	nilai      : 100 ,
 	air        :  5,
 	energi     :  818,
@@ -28023,7 +27671,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'lemak sapi',
+	name       : 'Lemak Sapi',
 	nilai      : 100 ,
 	air        :  5,
 	energi     :  818,
@@ -28050,7 +27698,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'minyak hiu',
+	name       : 'Minyak Hiu',
 	nilai      : 100 ,
 	air        :  0,
 	energi     :  902,
@@ -28077,7 +27725,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'minyak ikan',
+	name       : 'Minyak Ikan',
 	nilai      : 100 ,
 	air        :  0,
 	energi     :  902,
@@ -28104,7 +27752,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'minyak kacang tanah',
+	name       : 'Minyak Kacang Tanah',
 	nilai      : 100 ,
 	air        :  0,
 	energi     :  902,
@@ -28131,7 +27779,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'minyak kedelai',
+	name       : 'Minyak Kedelai',
 	nilai      : 100 ,
 	air        :  0.1,
 	energi     :  883,
@@ -28158,7 +27806,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'minyak kelapa',
+	name       : 'Minyak Kelapa',
 	nilai      : 100 ,
 	air        :  0,
 	energi     :  870,
@@ -28185,7 +27833,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'minyak kelapa sawit',
+	name       : 'Minyak Kelapa Sawit',
 	nilai      : 100 ,
 	air        :  0,
 	energi     :  884,
@@ -28212,7 +27860,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'minyak sawit',
+	name       : 'Minyak Sawit',
 	nilai      : 100 ,
 	air        :  0,
 	energi     :  884,
@@ -28239,7 +27887,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'minyak wijen',
+	name       : 'Minyak Wijen',
 	nilai      : 100 ,
 	air        :  0.1,
 	energi     :  881,
@@ -28266,7 +27914,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'minyak zaitun',
+	name       : 'Minyak Zaitun',
 	nilai      : 100 ,
 	air        :  0,
 	energi     :  884,
@@ -28293,7 +27941,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'margarin',
+	name       : 'Margarin',
 	nilai      : 100 ,
 	air        :  15.5,
 	energi     :  720,
@@ -28320,7 +27968,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'mentega',
+	name       : 'Mentega',
 	nilai      : 100 ,
 	air        :  16,
 	energi     :  742,
@@ -28347,7 +27995,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'santan dengan air',
+	name       : 'Santan dengan Air',
 	nilai      : 100 ,
 	air        :  80,
 	energi     :  122,
@@ -28374,7 +28022,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'santan murni',
+	name       : 'Santan Murni',
 	nilai      : 100 ,
 	air        :  54.9,
 	energi     :  324,
@@ -28401,7 +28049,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'santan',
+	name       : 'Santan',
 	nilai      : 100 ,
 	air        :  54.9,
 	energi     :  324,
@@ -28430,7 +28078,7 @@ const bddDatas = [
 // gula, sirup dan konfeksioneri
 
 {
-	name       : 'coklat batangan',
+	name       : 'Coklat Batangan',
 	nilai      : 100 ,
 	air        :  1.4,
 	energi     :  527,
@@ -28457,7 +28105,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'coklat',
+	name       : 'Coklat',
 	nilai      : 100 ,
 	air        :  1.4,
 	energi     :  527,
@@ -28484,7 +28132,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'coklat manis batang',
+	name       : 'Coklat Manis Batang',
 	nilai      : 100 ,
 	air        :  1.4,
 	energi     :  527,
@@ -28511,7 +28159,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'coklat pahit batang',
+	name       : 'Coklat Pahit Batang',
 	nilai      :  100,
 	air        :  2.3,
 	energi     :  615,
@@ -28538,7 +28186,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'coklat susu',
+	name       : 'Coklat Susu',
 	nilai      : 100 ,
 	air        :  1,
 	energi     :  565,
@@ -28565,7 +28213,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'coklat bubuk',
+	name       : 'Coklat Bubuk',
 	nilai      :  100,
 	air        :  3.9,
 	energi     :  311,
@@ -28592,7 +28240,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'bubuk coklat',
+	name       : 'Bubuk Coklat',
 	nilai      :  100,
 	air        :  3.9,
 	energi     :  311,
@@ -28619,7 +28267,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'gula aren',
+	name       : 'Gula Aren',
 	nilai      :  100,
 	air        :  7,
 	energi     :  368,
@@ -28646,7 +28294,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'gula merah',
+	name       : 'Gula Merah',
 	nilai      :  100,
 	air        :  7,
 	energi     :  368,
@@ -28673,7 +28321,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'gula kelapa',
+	name       : 'Gula Kelapa',
 	nilai      :  100,
 	air        :  10,
 	energi     :  386,
@@ -28700,7 +28348,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'gula putih',
+	name       : 'Gula Putih',
 	nilai      :  100,
 	air        :  5.4,
 	energi     :  394,
@@ -28727,7 +28375,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'gula pasir',
+	name       : 'Gula Pasir',
 	nilai      :  100,
 	air        :  5.4,
 	energi     :  394,
@@ -28754,34 +28402,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'gula',
-	nilai      :  100,
-	air        :  5.4,
-	energi     :  394,
-	protein    :  0,
-	lemak      :  0,
-	kh         :  94,
-	serat      :  0,
-	abu        :  0.6,
-	kalsium    :  5,
-	fosfor     :  1,
-	besi       :  0.1,
-	natrium    :  1,
-	kalium     :  4.75,
-	tembaga    :  0,
-	seng       :  0,
-	retinol    :  0,
-	betakaroten:  0,
-	kartotal   : '0' ,
-	thamin     :  0,
-	riboflavin :  0,
-	niasin     :  0,
-	vitaminc   :  0,
-	kode       : 'MP007 '
-},
-
-{
-	name       : 'jam',
+	name       : 'Jam',
 	nilai      : 100 ,
 	air        :  34,
 	energi     :  239,
@@ -28808,7 +28429,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'selai',
+	name       : 'Selai',
 	nilai      : 100 ,
 	air        :  34,
 	energi     :  239,
@@ -28835,7 +28456,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kopi bubuk instan',
+	name       : 'Kopi Bubuk Instan',
 	nilai      :  100,
 	air        :  2.6,
 	energi     :  129,
@@ -28862,7 +28483,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'madu',
+	name       : 'Madu',
 	nilai      : 100 ,
 	air        :  20,
 	energi     :  294,
@@ -28889,7 +28510,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'markisa squash',
+	name       : 'Markisa Squash',
 	nilai      :  100,
 	air        :  46.7,
 	energi     :  217,
@@ -28916,7 +28537,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'markisa squash BD',
+	name       : 'Markisa Squash BD',
 	nilai      :  100,
 	air        :  74.4,
 	energi     :  104,
@@ -28943,7 +28564,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'melase',
+	name       : 'Melase',
 	nilai      :  100,
 	air        :  21.2,
 	energi     :  276,
@@ -28970,7 +28591,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sirup',
+	name       : 'Sirup',
 	nilai      :  100,
 	air        :  44,
 	energi     :  213,
@@ -28997,7 +28618,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'sirup pirous',
+	name       : 'Sirup Pirous',
 	nilai      :  100,
 	air        :  43.3,
 	energi     :  228,
@@ -29024,7 +28645,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'teh hijau daun kering',
+	name       : 'Teh Hijau Daun Kering',
 	nilai      :  100,
 	air        :  7.7,
 	energi     :  300,
@@ -29051,7 +28672,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'teh hijau',
+	name       : 'Teh Hijau',
 	nilai      :  100,
 	air        :  7.7,
 	energi     :  300,
@@ -29078,7 +28699,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'teh hitam daun kering',
+	name       : 'Teh Hitam Daun Kering',
 	nilai      :  100,
 	air        :  8,
 	energi     :  293,
@@ -29105,7 +28726,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'teh hitam',
+	name       : 'Teh Hitam',
 	nilai      :  100,
 	air        :  8,
 	energi     :  293,
@@ -29132,7 +28753,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'teh melati daun kering',
+	name       : 'Teh Melati Daun Kering',
 	nilai      :  100,
 	air        :  8.1,
 	energi     :  299,
@@ -29159,7 +28780,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'teh melati',
+	name       : 'Teh Melati',
 	nilai      :  100,
 	air        :  8.1,
 	energi     :  299,
@@ -29188,7 +28809,7 @@ const bddDatas = [
 // bumbu
 
 {
-	name       : 'asam arang coklat',
+	name       : 'Asam Arang Coklat',
 	nilai      :  100,
 	air        :  66.1,
 	energi     :  130,
@@ -29215,7 +28836,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'asam arang merah',
+	name       : 'Asam Arang Merah',
 	nilai      :  100,
 	air        :  75.9,
 	energi     :  99,
@@ -29242,7 +28863,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'asam kandis - kering',
+	name       : 'Asam Kandis Kering',
 	nilai      :  100,
 	air        :  32.3,
 	energi     :  261,
@@ -29269,7 +28890,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'asam kandis',
+	name       : 'Asam Kandis',
 	nilai      :  100,
 	air        :  81.5,
 	energi     :  75,
@@ -29296,7 +28917,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'asam',
+	name       : 'Asam',
 	nilai      :  48,
 	air        :  31.4,
 	energi     :  267,
@@ -29323,7 +28944,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'asam masak pohon',
+	name       : 'Asam Masak Pohon',
 	nilai      :  48,
 	air        :  31.4,
 	energi     :  267,
@@ -29350,7 +28971,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'asam payak',
+	name       : 'Asam Payak',
 	nilai      :  100,
 	air        :  65.1,
 	energi     :  135,
@@ -29377,7 +28998,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'bawang merah',
+	name       : 'Bawang Merah',
 	nilai      :  90,
 	air        :  88,
 	energi     :  46,
@@ -29404,7 +29025,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'bawang putih',
+	name       : 'Bawang Putih',
 	nilai      :  88,
 	air        :  71,
 	energi     :  112,
@@ -29431,7 +29052,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'boros kunci',
+	name       : 'Boros Kunci',
 	nilai      :  80,
 	air        :  90,
 	energi     :  40,
@@ -29458,7 +29079,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'boros laja',
+	name       : 'Boros Laja',
 	nilai      :  80,
 	air        :  93,
 	energi     :  26,
@@ -29485,7 +29106,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'lengkuas',
+	name       : 'Lengkuas',
 	nilai      :  80,
 	air        :  93,
 	energi     :  26,
@@ -29512,7 +29133,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'cabai gembor merah',
+	name       : 'Cabai Gembor Merah',
 	nilai      :  89,
 	air        :  90.8,
 	energi     :  38,
@@ -29539,7 +29160,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'cabe gembor merah',
+	name       : 'Cabe Gembor Merah',
 	nilai      :  89,
 	air        :  90.8,
 	energi     :  38,
@@ -29566,7 +29187,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'cabai hijau',
+	name       : 'Cabai Hijau',
 	nilai      :  82,
 	air        :  93.4,
 	energi     :  26,
@@ -29593,7 +29214,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'cabe hijau',
+	name       : 'Cabe Hijau',
 	nilai      :  82,
 	air        :  93.4,
 	energi     :  26,
@@ -29620,7 +29241,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'cabai merah - kering',
+	name       : 'Cabai Merah Kering',
 	nilai      : 85 ,
 	air        :  10,
 	energi     :  367,
@@ -29647,34 +29268,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'cabe merah - kering',
-	nilai      : 85 ,
-	air        :  10,
-	energi     :  367,
-	protein    :  15.9,
-	lemak      :  6.2,
-	kh         :  61.8,
-	serat      :  26.9,
-	abu        :  6.1,
-	kalsium    :  160,
-	fosfor     :  370,
-	besi       :  2.3,
-	natrium    :  25,
-	kalium     :  181.5,
-	tembaga    :  1.2,
-	seng       :  1.8,
-	retinol    : '0' ,
-	betakaroten:  10955,
-	kartotal   :  576,
-	thamin     :  0.4,
-	riboflavin :  1.36,
-	niasin     :  4.4,
-	vitaminc   :  50,
-	kode       : 'NR013 '
-},
-
-{
-	name       : 'cabai merah',
+	name       : 'Cabai Merah Segar',
 	nilai      :  85,
 	air        :  90.9,
 	energi     :  36,
@@ -29701,34 +29295,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'cabe merah',
-	nilai      :  85,
-	air        :  90.9,
-	energi     :  36,
-	protein    :  1,
-	lemak      :  0.3,
-	kh         :  7.3,
-	serat      :  1.4,
-	abu        :  0.5,
-	kalsium    :  29,
-	fosfor     :  24,
-	besi       :  0.5,
-	natrium    :  23,
-	kalium     :  272.4,
-	tembaga    :  0.12,
-	seng       :  0.2,
-	retinol    : '0' ,
-	betakaroten:  5833,
-	kartotal   :  470,
-	thamin     :  0.05,
-	riboflavin :  0.09,
-	niasin     :  3,
-	vitaminc   :  18,
-	kode       : 'NR014 '
-},
-
-{
-	name       : 'cabai rawit',
+	name       : 'Cabai Rawit',
 	nilai      : 85 ,
 	air        :  71.2,
 	energi     :  120,
@@ -29755,34 +29322,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'cabe rawit',
-	nilai      : 85 ,
-	air        :  71.2,
-	energi     :  120,
-	protein    :  4.7,
-	lemak      :  2.4,
-	kh         :  19.9,
-	serat      :  15.2,
-	abu        :  1.8,
-	kalsium    :  45,
-	fosfor     :  85,
-	besi       :  2.5,
-	natrium    :  34,
-	kalium     :  706.2,
-	tembaga    :  0.29,
-	seng       :  0.6,
-	retinol    : '0' ,
-	betakaroten:  1694,
-	kartotal   :  11050,
-	thamin     :  0.24,
-	riboflavin :  0.09,
-	niasin     :  1.7,
-	vitaminc   :  70,
-	kode       : 'NR015 '
-},
-
-{
-	name       : 'cengkeh',
+	name       : 'Cengkeh',
 	nilai      :  100,
 	air        :  23.3,
 	energi     :  330,
@@ -29809,34 +29349,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'cengkih',
-	nilai      :  100,
-	air        :  23.3,
-	energi     :  330,
-	protein    :  5.2,
-	lemak      :  8.9,
-	kh         :  57.4,
-	serat      :  10,
-	abu        :  5.2,
-	kalsium    :  740,
-	fosfor     :  100,
-	besi       :  4.9,
-	natrium    :  282,
-	kalium     :  961,
-	tembaga    :  0.3,
-	seng       :  0,
-	retinol    : '0' ,
-	betakaroten:  265,
-	kartotal   : '0' ,
-	thamin     :  200,
-	riboflavin :  0,
-	niasin     :  0,
-	vitaminc   : '0' ,
-	kode       : 'NR016 '
-},
-
-{
-	name       : 'bubuk daun salam',
+	name       : 'Bubuk Daun Salam',
 	nilai      :  100,
 	air        :  13.1,
 	energi     :  301,
@@ -29863,7 +29376,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'jahe',
+	name       : 'Jahe',
 	nilai      :  97,
 	air        :  86.2,
 	energi     :  51,
@@ -29890,7 +29403,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kemiri',
+	name       : 'Kemiri',
 	nilai      : 100 ,
 	air        :  7,
 	energi     :  675,
@@ -29917,7 +29430,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'ketumbar',
+	name       : 'Ketumbar',
 	nilai      :  100,
 	air        :  11.2,
 	energi     :  418,
@@ -29944,7 +29457,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kluwek',
+	name       : 'Kluwek',
 	nilai      :  80,
 	air        :  51,
 	energi     :  310,
@@ -29971,7 +29484,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kunyit',
+	name       : 'Kunyit',
 	nilai      :  78,
 	air        :  84.9,
 	energi     :  69,
@@ -29998,7 +29511,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'merica',
+	name       : 'Merica',
 	nilai      :  100,
 	air        :  12.9,
 	energi     :  365,
@@ -30025,7 +29538,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'biji pala',
+	name       : 'Biji Pala',
 	nilai      : 95 ,
 	air        :  14.3,
 	energi     :  518,
@@ -30052,7 +29565,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'balichong',
+	name       : 'Balichong',
 	nilai      : 100 ,
 	air        :  59.9,
 	energi     :  152,
@@ -30079,7 +29592,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'bekasam',
+	name       : 'Bekasam',
 	nilai      : 100 ,
 	air        :  65.5,
 	energi     :  116,
@@ -30106,7 +29619,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'bekasang',
+	name       : 'Bekasang',
 	nilai      : 100 ,
 	air        :  67.1,
 	energi     :  78,
@@ -30133,7 +29646,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'cuka',
+	name       : 'Cuka',
 	nilai      : 100 ,
 	air        :  94.5,
 	energi     :  21,
@@ -30160,7 +29673,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'kecap',
+	name       : 'Kecap',
 	nilai      : 100 ,
 	air        :  63,
 	energi     :  71,
@@ -30187,7 +29700,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'petis ikan',
+	name       : 'Petis Ikan',
 	nilai      : 100 ,
 	air        :  56,
 	energi     :  165,
@@ -30214,7 +29727,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'petis udang kering',
+	name       : 'Petis Udang Kering',
 	nilai      : 100 ,
 	air        :  8.3,
 	energi     :  345,
@@ -30241,7 +29754,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'petis udang pasta',
+	name       : 'Petis Udang Pasta',
 	nilai      : 100 ,
 	air        :  39,
 	energi     :  220,
@@ -30268,7 +29781,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'saos tomat',
+	name       : 'Saos Tomat',
 	nilai      : 100 ,
 	air        :  69.5,
 	energi     :  110,
@@ -30295,7 +29808,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'tempoya',
+	name       : 'Tempoya',
 	nilai      : 100 ,
 	air        :  70.1,
 	energi     :  110,
@@ -30322,7 +29835,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'terasi',
+	name       : 'Terasi',
 	nilai      : 100 ,
 	air        :  33.8,
 	energi     :  155,
@@ -30349,7 +29862,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'terasi dobo',
+	name       : 'Terasi Dobo',
 	nilai      : 100 ,
 	air        :  58.4,
 	energi     :  191,
@@ -30376,7 +29889,7 @@ const bddDatas = [
 },
 
 {
-	name       : 'terasi merah',
+	name       : 'Terasi Merah',
 	nilai      : 100 ,
 	air        :  40,
 	energi     :  174,
@@ -30404,7 +29917,7 @@ const bddDatas = [
 
 //Minuman
 {
-	name       : 'air kelapa muda',
+	name       : 'Air Kelapa Muda',
 	nilai      : 100 ,
 	air        :  95,
 	energi     :  16,
