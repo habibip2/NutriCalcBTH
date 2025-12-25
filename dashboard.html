@@ -35,12 +35,32 @@
         backdrop-filter: blur(12px);
         display: flex; align-items: center; justify-content: space-between;
         padding: 0 5%; box-sizing: border-box;
-        z-index: 1000; border-bottom: 1px solid rgba(0,0,0,0.05);
-    }
+        z-index: 1000; border-bottom: 1px solid #eee;
+        }
 
         .logo-group { display: flex; align-items: center; gap: 12px; }
-        .logo-group img { height: 42px; width: 42px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-        .app-name { font-weight: 800; font-size: 1.1rem; letter-spacing: -0.5px; color: var(--dark-slate); }
+        .logo-group img { height: 40px; border-radius: 10px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+
+        /* --- APP NAME DENGAN GRADASI HALUS --- */
+        .app-name { 
+            font-weight: 800; 
+            font-size: 1.25rem; 
+            letter-spacing: -0.8px; 
+            /* Menggunakan warna Slate gelap yang elegan */
+            color: #0f172a; 
+            display: flex;
+            gap: 4px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Memberikan warna berbeda pada 'BTH' agar stand out tapi tetap berkelas */
+        .app-name::after {
+            content: "BTH";
+            background: linear-gradient(135deg, #27ae60, #2980b9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 900;
+        }
 
         .nav-menu { display: flex; align-items: center; }
         .nav-menu a {
@@ -184,43 +204,15 @@
         }
 
         /* --- HAMBURGER MENU --- */
-    .menu-toggle {
-        display: none; cursor: pointer;
-        flex-direction: column; justify-content: space-between;
-        width: 30px; height: 21px; z-index: 1001;
-    }
-
-    .menu-toggle .bar {
-        height: 3px; width: 100%; background-color: var(--dark-slate);
-        border-radius: 10px; transition: 0.3s;
-    }
-
-    /* --- RESPONSIVE MOBILE --- */
-    @media (max-width: 768px) {
-        .menu-toggle { display: flex; }
-        .nav-menu {
-            display: none; flex-direction: column;
-            position: absolute; top: 70px; left: 0; width: 100%;
-            background-color: white; padding: 20px 0;
-            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        .menu-toggle {
+            display: none; cursor: pointer;
+            flex-direction: column; justify-content: space-between;
+            width: 30px; height: 21px; z-index: 1001;
         }
-        .nav-menu.active { display: flex; }
-        .nav-menu a { margin: 10px 0; width: 80%; text-align: center; }
-        .user-profile { margin: 10px auto; width: 80%; justify-content: center; }
 
-        /* Animasi X */
-        .menu-toggle.active .bar:nth-child(2) { opacity: 0; }
-        .menu-toggle.active .bar:nth-child(1) { transform: translateY(9px) rotate(45deg); }
-        .menu-toggle.active .bar:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
-    }
-        /* Responsive Mobile */
-        @media (max-width: 600px) {
-            .toolbar { padding: 0 15px; }
-            .hide-on-mobile { display: none; }
-            .container h1 { font-size: 2rem; }
-            .main-content-area { padding: 40px 20px; border-radius: 20px; }
-            .grid-info { grid-template-columns: 1fr; }
-            .app-name { font-size: 0.85rem; }
+        .menu-toggle .bar {
+            height: 3px; width: 100%; background-color: var(--dark-slate);
+            border-radius: 10px; transition: 0.3s;
         }
         .btn-logout {
             background-color: #e74c3c !important; /* Warna merah */
@@ -248,10 +240,10 @@
 
         .nav-menu { display: flex; align-items: center;}
         .nav-menu a {
-            text-decoration: none; color: #1e293b;
+            text-decoration: none; color: var(--dark-slate);
             font-weight: 600; font-size: 0.9rem; margin-left: 15px;
             padding: 8px 16px; border-radius: 50px; transition: 0.3s;
-            cursor: pointer; background-color: #2fd4c9;
+            cursor: pointer;
         }
 
         .nav-menu a:hover:not(.active):not(.btn-logout) {
@@ -263,6 +255,10 @@
 
         .btn-logout { background-color: #e74c3c !important; color: white !important;}
 
+        .btn-logout:hover {
+            background-color: var(--hospital-blue) !important;
+            transform: scale(1.05);
+        }
         /* --- MOBILE TOGGLE --- */
         .menu-toggle {
             display: none; cursor: pointer;
@@ -271,7 +267,8 @@
         }
         .menu-toggle .bar { height: 3px; width: 100%; background-color: #1e293b; border-radius: 10px; transition: 0.3s; }
 
-        @media (max-width: 768px) {
+        /* --- RESPONSIVE MOBILE --- */
+       @media (max-width: 768px) {
             .menu-toggle { display: flex; }
             .nav-menu {
                 display: none; flex-direction: column;
@@ -285,6 +282,17 @@
             .menu-toggle.active .bar:nth-child(1) { transform: translateY(9px) rotate(45deg); }
             .menu-toggle.active .bar:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
         }
+
+        /* Responsive Mobile */
+        @media (max-width: 600px) {
+            .toolbar { padding: 0 15px; }
+            .hide-on-mobile { display: none; }
+            .container h1 { font-size: 2rem; }
+            .main-content-area { padding: 40px 20px; border-radius: 20px; }
+            .grid-info { grid-template-columns: 1fr; }
+            .app-name { font-size: 0.85rem; }
+        }
+        
     </style>
 </head>
 <body>
@@ -294,7 +302,7 @@
     <nav class="toolbar">
         <div class="logo-group">
             <img src="image/Logo.png" alt="Logo">
-            <span class="app-name">NutriCalc BTH</span>
+            <span class="app-name" style="color: var(--hospital-blue);">NutriCalc</span>
         </div>
         
         <div class="menu-toggle" id="mobile-menu">
@@ -307,14 +315,14 @@
             <a href="dashboard.html" id="nav-dashboard">Dashboard</a>
             <a href="index.html" id="nav-gizi">Kalkulator Gizi</a>
             <a href="berat.html" id="nav-porsi">Kalkulator Porsi</a>
+            <a href="foodcost.html" id="nav-porsi">Kalkulator FoodCost</a>
             <a href="#" id="logoutBtn" class="btn-logout">Logout</a>
         </div>
     </nav>
     
     <div class="container">
-        <h1>Selamat Datang</h1>
+        <h1>Selamat Datang, <span id="userNameDisplay">User</span>!</h1>
         <p class="subtitle">Akses instrumen gizi profesional dalam satu genggaman.</p>
-
         <div class="nav-links">
             <a href="index.html">Mulai Hitung Gizi</a> 
         </div>
@@ -359,8 +367,8 @@
     <footer class="footer">
         Hak Cipta &copy; 2025
         <span style="font-weight: 800; margin-left: 5px;">
-            <span style="color: var(--primary-green);">Nutri</span><span style="color: var(--accent-gold);">Calc</span> 
-            <span style="color: var(--accent-red);">B</span><span style="color: var(--primary-green);">T</span><span style="color: var(--accent-gold);">H</span>
+            <span style="color: var(--hospital-blue);">Nutri</span><span style="color: var(--hospital-blue);">Calc</span> 
+            <span style="color: var(--primary-green);">B</span><span style="color: var(--primary-green);">T</span><span style="color: var(--primary-green);">H</span>
         </span> 
     </footer>
     <script>// Cek status login
@@ -373,20 +381,21 @@
     window.location.href = 'login.html';
 });
     // 1. Proteksi Halaman & Nama User
-    document.addEventListener('DOMContentLoaded', () => {
-        // Cek Login
-        if (sessionStorage.getItem('isLoggedIn') !== 'true') {
-            window.location.href = 'login.html';
-            return;
-        }
+   document.addEventListener('DOMContentLoaded', () => {
+    // Cek status login dari session storage
+    if (sessionStorage.getItem('isLoggedIn') !== 'true') {
+        alert('Akses ditolak! Silakan login terlebih dahulu.');
+        window.location.href = 'login.html';
+        return;
+    }
 
-        // Tampilkan Nama User
-        const activeUser = sessionStorage.getItem('activeUser');
-        const displayElement = document.getElementById('userNameDisplay');
-        if (activeUser && displayElement) {
-            displayElement.innerText = activeUser.charAt(0).toUpperCase() + activeUser.slice(1);
-        }
-    });
+       // Ambil Nama User Aktif
+            const activeUser = sessionStorage.getItem('activeUser');
+            const displayElement = document.getElementById('userNameDisplay');
+            if (activeUser && displayElement) {
+                displayElement.innerText = activeUser.charAt(0).toUpperCase() + activeUser.slice(1);
+            }
+        });
 
     // 2. Toggle Navbar Mobile
     const mobileMenu = document.getElementById('mobile-menu');
@@ -404,6 +413,8 @@
         sessionStorage.removeItem('activeUser');
         window.location.href = 'login.html';
     });
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();})
 </script>
 <script src="storage-manager.js"></script>
 
