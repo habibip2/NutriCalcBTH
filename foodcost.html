@@ -174,7 +174,12 @@
             .menu-toggle.active .bar:nth-child(1) { transform: translateY(9px) rotate(45deg); }
             .menu-toggle.active .bar:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
         }
-        
+        @media (max-width: 600px) {
+            html{
+                font-size: 80%;
+            }
+            
+        }
         
     </style>
 </head>
@@ -380,4 +385,5 @@
         e.preventDefault();})
     </script>
 </body>
+
 </html>
