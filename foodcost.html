@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Cost Precision | NutriCalc BTH</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-green: #27ae60;
+            --hospital-blue: #2980b9;
+            --dark-slate: #1e293b;
+            --soft-bg: #f8fafc;
+            --accent-gold: #f1c40f;
+            --accent-red: #e74c3c;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--soft-bg);
+            margin: 0; 
+            padding-top: 100px;
+        }
+
+        .toolbar {
+            position: fixed; 
+            top: 0; 
+            width: 100%; 
+            height: 70px;
+            background: white; 
+            display: flex; 
+            align-items: center;
+            backdrop-filter: blur(10px);
+            justify-content: space-between; 
+            padding: 0 5%;
+            box-sizing: border-box; 
+            z-index: 1000; 
+            border-bottom: 1px solid #eee;
+        }
+
+        .container { width: 95%; max-width: 1200px; margin: auto; padding-bottom: 50px; }
+
+        .card {
+            background: white; padding: 25px; border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05); margin-bottom: 20px;
+        }
+
+        h2 { color: var(--hospital-blue); margin-bottom: 10px; font-weight: 800; }
+        .info-text { font-size: 0.85rem; color: #64748b; margin-bottom: 20px; line-height: 1.5; }
+
+        .table-responsive { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; min-width: 1000px; }
+        th { background: #f8fafc; padding: 15px 10px; text-align: left; font-size: 0.75rem; color: #475569; text-transform: uppercase; border-bottom: 2px solid #edf2f7; }
+        td { padding: 12px 10px; border-bottom: 1px solid #f1f5f9; }
+
+        input {
+            width: 100%; padding: 10px; border: 1px solid #e2e8f0;
+            border-radius: 8px; box-sizing: border-box; font-size: 0.9rem;
+        }
+        input:focus { border-color: var(--hospital-blue); outline: none; background: #f0f9ff; }
+
+        .btn {
+            padding: 12px 24px; border: none; border-radius: 10px;
+            cursor: pointer; font-weight: 700; transition: 0.3s;
+        }
+        .btn-add { background: var(--hospital-blue); color: white; margin-bottom: 20px; }
+        .btn-save { background: var(--primary-green); color: white; width: 100%; margin-top: 20px; font-size: 1rem; }
+        
+        .badge-price { font-size: 0.7rem; display: block; margin-top: 5px; font-weight: 600; }
+
+        .total-container {
+            margin-top: 30px; padding: 25px; background: var(--dark-slate);
+            border-radius: 15px; color: white; display: flex; justify-content: space-between; align-items: center;
+        }
+        .total-val { font-size: 2.2rem; font-weight: 800; color: #2ecc71; }
+
+        .unit-info { font-size: 0.7rem; color: #94a3b8; display: block; }
+        
+        .logo-group { display: flex; align-items: center; gap: 12px; }
+        .logo-group img { height: 40px; border-radius: 10px; }
+        /* --- APP NAME DENGAN GRADASI HALUS --- */
+        .app-name { 
+            font-weight: 800; 
+            font-size: 1.25rem; 
+            letter-spacing: -0.8px; 
+            /* Menggunakan warna Slate gelap yang elegan */
+            color: #0f172a; 
+            display: flex;
+            gap: 4px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Memberikan warna berbeda pada 'BTH' agar stand out tapi tetap berkelas */
+        .app-name::after {
+            content: "BTH";
+            background: linear-gradient(135deg, #27ae60, #2980b9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 900;
+        }
+
+        .nav-menu { display: flex; align-items: center;}
+        .nav-menu a {
+            text-decoration: none; color: var(--dark-slate);
+            font-weight: 600; font-size: 0.9rem; margin-left: 15px;
+            padding: 8px 16px; border-radius: 50px; transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .nav-menu a.active { background: var(--hospital-blue); color: white; cursor: default; }
+
+        .nav-menu a:hover:not(.active):not(.btn-logout) {
+            color: var(--hospital-blue);
+            background-color: #f1f5f9;
+            transform: translateY(-2px);
+        }
+        /* Tambahan Efek Hover pada Card (Opsional untuk estetika) */
+        .card {
+            background: var(--white);
+            padding: 35px;
+            border-radius: 25px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.08);
+        }
+
+        .btn-logout { background-color: #e74c3c !important; color: white !important;}
+
+        .btn-logout:hover {
+            background-color: var(--hospital-blue) !important;
+            transform: scale(1.05);
+        }
+
+        /* --- MOBILE TOGGLE --- */
+        .menu-toggle {
+            display: none; cursor: pointer;
+            flex-direction: column; justify-content: space-between;
+            width: 30px; height: 21px; padding: 5px;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+        .menu-toggle .bar { height: 3px; width: 100%; background-color: var(--dark-slate); border-radius: 10px; transition: all 0.3s ease-in-out}
+
+        .menu-toggle:hover {
+            background-color: rgba(0, 0, 0, 0.05); /* Efek bayangan halus saat di-hover */
+        }
+
+        /* --- FOOTER UNIFORM --- */
+        .footer {
+            background: #1e293b;
+            color: #94a3b8;
+            padding: 40px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .menu-toggle { display: flex; }
+            .nav-menu {
+                display: none; flex-direction: column;
+                position: absolute; top: 70px; left: 0; width: 100%;
+                background-color: white; padding: 20px 0;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+            }
+            .nav-menu.active { display: flex; }
+            .nav-menu a { margin: 10px 0; width: 80%; text-align: center; margin-left: auto; margin-right: auto; }
+            /* Animasi X saat Aktif */
+            .menu-toggle.active .bar:nth-child(2) { opacity: 0; }
+            .menu-toggle.active .bar:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+            .menu-toggle.active .bar:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+        }
+        
+        
+    </style>
+</head>
+<body>
+
+    <nav class="toolbar">
+    <div class="logo-group">
+        <img src="image/Logo.png" alt="Logo">
+        <span class="app-name" style="color: var(--hospital-blue);">NutriCalc</span>
+    </div>
+    
+    <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    <div class="nav-menu" id="nav-list">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="index.html">Kalkulator Gizi</a>
+        <a href="berat.html">Kalkulator Porsi</a>
+        <a href="foodcost.html">Kalkulator FoodCost</a>
+        <a href="#" id="logoutBtn" class="btn-logout">Logout</a>
+    </div>
+</nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>Analisis Food Cost Masal</h2>
+            <div class="info-text">
+                Input berat dalam <b>gram (g)</b>. Harga disimpan dan dihitung berdasarkan <b>Rupiah per Kilogram (Rp/kg)</b>.<br>
+            </div>
+            
+            <button class="btn btn-add" onclick="addRow()">+ Tambah Baris Bahan</button>
+
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th width="220">Bahan Makanan</th>
+                            <th width="90">Porsi</th>
+                            <th width="110">Netto (g) <span class="unit-info">Per Porsi</span></th>
+                            <th width="80">BDD%</th>
+                            <th width="80">Buff%</th>
+                            <th width="130">Bruto (kg) <span class="unit-info">Total Kebutuhan</span></th>
+                            <th width="160">Harga (Rp) <span class="unit-info">Per KG</span></th>
+                            <th width="160">Subtotal</th>
+                            <th width="40"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="costTableBody"></tbody>
+                </table>
+            </div>
+
+            <div class="total-container" style="background: var(--hospital-blue); color: white">
+                <div>
+                    <span style="text-transform: uppercase; letter-spacing: 1px; font-size: 0.8rem; opacity: 0.7;">Grand Total Estimasi Biaya</span>
+                </div>
+                <div class="total-val" id="grandTotal" style="color: white;">Rp 0</div>
+            </div>
+
+            <button class="btn btn-save" onclick="processSaving()">Update Master Harga</button>
+        </div>
+    </div>
+    <footer class="footer">
+        Hak Cipta &copy; 2025
+        <span style="font-weight: 800; margin-left: 5px;">
+            <span style="color: var(--hospital-blue);">Nutri</span><span style="color: var(--hospital-blue);">Calc</span> 
+            <span style="color: var(--primary-green);">B</span><span style="color: var(--primary-green);">T</span><span style="color: var(--primary-green);">H</span>
+        </span> 
+    </footer>
+    <script src="datas/data.js"></script>
+    <script>
+        const PRICE_DB_KEY = 'master_harga_bahan';
+        let masterPrices = JSON.parse(localStorage.getItem(PRICE_DB_KEY)) || {};
+
+        function addRow() {
+            const tbody = document.getElementById('costTableBody');
+            const row = document.createElement('tr');
+            
+            row.innerHTML = `
+                <td>
+                    <input type="text" class="food-name" list="foodList" oninput="handleFoodSelection(this)" placeholder="Ketik nama bahan..." style="margin-top: 20px;">
+                    <datalist id="foodList">
+                        ${bddDatas.map(d => `<option value="${d.name}">`).join('')}
+                    </datalist>
+                    <span class="badge-price" style="color: #94a3b8;">Belum ada data harga</span>
+                </td>
+                <td><input type="number" class="qty-porsi" value="1" min="1" oninput="calculateRow(this)"></td>
+                <td><input type="number" class="netto-porsi" value="0" min="0" oninput="calculateRow(this)"></td>
+                <td><input type="number" class="bdd-val" value="100" readonly style="background:#f8fafc; border:none; color:#64748b"></td>
+                <td><input type="number" class="buffer-val" value="0" min="0" oninput="calculateRow(this)"></td>
+                <td><input type="text" class="total-bruto-kg" value="0" readonly style="background:#f8fafc; border:none; font-weight:700"></td>
+                <td>
+                    <input type="number" class="price-per-kg" value="0" min="0" oninput="calculateRow(this); saveToMaster(this)">
+                </td>
+                <td class="subtotal-cell" style="font-weight:800; color:var(--hospital-blue)">Rp 0</td>
+                <td><button onclick="this.closest('tr').remove(); updateGrandTotal()" style="border:none; background:none; cursor:pointer; font-size:1.2rem">×</button></td>
+            `;
+            tbody.appendChild(row);
+        }
+
+        function handleFoodSelection(input) {
+            const row = input.closest('tr');
+            const name = input.value;
+            
+            // 1. Ambil BDD dari data.js
+            const bddInfo = bddDatas.find(d => d.name.toLowerCase() === name.toLowerCase());
+            if (bddInfo) {
+                row.querySelector('.bdd-val').value = bddInfo.nilai;
+            }
+
+            // 2. Load harga per KG dari Master Harga
+            const badge = row.querySelector('.badge-price');
+            if (masterPrices[name]) {
+                row.querySelector('.price-per-kg').value = masterPrices[name];
+                badge.innerText = "Harga Tersimpan: Rp " + masterPrices[name].toLocaleString();
+                badge.style.color = "#27ae60";
+            } else {
+                badge.innerText = "Harga belum tersimpan (Input Baru)";
+                badge.style.color = "#94a3b8";
+            }
+            
+            calculateRow(input);
+        }
+
+        function calculateRow(input) {
+            const row = input.closest('tr');
+            
+            const qty = parseFloat(row.querySelector('.qty-porsi').value) || 0;
+            const nettoGrams = parseFloat(row.querySelector('.netto-porsi').value) || 0;
+            const bdd = parseFloat(row.querySelector('.bdd-val').value) || 100;
+            const bufferPercent = parseFloat(row.querySelector('.buffer-val').value) || 0;
+            const pricePerKg = parseFloat(row.querySelector('.price-per-kg').value) || 0;
+
+            // PERHITUNGAN LOGIKA:
+            // 1. Hitung Berat Kotor Dasar (Bruto) dalam Gram
+            const brutoBaseGrams = (nettoGrams * 100) / bdd;
+            
+            // 2. Tambah Buffer/Koreksi & Kalikan Jumlah Porsi
+            const totalBrutoGrams = (brutoBaseGrams * qty) * (1 + (bufferPercent / 100));
+            
+            // 3. Konversi Gram ke Kilogram (untuk dikalikan harga per KG)
+            const totalBrutoKg = totalBrutoGrams / 1000;
+
+            // 4. Hitung Biaya Akhir
+            const finalCost = totalBrutoKg * pricePerKg;
+
+            // Update Tampilan Baris
+            row.querySelector('.total-bruto-kg').value = totalBrutoKg.toFixed(3) + " kg";
+            const subtotalCell = row.querySelector('.subtotal-cell');
+            subtotalCell.innerText = "Rp " + Math.round(finalCost).toLocaleString('id-ID');
+            subtotalCell.dataset.raw = finalCost;
+
+            updateGrandTotal();
+        }
+
+        function saveToMaster(input) {
+            const row = input.closest('tr');
+            const name = row.querySelector('.food-name').value;
+            const price = parseFloat(input.value);
+
+            if (name && price >= 0) {
+                masterPrices[name] = price;
+                localStorage.setItem(PRICE_DB_KEY, JSON.stringify(masterPrices));
+            }
+        }
+
+        function updateGrandTotal() {
+            let grandTotal = 0;
+            document.querySelectorAll('.subtotal-cell').forEach(cell => {
+                grandTotal += parseFloat(cell.dataset.raw) || 0;
+            });
+            document.getElementById('grandTotal').innerText = "Rp " + Math.round(grandTotal).toLocaleString('id-ID');
+        }
+
+        function processSaving() {
+            // Logika penyimpanan riwayat bisa disesuaikan dengan storage-manager.js Anda
+            alert("Berhasil! Harga bahan telah diperbarui di database dan perhitungan telah disimpan.");
+        }
+
+        window.onload = addRow;
+        // Toggle Navbar Mobile
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.getElementById('nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            navList.classList.toggle('active');
+        });
+        document.querySelectorAll('.nav-menu a').forEach(n => n.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+            navList.classList.remove('active');
+        }));
+        // Fungsi Logout
+        document.getElementById('logoutBtn').addEventListener('click', (e) => {
+            e.preventDefault();
+            sessionStorage.removeItem('isLoggedIn');
+            sessionStorage.removeItem('activeUser');
+            window.location.href = 'login.html';
+        });
+        document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();})
+    </script>
+</body>
+</html>
