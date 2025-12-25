@@ -36,29 +36,113 @@
             z-index: 1000; border-bottom: 1px solid rgba(0,0,0,0.05);
         }
 
+        
         .logo-group { display: flex; align-items: center; gap: 12px; }
         .logo-group img { height: 40px; border-radius: 10px; }
-        .app-name { font-weight: 800; font-size: 1.1rem; }
-
-        .nav-menu a {
-            text-decoration: none; color: var(--dark-slate);
-            font-weight: 600; font-size: 0.9rem; margin-left: 20px;
-            padding: 8px 16px; border-radius: 50px; transition: 0.3s;
+        /* --- APP NAME DENGAN GRADASI HALUS --- */
+        .app-name { 
+            font-weight: 800; 
+            font-size: 1.25rem; 
+            letter-spacing: -0.8px; 
+            /* Menggunakan warna Slate gelap yang elegan */
+            color: #0f172a; 
+            display: flex;
+            gap: 4px;
+            font-family: 'Inter', sans-serif;
         }
-        .nav-menu a.active { background: var(--hospital-blue); color: white; }
 
+        /* Memberikan warna berbeda pada 'BTH' agar stand out tapi tetap berkelas */
+        .app-name::after {
+            content: "BTH";
+            background: linear-gradient(135deg, #27ae60, #2980b9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 900;
+        }
+
+        /* --- NAVBAR STYLES --- */
+        .toolbar {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 70px;
+            background: white;
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 0 5%; box-sizing: border-box;
+            z-index: 1000; border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .nav-menu { display: flex; align-items: center; }
+        .nav-menu a {
+            cursor: pointer;
+            text-decoration: none; color: var(--dark-slate);
+            font-weight: 600; font-size: 0.9rem; margin-left: 15px;
+            padding: 8px 16px; border-radius: 50px; transition: all 0.3s ease;
+        }
+        /* Gaya khusus untuk link aktif agar tetap terlihat menonjol */
+        .nav-menu a.active {
+            cursor: default;
+            background: var(--hospital-blue); color: white; /* Karena sudah di halaman tersebut */
+        }
+
+        /* Efek Hover untuk Link yang tidak aktif */
+        .nav-menu a:hover:not(.active) {
+            background-color: #f1f5f9;
+            color: var(--hospital-blue);
+            transform: translateY(-2px); /* Sedikit naik saat di-hover */
+        }
+
+        /* --- MOBILE TOGGLE (HAMBURGER) --- */
+        .menu-toggle {
+            display: none;
+            cursor: pointer;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 21px;
+            padding: 5px;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+
+        .menu-toggle .bar {
+            height: 3px;
+            width: 100%;
+            background-color: var(--dark-slate);
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .menu-toggle:hover {
+            background-color: rgba(0, 0, 0, 0.05); /* Efek bayangan halus saat di-hover */
+        }
         /* --- CONTENT --- */
         .container {
             margin: 110px auto 40px;
             width: 95%; max-width: 650px;
         }
 
+        /* Tambahan Efek Hover pada Card (Opsional untuk estetika) */
         .card {
             background: var(--white);
             padding: 35px;
             border-radius: 25px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.05);
             border: 1px solid #e2e8f0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.08);
+        }
+
+
+        .btn-logout {
+            background-color: #e74c3c !important; /* Warna merah */
+            color: white !important;
+        }
+
+        .btn-logout:hover {
+            background-color: var(--hospital-blue) !important;
+            transform: scale(1.05);
         }
 
         .header-rs {
@@ -123,44 +207,26 @@
             padding: 30px 0; text-align: center; margin-top: auto;
         }
 
-        @media (max-width: 600px) {
-            .form-grid, .result-container { grid-template-columns: 1fr; }
-            .full-width { grid-column: span 1; }
+        /* Pointer untuk Input & Select */
+        input[type="number"], 
+        input[type="text"], 
+        select {
+            cursor: text; /* Cursor teks untuk input */
         }
-        /* --- NAVBAR STYLES --- */
-        .toolbar {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 70px;
-            background: white;
-            display: flex; align-items: center; justify-content: space-between;
-            padding: 0 5%; box-sizing: border-box;
-            z-index: 1000; border-bottom: 1px solid rgba(0,0,0,0.05);
+        /* --- EFEK POINTER & HOVER UMUM --- */
+        select,
+        option {
+            cursor: pointer; /* Cursor pointer untuk dropdown */
         }
 
-        .nav-menu { display: flex; align-items: center; }
-        .nav-menu a {
-            text-decoration: none; color: var(--dark-slate);
-            font-weight: 600; font-size: 0.9rem; margin-left: 15px;
-            padding: 8px 16px; border-radius: 50px; transition: 0.3s;
-        }
-        .nav-menu a.active { background: var(--hospital-blue); color: white; }
-
-        /* --- MOBILE TOGGLE (HAMBURGER) --- */
-        .menu-toggle {
-            display: none;
-            cursor: pointer;
-            flex-direction: column;
-            justify-content: space-between;
-            width: 30px;
-            height: 21px;
+        /* Style tambahan untuk baris tabel agar lebih bersih */
+        #historyBody tr:hover {
+            background-color: #fcfcfc;
         }
 
-        .menu-toggle .bar {
-            height: 3px;
-            width: 100%;
-            background-color: var(--dark-slate);
-            border-radius: 10px;
-            transition: all 0.3s ease-in-out;
+        #historyBody td {
+            padding: 12px 10px;
+            border-bottom: 1px solid #f1f5f9;
         }
 
         /* --- RESPONSIVE MOBILE --- */
@@ -181,9 +247,12 @@
             .nav-menu.active { display: flex; }
 
             .nav-menu a {
+                cursor: pointer;
                 margin: 10px 0;
                 width: 80%;
                 text-align: center;
+                display: block;
+                margin-left: auto; margin-right: auto;
             }
 
             /* Animasi X saat Aktif */
@@ -191,76 +260,7 @@
             .menu-toggle.active .bar:nth-child(1) { transform: translateY(9px) rotate(45deg); }
             .menu-toggle.active .bar:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
         }
-        /* --- EFEK POINTER & HOVER UMUM --- */
-
-        /* Pointer untuk Tombol Hamburger */
-        .menu-toggle {
-            cursor: pointer;
-            padding: 5px;
-            border-radius: 5px;
-            transition: background-color 0.2s;
-        }
-
-        .menu-toggle:hover {
-            background-color: rgba(0, 0, 0, 0.05); /* Efek bayangan halus saat di-hover */
-        }
-
-        /* Pointer untuk Tautan Navigasi */
-        .nav-menu a {
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        /* Efek Hover untuk Link yang tidak aktif */
-        .nav-menu a:hover:not(.active) {
-            background-color: #f1f5f9;
-            color: var(--hospital-blue);
-            transform: translateY(-2px); /* Sedikit naik saat di-hover */
-        }
-
-        /* Gaya khusus untuk link aktif agar tetap terlihat menonjol */
-        .nav-menu a.active {
-            cursor: default; /* Karena sudah di halaman tersebut */
-        }
-
-        /* Pointer untuk Input & Select */
-        input[type="number"], 
-        input[type="text"], 
-        select {
-            cursor: text; /* Cursor teks untuk input */
-        }
-
-        select,
-        option {
-            cursor: pointer; /* Cursor pointer untuk dropdown */
-        }
-
-        /* Tambahan Efek Hover pada Card (Opsional untuk estetika) */
-        .card {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .card:hover {
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.08);
-        }
-
-        /* --- PERBAIKAN RESPONSIF UNTUK MOBILE --- */
-        @media (max-width: 768px) {
-            .nav-menu a {
-                cursor: pointer;
-                width: 100%; /* Memastikan seluruh area baris bisa diklik */
-                display: block;
-            }
-        }
-        .btn-logout {
-            background-color: #e74c3c !important; /* Warna merah */
-            color: white !important;
-        }
-
-        .btn-logout:hover {
-            background-color: #c0392b !important;
-            transform: scale(1.05);
-        }
+        
         /* Pastikan tabel tetap rapi di mobile */
         @media (max-width: 600px) {
             #historyTable {
@@ -270,25 +270,16 @@
             .card-history {
                 padding: 10px 0;
             }
-        }
-
-        /* Style tambahan untuk baris tabel agar lebih bersih */
-        #historyBody tr:hover {
-            background-color: #fcfcfc;
-        }
-
-        #historyBody td {
-            padding: 12px 10px;
-            border-bottom: 1px solid #f1f5f9;
+            .form-grid, .result-container { grid-template-columns: 1fr; }
+            .full-width { grid-column: span 1; }
         }
     </style>
 </head>
 <body>
-
     <nav class="toolbar">
         <div class="logo-group">
             <img src="image/Logo.png" alt="Logo">
-            <span class="app-name">NutriCalc BTH</span>
+            <span class="app-name" style="color: var(--hospital-blue);">NutriCalc</span>
         </div>
         
         <div class="menu-toggle" id="mobile-menu">
@@ -301,6 +292,7 @@
             <a href="dashboard.html">Dashboard</a>
             <a href="index.html">Kalkulator Gizi</a>
             <a href="berat.html">Kalkulator Porsi</a>
+            <a href="foodcost.html">Kalkulator FoodCost</a>
             <a href="#" id="logoutBtn" class="btn-logout">Logout</a>
         </div>
     </nav>
@@ -355,7 +347,7 @@
                 </div>
             </div>
             
-            <div class="card-history" style="margin-top: 30px; border-top: 2px solid #f1f5f9; pt-20">
+            <div class="card-history" style="margin-top: 30px; border-top: 2px solid #f1f5f9; padding-top: 20px;">
                 <h3 style="font-size: 1rem; color: var(--dark-slate); margin-bottom: 15px;">Riwayat Perhitungan Terakhir</h3>
                 <div style="overflow-x: auto; background: #fff; border-radius: 12px;">
                     <table id="historyTable" style="width: 100%; border-collapse: collapse; min-width: 500px;">
@@ -385,8 +377,8 @@
     <footer class="footer">
         Hak Cipta &copy; 2025
         <span style="font-weight: 800; margin-left: 5px;">
-            <span style="color: var(--primary-green);">Nutri</span><span style="color: var(--accent-gold);">Calc</span> 
-            <span style="color: var(--accent-red);">B</span><span style="color: var(--primary-green);">T</span><span style="color: var(--accent-gold);">H</span>
+            <span style="color: var(--hospital-blue);">Nutri</span><span style="color: var(--hospital-blue);">Calc</span> 
+            <span style="color: var(--primary-green);">B</span><span style="color: var(--primary-green);">T</span><span style="color: var(--primary-green);">H</span>
         </span> 
     </footer>
     <script src="storage-manager.js"></script>
@@ -482,92 +474,94 @@
             navList.classList.remove('active');
         }));
         document.getElementById('logoutBtn').addEventListener('click', () => {
-    sessionStorage.removeItem('isLoggedIn');
-    window.location.href = 'login.html';
-});
-// Fungsi untuk menyimpan ke riwayat
-function saveToHistory(nama, porsi, total) {
-    let history = JSON.parse(localStorage.getItem('calcHistory')) || [];
-    const newEntry = {
-        id: Date.now(),
-        nama: nama,
-        porsi: porsi,
-        total: total,
-        waktu: new Date().toLocaleTimeString()
-    };
-}
+            sessionStorage.removeItem('isLoggedIn');
+            window.location.href = 'login.html';
+        });
+        // Fungsi untuk menyimpan ke riwayat
+        function saveToHistory(nama, porsi, total) {
+            let history = JSON.parse(localStorage.getItem('calcHistory')) || [];
+            const newEntry = {
+                id: Date.now(),
+                nama: nama,
+                porsi: porsi,
+                total: total,
+                waktu: new Date().toLocaleTimeString()
+            };
+        }
 
-// Fungsi untuk menampilkan riwayat di tabel
-function renderHistory() {
-    const historyBody = document.getElementById('historyBody');
-    // Mengambil data dari StorageManager atau localStorage
-    let history = JSON.parse(localStorage.getItem(StorageManager.KEYS.PORSI)) || [];
-    
-    // Urutkan berdasarkan yang terbaru (ID adalah timestamp)
-    history.sort((a, b) => b.id - a.id);
+        // Fungsi untuk menampilkan riwayat di tabel
+        function renderHistory() {
+            const historyBody = document.getElementById('historyBody');
+            // Mengambil data dari StorageManager atau localStorage
+            let history = JSON.parse(localStorage.getItem(StorageManager.KEYS.PORSI)) || [];
+            
+            // Urutkan berdasarkan yang terbaru (ID adalah timestamp)
+            history.sort((a, b) => b.id - a.id);
 
-    historyBody.innerHTML = history.map(item => `
-        <tr style="border-bottom: 1px solid #f1f5f9; font-size: 0.8rem;">
-            <td style="padding: 10px; color: #64748b;">${item.waktuLengkap}</td>
-            <td style="padding: 10px; font-weight: 600;">${item.nama}</td>
-            <td style="padding: 10px;">${item.porsi}</td>
-            <td style="padding: 10px;">${item.buffer}%</td>
-            <td style="padding: 10px; font-weight: bold; color: var(--hospital-blue);">${item.total}</td>
-            <td style="padding: 10px;">
-                <button onclick="deleteEntry(${item.id})" style="border:none; background:none; cursor:pointer; filter: grayscale(1);">❌</button>
-            </td>
-        </tr>
-    `).join('');
-}
+            historyBody.innerHTML = history.map(item => `
+                <tr style="border-bottom: 1px solid #f1f5f9; font-size: 0.8rem;">
+                    <td style="padding: 10px; color: #64748b;">${item.waktuLengkap}</td>
+                    <td style="padding: 10px; font-weight: 600;">${item.nama}</td>
+                    <td style="padding: 10px;">${item.porsi}</td>
+                    <td style="padding: 10px;">${item.buffer}%</td>
+                    <td style="padding: 10px; font-weight: bold; color: var(--hospital-blue);">${item.total}</td>
+                    <td style="padding: 10px;">
+                        <button onclick="deleteEntry(${item.id})" style="border:none; background:none; cursor:pointer; filter: grayscale(1);">❌</button>
+                    </td>
+                </tr>
+            `).join('');
+        }
 
-function deleteEntry(id) {
-    if(confirm('Hapus baris ini?')) {
-        let history = JSON.parse(localStorage.getItem(StorageManager.KEYS.PORSI)) || [];
-        history = history.filter(item => item.id !== id);
-        localStorage.setItem(StorageManager.KEYS.PORSI, JSON.stringify(history));
-        renderHistory();
-    }
-}
+        function deleteEntry(id) {
+            if(confirm('Hapus baris ini?')) {
+                let history = JSON.parse(localStorage.getItem(StorageManager.KEYS.PORSI)) || [];
+                history = history.filter(item => item.id !== id);
+                localStorage.setItem(StorageManager.KEYS.PORSI, JSON.stringify(history));
+                renderHistory();
+            }
+        }
 
-function clearHistory() {
-    // Memberikan konfirmasi agar tidak terhapus tidak sengaja
-    if (confirm('Apakah Anda yakin ingin menghapus seluruh riwayat perhitungan porsi?')) {
-        // Menghapus data berdasarkan KEY yang digunakan StorageManager
-        localStorage.removeItem(StorageManager.KEYS.PORSI);
-        
-        // Memperbarui tampilan tabel (menjadi kosong)
-        renderHistory();
-        
-        // Opsional: Memberikan notifikasi singkat
-        alert('Riwayat telah dibersihkan.');
-    }
-}
+        function clearHistory() {
+            // Memberikan konfirmasi agar tidak terhapus tidak sengaja
+            if (confirm('Apakah Anda yakin ingin menghapus seluruh riwayat perhitungan porsi?')) {
+                // Menghapus data berdasarkan KEY yang digunakan StorageManager
+                localStorage.removeItem(StorageManager.KEYS.PORSI);
+                
+                // Memperbarui tampilan tabel (menjadi kosong)
+                renderHistory();
+                
+                // Opsional: Memberikan notifikasi singkat
+                alert('Riwayat telah dibersihkan.');
+            }
+        }
 
-// Panggil renderHistory saat halaman dimuat
-document.addEventListener('DOMContentLoaded', renderHistory);
-// Mengganti fungsi triggerSave lama
-function triggerSave() {
-    const now = new Date();
-    const tanggal = now.toLocaleDateString('id-ID');
-    const waktu = now.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' });
+        // Panggil renderHistory saat halaman dimuat
+        document.addEventListener('DOMContentLoaded', renderHistory);
+        // Mengganti fungsi triggerSave lama
+        function triggerSave() {
+            const now = new Date();
+            const tanggal = now.toLocaleDateString('id-ID');
+            const waktu = now.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' });
 
-    const data = {
-        id: Date.now(),
-        waktuLengkap: `${tanggal} ${waktu}`,
-        nama: document.getElementById('foodName').value,
-        porsi: document.getElementById('portionInput').value,
-        buffer: document.getElementById('bufferInput').value || "0",
-        total: document.getElementById('totalResult').innerText
-    };
-    
-    if (data.nama && data.porsi) {
-        // Menggunakan StorageManager sesuai kode awal Anda
-        StorageManager.saveHistory(StorageManager.KEYS.PORSI, data);
-        renderHistory(); 
-    } else {
-        alert("Mohon isi nama bahan dan jumlah porsi terlebih dahulu!");
-    }
-}
+            const data = {
+                id: Date.now(),
+                waktuLengkap: `${tanggal} ${waktu}`,
+                nama: document.getElementById('foodName').value,
+                porsi: document.getElementById('portionInput').value,
+                buffer: document.getElementById('bufferInput').value || "0",
+                total: document.getElementById('totalResult').innerText
+            };
+            
+            if (data.nama && data.porsi) {
+                // Menggunakan StorageManager sesuai kode awal Anda
+                StorageManager.saveHistory(StorageManager.KEYS.PORSI, data);
+                renderHistory(); 
+            } else {
+                alert("Mohon isi nama bahan dan jumlah porsi terlebih dahulu!");
+            }
+        }
+        document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();})
     </script>
 </body>
 </html>
