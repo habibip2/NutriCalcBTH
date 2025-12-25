@@ -54,6 +54,8 @@
             registeredAt: new Date().toISOString()
         };
         localStorage.setItem(`user_${user}`, JSON.stringify(userData));
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();})
     </script>
 </body>
 </html>
